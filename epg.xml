@@ -1,0 +1,2695 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tv generator-info-name="bein-epg-scraper">
+  <channel id="beINSPORTS1.dz">
+    <display-name>beINSPORTS1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS2.dz">
+    <display-name>beINSPORTS2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS3.dz">
+    <display-name>beINSPORTS3</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS3_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORT4.dz">
+    <display-name>beINSPORT4</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS4_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS5.dz">
+    <display-name>beINSPORTS5</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS5_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS6.dz">
+    <display-name>beINSPORTS6</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2021/02/beIN_SPORTS66_DIGITAL_Mono-01.png" />
+  </channel>
+  <channel id="beINSPORTS7.dz">
+    <display-name>beINSPORTS7</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS7_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS8.dz">
+    <display-name>beINSPORTS8</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS8.png" />
+  </channel>
+  <channel id="beINSPORTS9.dz">
+    <display-name>beINSPORTS9</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTS9.png" />
+  </channel>
+  <channel id="beINSPORTSNews.dz">
+    <display-name>beINSPORTSNews</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/NEWS_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS.dz">
+    <display-name>beINSPORTS</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/bein_SPORTS_FTA_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS1EN.dz">
+    <display-name>beINSPORTS1EN</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_ENGLISH_Digital_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS2EN.dz">
+    <display-name>beINSPORTS2EN</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_ENGLISH_Digital_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS1FR.dz">
+    <display-name>beINSPORTS1FR</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS1_FRENCH_Digital_Mono.png" />
+  </channel>
+  <channel id="beINSPORTS2FR.dz">
+    <display-name>beINSPORTS2FR</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_FRENCH_Digital_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA1.dz">
+    <display-name>beINSPORTSXTRA1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA1_Digital_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA2.dz">
+    <display-name>beINSPORTSXTRA2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA2_Digital_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA3.dz">
+    <display-name>beINSPORTSXTRA3</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2023/09/logos-_beINSPORTSXTRA3.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA4.dz">
+    <display-name>beINSPORTSXTRA4</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_04_bein.com_.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA5.dz">
+    <display-name>beINSPORTSXTRA5</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_05_bein.com_.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA6.dz">
+    <display-name>beINSPORTSXTRA6</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_06_bein.com_.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA7.dz">
+    <display-name>beINSPORTSXTRA7</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_07_bein.com_.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA8.dz">
+    <display-name>beINSPORTSXTRA8</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_08_Bein.com_.png" />
+  </channel>
+  <channel id="beINSPORTSXTRA9.dz">
+    <display-name>beINSPORTSXTRA9</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/01/beIN_SPORTS_XTRA_Digital_09_Bein.com_.png" />
+  </channel>
+  <channel id="beINSPORTSMAX1.dz">
+    <display-name>beINSPORTSMAX1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX1_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSMAX2.dz">
+    <display-name>beINSPORTSMAX2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX2_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSMAX3.dz">
+    <display-name>beINSPORTSMAX3</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX3_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSMAX4.dz">
+    <display-name>beINSPORTSMAX4</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX4_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSMAX5.dz">
+    <display-name>beINSPORTSMAX5</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX5_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSPORTSMAX6.dz">
+    <display-name>beINSPORTSMAX6</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX6_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINMOVIES1.dz">
+    <display-name>beINMOVIES1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/MOVIES1_PREMIERE_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINMOVIES2.dz">
+    <display-name>beINMOVIES2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/MOVIES2_ACTION_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINMOVIES3.dz">
+    <display-name>beINMOVIES3</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/MOVIES3_DRAMA_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINMOVIES4.dz">
+    <display-name>beINMOVIES4</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/MOVIES4_FAMILY_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSERIES1.dz">
+    <display-name>beINSERIES1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/SERIES1_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINSERIES2.dz">
+    <display-name>beINSERIES2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/SERIES2_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINDRAMA.dz">
+    <display-name>beINDRAMA</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2021/02/Drama_Stacked_nov_2024_200x200.png" />
+  </channel>
+  <channel id="beINGOURMET.dz">
+    <display-name>beINGOURMET</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/GOURMET_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="beINJUNIOR.dz">
+    <display-name>beINJUNIOR</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/beJUNIOR-1.png" />
+  </channel>
+  <channel id="JeemTV.dz">
+    <display-name>JeemTV</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/Jeem-HD-1-01.png" />
+  </channel>
+  <channel id="BaraemTV.dz">
+    <display-name>BaraemTV</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bara3em-1.png" />
+  </channel>
+  <programme start="20261010183000 +0000" stop="20261010213000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261010213000 +0000" stop="20261010220000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">In the Footsteps of Nuno Mendes</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261010220000 +0000" stop="20261010223000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261010223000 +0000" stop="20261010230000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Manchester United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261010230000 +0000" stop="20261010233000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261010233000 +0000" stop="20261011023000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011023000 +0000" stop="20261011050000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">San Antonio vs Phoenix - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261011050000 +0000" stop="20261011075800 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Arsenal vs Leeds United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011075800 +0000" stop="20261011102800 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011102800 +0000" stop="20261011123000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Manchester United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011123000 +0000" stop="20261011152800 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Crystal Palace vs Nottingham Forest - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011152800 +0000" stop="20261011183000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Liverpool vs Manchester City - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011183000 +0000" stop="20261011190000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261011190000 +0000" stop="20261011193000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">EPL Stories  2026/2027 EP.13</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011193000 +0000" stop="20261011203000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011203000 +0000" stop="20261011210000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Arsenal vs Leeds United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011213000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011213000 +0000" stop="20261011220000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011220000 +0000" stop="20261011223000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011223000 +0000" stop="20261011230000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261011233000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Manchester United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011233000 +0000" stop="20261012000000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Liverpool vs Manchester City - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012000000 +0000" stop="20261012023000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">San Antonio vs Phoenix - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261012023000 +0000" stop="20261012030000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261012030000 +0000" stop="20261012033000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">EPL Stories  2026/2027 EP.13</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012033000 +0000" stop="20261012043000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012043000 +0000" stop="20261012050000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012050000 +0000" stop="20261012053000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012053000 +0000" stop="20261012060000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012063000 +0000" stop="20261012070000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Manchester United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Liverpool vs Manchester City - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012073000 +0000" stop="20261012080000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Arsenal vs Leeds United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012080000 +0000" stop="20261012104500 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Crystal Palace vs Nottingham Forest - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012104500 +0000" stop="20261012140000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Liverpool vs Manchester City - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012140000 +0000" stop="20261012143000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Freetour La Liga</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012143000 +0000" stop="20261012150000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Ligue 1 Weekly Review - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012150000 +0000" stop="20261012153000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261012153000 +0000" stop="20261012180000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Wasl FC (UAE) vs Al Ahli Saudi (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012180000 +0000" stop="20261012210000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Gharafa (QAT) vs Esteghlal FC (IRN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012210000 +0000" stop="20261012213000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Arsenal vs Leeds United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012213000 +0000" stop="20261012220000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012220000 +0000" stop="20261012223000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Manchester United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012223000 +0000" stop="20261012230000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Liverpool vs Manchester City - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012230000 +0000" stop="20261012233000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012233000 +0000" stop="20261013000000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013000000 +0000" stop="20261013010000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013013000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Ligue 1 Weekly Review - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013023000 +0000" stop="20261013050000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Dallas vs Houston - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013053000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">EPL Stories  2026/2027 EP.13</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261013053000 +0000" stop="20261013060000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Wasl FC (UAE) vs Al Ahli Saudi (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013060000 +0000" stop="20261013063000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Gharafa (QAT) vs Esteghlal FC (IRN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013063000 +0000" stop="20261013070000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Nassr Club (KSA) vs PFC Neftchi (UZB) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013070000 +0000" stop="20261013073000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Freetour La Liga</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013073000 +0000" stop="20261013100000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Wasl FC (UAE) vs Al Ahli Saudi (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013100000 +0000" stop="20261013130000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Gharafa (QAT) vs Esteghlal FC (IRN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013130000 +0000" stop="20261013133500 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Al Nassr Club (KSA) vs PFC Neftchi (UZB) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013133500 +0000" stop="20261013160000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">East Bengal FC (IND) vs Al Shorta (IRQ) - AFC Champions League Two 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013160000 +0000" stop="20261013170000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013170000 +0000" stop="20261013173000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">La Liga Highlights 2026/2027 EP.8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013173000 +0000" stop="20261013180000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261013180000 +0000" stop="20261013213000 +0000" channel="beINSPORTS1.dz">
+    <title lang="en">Galatasaray vs Barcelona - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261010184500 +0000" stop="20261010213000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261010213000 +0000" stop="20261010233000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">West Bromwich Albion vs Birmingham - EFL - English Football League  SkyBet - Championship 2026/2027</title>
+    <category lang="en">English League - Championship</category>
+  </programme>
+  <programme start="20261010233000 +0000" stop="20261011013000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Aston villa vs Brentford - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011013000 +0000" stop="20261011041500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011041500 +0000" stop="20261011070000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011070000 +0000" stop="20261011090000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">West Bromwich Albion vs Birmingham - EFL - English Football League  SkyBet - Championship 2026/2027</title>
+    <category lang="en">English League - Championship</category>
+  </programme>
+  <programme start="20261011090000 +0000" stop="20261011110000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Aston villa vs Brentford - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011110000 +0000" stop="20261011125000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011125000 +0000" stop="20261011151500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Hull City vs Evsrton - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011151500 +0000" stop="20261011154500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Arsenal vs Leeds United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011154500 +0000" stop="20261011162000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011162000 +0000" stop="20261011185000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Betis vs Osasuna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011185000 +0000" stop="20261011210000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Racing Club vs Valencia - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261012010000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Hull City vs Evsrton - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012030000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Betis vs Osasuna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012030000 +0000" stop="20261012050000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Racing Club vs Valencia - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012050000 +0000" stop="20261012070000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Hull City vs Evsrton - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012090000 +0000" stop="20261012110000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Betis vs Osasuna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012110000 +0000" stop="20261012130000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Racing Club vs Valencia - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012133500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Manchester United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012133500 +0000" stop="20261012155000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Pakhtakor (UZB) vs Al Qadsiah Club (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012155000 +0000" stop="20261012180000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Tractor FC (IRN) vs Al Shamal SC (QAT) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012180000 +0000" stop="20261012183000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Liverpool vs Manchester City - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012183000 +0000" stop="20261012213000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Coventry City vs Newcastle United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012213000 +0000" stop="20261012233000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Pakhtakor (UZB) vs Al Qadsiah Club (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012233000 +0000" stop="20261013013000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Tractor FC (IRN) vs Al Shamal SC (QAT) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013013000 +0000" stop="20261013044500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Coventry City vs Newcastle United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261013044500 +0000" stop="20261013063000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Pakhtakor (UZB) vs Al Qadsiah Club (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013063000 +0000" stop="20261013073500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Tractor FC (IRN) vs Al Shamal SC (QAT) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013073500 +0000" stop="20261013110000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Newcastle Jets FC (AUS) vs Gamba Osaka (JPN)  - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013110000 +0000" stop="20261013113000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Arsenal vs Leeds United - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261013113000 +0000" stop="20261013120500 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Chelsea vs  Bournemouth - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261013120500 +0000" stop="20261013143000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Buriram United (THA) vs Beijing FC (CHN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013143000 +0000" stop="20261013150000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013150000 +0000" stop="20261013153000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013153000 +0000" stop="20261013180000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Al Sadd (QAT) vs Al Hilal (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013180000 +0000" stop="20261013210000 +0000" channel="beINSPORTS2.dz">
+    <title lang="en">Al Ittihad Club (KSA) vs Shabab Al Ahli (UAE) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261010193000 +0000" stop="20261010211500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Luxembourg vs Bulgaria - UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261010211500 +0000" stop="20261010230700 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Sunderland vs Brighton &amp; Hove Albion - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261010230700 +0000" stop="20261011004800 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Malaga vs Espanyol - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011004800 +0000" stop="20261011023500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">PSG vs Leuven - UEFA Women’s Champions League 2026/2027 - MD2</title>
+    <category lang="en">UEFA Champions League - (Women)</category>
+  </programme>
+  <programme start="20261011023500 +0000" stop="20261011043000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">West Ham vs QPR - EFL - English Football League  SkyBet - Championship 2026/2027</title>
+    <category lang="en">English League - Championship</category>
+  </programme>
+  <programme start="20261011043000 +0000" stop="20261011061700 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Alaves vs Atletico Madrid - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011061700 +0000" stop="20261011080400 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Sunderland vs Brighton &amp; Hove Albion - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011080400 +0000" stop="20261011094900 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Barcelona vs Getafe - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011094900 +0000" stop="20261011115000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Real Madrid vs Villarreal - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011115000 +0000" stop="20261011140500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Elche vs Celta Vigo - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011140500 +0000" stop="20261011163000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Real Sociedad vs Deprotivo La Coruna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011163000 +0000" stop="20261011183500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Sunderland vs Brighton &amp; Hove Albion - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261011183500 +0000" stop="20261011210000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Troyes vs Marseille - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Elche vs Celta Vigo - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261012010000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Real Sociedad vs Deprotivo La Coruna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012024500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Troyes vs Marseille - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012024500 +0000" stop="20261012043000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Sunderland vs Brighton &amp; Hove Albion - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012043000 +0000" stop="20261012061500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Real Betis vs Osasuna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012061500 +0000" stop="20261012080000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Elche vs Celta Vigo - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012080000 +0000" stop="20261012094500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Real Sociedad vs Deprotivo La Coruna - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012094500 +0000" stop="20261012115000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Troyes vs Marseille - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012115000 +0000" stop="20261012141500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Valladolid vs Albacete - LaLiga Hypermotion 2026/2027</title>
+    <category lang="en">Spanish League - Segunda Division</category>
+  </programme>
+  <programme start="20261012141500 +0000" stop="20261012161500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Elche vs Celta Vigo - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012161500 +0000" stop="20261012181500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Valladolid vs Albacete - LaLiga Hypermotion 2026/2027</title>
+    <category lang="en">Spanish League - Segunda Division</category>
+  </programme>
+  <programme start="20261012181500 +0000" stop="20261012203000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Al Nassr Club (KSA) vs PFC Neftchi (UZB) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012203000 +0000" stop="20261012223000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Troyes vs Marseille - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012223000 +0000" stop="20261013001500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Al Nassr Club (KSA) vs PFC Neftchi (UZB) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013001500 +0000" stop="20261013020000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">West Ham vs QPR - EFL - English Football League  SkyBet - Championship 2026/2027</title>
+    <category lang="en">English League - Championship</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013034500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Valladolid vs Albacete - LaLiga Hypermotion 2026/2027</title>
+    <category lang="en">Spanish League - Segunda Division</category>
+  </programme>
+  <programme start="20261013034500 +0000" stop="20261013054500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Malaga vs Espanyol - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013054500 +0000" stop="20261013074500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Rayo Vallecano vs Athletic Bilbao - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013074500 +0000" stop="20261013095000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Troyes vs Marseille - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013095000 +0000" stop="20261013120000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">FC Pohang Steelers (KOR) vs Johor Darul Ta'zim  (MAS) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013120000 +0000" stop="20261013140000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Alaves vs Atletico Madrid - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013140000 +0000" stop="20261013160000 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Elche vs Celta Vigo - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013160000 +0000" stop="20261013191500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">Lens vs Sporting CP - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261013191500 +0000" stop="20261013211500 +0000" channel="beINSPORTS3.dz">
+    <title lang="en">FC Pohang Steelers (KOR) vs Johor Darul Ta'zim  (MAS) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261010210000 +0000" stop="20261010225000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ipswich Town vs Fulham - English Premier League 2026/2027 - Week 6</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261010225000 +0000" stop="20261011004000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Monaco vs Toulouse - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011004000 +0000" stop="20261011011000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Show - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011011000 +0000" stop="20261011025900 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lorient vs Paris FC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011025900 +0000" stop="20261011044200 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Çaykur Rizespor A.Ş. vs Fenerbahçe A.Ş. - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011044200 +0000" stop="20261011051000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Croatia vs Spain -UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011051000 +0000" stop="20261011065500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Monaco vs Toulouse - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011065500 +0000" stop="20261011084400 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lens vs Lyon - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011084400 +0000" stop="20261011091200 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Show - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011091200 +0000" stop="20261011105500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Monaco vs Toulouse - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011105500 +0000" stop="20261011125000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011125000 +0000" stop="20261011150500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Nice vs Strasbourg - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011150500 +0000" stop="20261011171500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Rennes vs Auxerre - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011171500 +0000" stop="20261011181500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Rc Lens, Goal Miners &amp; Footballers</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011181500 +0000" stop="20261011200500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011200500 +0000" stop="20261011220000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lens vs Lyon - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011220000 +0000" stop="20261011231500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Nice vs Strasbourg - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011231500 +0000" stop="20261012010000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Rennes vs Auxerre - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012024500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lens vs Lyon - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012024500 +0000" stop="20261012043000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012043000 +0000" stop="20261012050000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Show - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012050000 +0000" stop="20261012064500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Monaco vs Toulouse - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012064500 +0000" stop="20261012083000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012083000 +0000" stop="20261012090000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261012090000 +0000" stop="20261012104500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Galatasaray A.Ş. vs Kasımpaşa A.Ş. - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012104500 +0000" stop="20261012123000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Çaykur Rizespor A.Ş. vs Fenerbahçe A.Ş. - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012123000 +0000" stop="20261012130000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012144500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lorient vs Paris FC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012144500 +0000" stop="20261012163000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Brest vs Angers - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012163000 +0000" stop="20261012173000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012173000 +0000" stop="20261012180000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012180000 +0000" stop="20261012181500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Interview With Mikel Arteta</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012181500 +0000" stop="20261012203000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Air Force SC (IRQ) vs Al Ain FC (UAE) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012203000 +0000" stop="20261012210000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Show - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012210000 +0000" stop="20261012224500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Nice vs Strasbourg - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012224500 +0000" stop="20261013003000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Rennes vs Auxerre - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013003000 +0000" stop="20261013010000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Show - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013024500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Air Force SC (IRQ) vs Al Ain FC (UAE) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013024500 +0000" stop="20261013043000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lens vs Lyon - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Weekly Review - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013064500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013064500 +0000" stop="20261013083000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013083000 +0000" stop="20261013092000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013092000 +0000" stop="20261013095000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Show - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013095000 +0000" stop="20261013120000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Shanghai Port (CHN) vs Daejeon Hanacitizen (KOR) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013120000 +0000" stop="20261013123000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Ligue 1 Weekly Review - 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013123000 +0000" stop="20261013141500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Monaco vs Toulouse - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013141500 +0000" stop="20261013161500 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Air Force SC (IRQ) vs Al Ain FC (UAE) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013161500 +0000" stop="20261013183000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Sabah vs Slavia Praha - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261013183000 +0000" stop="20261013210000 +0000" channel="beINSPORT4.dz">
+    <title lang="en">Arsenal  vs Lille - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261010210000 +0000" stop="20261010224600 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Golgohar Sirjan (IRN) vs  Al Jazira Club (UAE) - AFC Champions League Two 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261010224600 +0000" stop="20261011003000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Alaves vs Atletico Madrid - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261011003000 +0000" stop="20261011010000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Shabab Al Ahli (UAE) vs Tractor (IRN) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011010000 +0000" stop="20261011024500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Brest vs Angers - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011024500 +0000" stop="20261011043000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Gamba Osaka (JPN) vs Cong An Ha Noi (VIE) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011043000 +0000" stop="20261011050000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Ahli (KSA) vs Pakhtakor (UZB) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011050000 +0000" stop="20261011064500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Shanghai Shenhua (CHN) vs Tampines Rovers  (SGP) - AFC Champions League Two 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011064500 +0000" stop="20261011082500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">FC Machida Zelvia (JPN) vs Preah Khan Reach Svay Rieng  (CAM) - AFC Champions League Two 2026/2027 -</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011082500 +0000" stop="20261011085500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Shabab Al Ahli (UAE) vs Tractor (IRN) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011085500 +0000" stop="20261011104000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Daejeon Hanacitizen (KOR) vs Kyoto Sanga  (JPN) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011104000 +0000" stop="20261011122500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Kashima Antlers (JPN) vs Newcastle Jets  (AUS) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011122500 +0000" stop="20261011140000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Hockenheim Round  - ADAC GT Masters - 2026</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261011140000 +0000" stop="20261011155000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Ahli (KSA) vs Pakhtakor (UZB) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011155000 +0000" stop="20261011180000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Beşiktaş A.Ş. vs Kocaelispor - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011180000 +0000" stop="20261011194500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Golgohar Sirjan (IRN) vs  Al Jazira Club (UAE) - AFC Champions League Two 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011194500 +0000" stop="20261011213000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">FC Arkadag (TKM) vs  Al Muharraq (BHR)  - AFC Champions League Two 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011213000 +0000" stop="20261011220000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Esteghlal FC (IRN) vs Al Sadd  (QAT) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011220000 +0000" stop="20261011234500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Beşiktaş A.Ş. vs Kocaelispor - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011234500 +0000" stop="20261012013000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Hilal (KSA) vs Al Gharafa  (QAT) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012013000 +0000" stop="20261012020000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Qadsiah (KSA) vs Al Wasl (UAE) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012020000 +0000" stop="20261012034500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Adelaide United (AUS) vs  Tai Po FC (HKG) - AFC Champions League Two 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012034500 +0000" stop="20261012053000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Lion City Sailors (SGP) vs BG Pathum United (THA) - AFC Champions League Two 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012053000 +0000" stop="20261012060000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Ain (UAE) vs Al Nassr (KSA) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012060000 +0000" stop="20261012074500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Beşiktaş A.Ş. vs Kocaelispor - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012074500 +0000" stop="20261012093200 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Esteghlal FC (IRN) vs Al Sadd  (QAT) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012093200 +0000" stop="20261012100000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Hilal (KSA) vs Al Gharafa  (QAT) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012100000 +0000" stop="20261012114500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Ahli (KSA) vs Pakhtakor (UZB) - AFC Champions League Elite 2026/2027 - MD1</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012114500 +0000" stop="20261012133000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Samsunspor A.Ş. vs Trabzonspor A.Ş. - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012133000 +0000" stop="20261012140000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261012140000 +0000" stop="20261012154500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Rayo Vallecano vs Athletic Bilbao - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012154500 +0000" stop="20261012173000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Alaves vs Atletico Madrid - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012173000 +0000" stop="20261012180000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">The Big Interview 2026-2027</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261012180000 +0000" stop="20261012185000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012185000 +0000" stop="20261012210000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Levante vs Sevilla - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261012210000 +0000" stop="20261012224500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Wasl FC (UAE) vs Al Ahli Saudi (KSA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012224500 +0000" stop="20261013003000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Gharafa (QAT) vs Esteghlal FC (IRN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013003000 +0000" stop="20261013010000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013024500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Levante vs Sevilla - Spanish LaLiga 2026/2027 - Week 8</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261013024500 +0000" stop="20261013043000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Çaykur Rizespor A.Ş. vs Fenerbahçe A.Ş. - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">The Big Interview 2026-2027</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013064500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Beşiktaş A.Ş. vs Kocaelispor - Turkish Super League 2027 - MD7</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013064500 +0000" stop="20261013083000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Air Force SC (IRQ) vs Al Ain FC (UAE) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013083000 +0000" stop="20261013090000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Gharafa (QAT) vs Esteghlal FC (IRN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013090000 +0000" stop="20261013093000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Nassr Club (KSA) vs PFC Neftchi (UZB) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013093000 +0000" stop="20261013095000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Interview With Mikel Arteta</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013095000 +0000" stop="20261013120500 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Kyoto Sanga F.C. (JPN) vs Ratchaburi FC (THA) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013120500 +0000" stop="20261013143000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Cong An Ha Noi (VIE) vs Kashima Antlers (JPN) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013143000 +0000" stop="20261013150000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">The Big Interview 2026-2027</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261013150000 +0000" stop="20261013155000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">UEL/UECL Magazine 2026/2027-UEL  MD1 Review+  MD2 Preview +UECL MD1 Preview</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013155000 +0000" stop="20261013180000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Al Seeb Club (OMA) vs Al Hussein (JOR) - AFC Champions League Two 2026/2027 - MD 2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013180000 +0000" stop="20261013183000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">UEFA UCL  Magazine2026/2027  - Special</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261013183000 +0000" stop="20261013210000 +0000" channel="beINSPORTS5.dz">
+    <title lang="en">Atlético de Madrid vs Manchester United -UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261010200000 +0000" stop="20261010213000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 1</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261010213000 +0000" stop="20261010233000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261010233000 +0000" stop="20261011013000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011013000 +0000" stop="20261011024500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 1</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261011024500 +0000" stop="20261011043000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261011043000 +0000" stop="20261011061500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261011061500 +0000" stop="20261011080000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Moldova vs Slovakia - UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011080000 +0000" stop="20261011100000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Belarus vs Finland - UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011100000 +0000" stop="20261011123000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Dallas vs Houston - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261011123000 +0000" stop="20261011130000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Scotland vs Slovenia - UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011130000 +0000" stop="20261011133000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">England vs Czechia - UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011133000 +0000" stop="20261011163000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Philadelphia Eagles @ Jacksonville Jaguars - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261011163000 +0000" stop="20261011170000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Italy vs Türkiye - UEFA Nations League 2026/27 - Match Day 4</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011170000 +0000" stop="20261011202500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Minnesota Vikings @ New Orleans Saints - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261011202500 +0000" stop="20261011233000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">San Francisco 49ers @ Seattle Seahawks - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261011233000 +0000" stop="20261012020000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Dallas vs Houston - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261012020000 +0000" stop="20261012050000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Philadelphia Eagles @ Jacksonville Jaguars - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261012050000 +0000" stop="20261012080000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Minnesota Vikings @ New Orleans Saints - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261012080000 +0000" stop="20261012111500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">San Francisco 49ers @ Seattle Seahawks - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261012111500 +0000" stop="20261012130000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012150000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261012150000 +0000" stop="20261012170000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261012170000 +0000" stop="20261012183000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Libya vs Zambia - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012183000 +0000" stop="20261012200000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 1</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261012200000 +0000" stop="20261012214500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Morocco vs Algeria - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012214500 +0000" stop="20261012234500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261012234500 +0000" stop="20261013013000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Libya vs Zambia - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013013000 +0000" stop="20261013031500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Morocco vs Algeria - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013031500 +0000" stop="20261013043000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 1</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261013043000 +0000" stop="20261013060000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 2</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261013060000 +0000" stop="20261013073000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 3</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261013073000 +0000" stop="20261013093000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261013093000 +0000" stop="20261013113000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <category lang="en">French League - Ligue 2</category>
+  </programme>
+  <programme start="20261013113000 +0000" stop="20261013133000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Lille vs Havre AC - French Ligue 1 2026/2027 - Week 6</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261013133000 +0000" stop="20261013151500 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Libya vs Zambia - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013151500 +0000" stop="20261013170000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Morocco vs Algeria - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013170000 +0000" stop="20261013183000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Egypt vs Tanzania - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013183000 +0000" stop="20261013210000 +0000" channel="beINSPORTS6.dz">
+    <title lang="en">Internazionale vs Club Brugge - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261010210000 +0000" stop="20261010225400 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">Yunchaokete Bu (CHN) vs Casper Ruud (NOR) - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261010225400 +0000" stop="20261011001600 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">Juan Manuel Cerundolo (ARG) vs Carlos Alcaraz (ESP) - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011001600 +0000" stop="20261011033000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">Camilo Ugo Carabelli (ARG) vs Felix Auger-Aliassime (CAN) - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011033000 +0000" stop="20261011040000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">ATP Tour - Magazine 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011040000 +0000" stop="20261011060000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011060000 +0000" stop="20261011080000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011080000 +0000" stop="20261011100000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M3 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011100000 +0000" stop="20261011120000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M4 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011120000 +0000" stop="20261011140000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M5 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011140000 +0000" stop="20261011160000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011160000 +0000" stop="20261011180000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011180000 +0000" stop="20261011200000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M3 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011200000 +0000" stop="20261011220000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M4 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011220000 +0000" stop="20261012000000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M5 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012000000 +0000" stop="20261012020000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012020000 +0000" stop="20261012040000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012040000 +0000" stop="20261012060000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012060000 +0000" stop="20261012080000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012080000 +0000" stop="20261012100000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M3 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012100000 +0000" stop="20261012120000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M4 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012120000 +0000" stop="20261012140000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M5 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012140000 +0000" stop="20261012160000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012160000 +0000" stop="20261012180000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012180000 +0000" stop="20261012200000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M3 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012200000 +0000" stop="20261012220000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M4 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012220000 +0000" stop="20261013000000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M5 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013000000 +0000" stop="20261013020000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013040000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013040000 +0000" stop="20261013060000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013060000 +0000" stop="20261013080000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013080000 +0000" stop="20261013093000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">Libya vs Zambia - AFCON Futsal Morocco 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013093000 +0000" stop="20261013100000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">ATP Tour - Magazine 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013100000 +0000" stop="20261013120000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M3 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013120000 +0000" stop="20261013140000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M4 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013140000 +0000" stop="20261013160000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M1 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013160000 +0000" stop="20261013180000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">M2 - ATP 1000 Rolex Shanghai Masters 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013180000 +0000" stop="20261013183000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">ATP Tour - Magazine 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013183000 +0000" stop="20261013210000 +0000" channel="beINSPORTS7.dz">
+    <title lang="en">Viking  vs Bayern München - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261010193500 +0000" stop="20261010233100 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 2</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261010233100 +0000" stop="20261011002200 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261011002200 +0000" stop="20261011010900 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 3  - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261011010900 +0000" stop="20261011022300 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 2  - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261011022300 +0000" stop="20261011040000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Sprint Race - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261011040000 +0000" stop="20261011210000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 3  - Indonesia GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">DTM - Hockenheim Round - Race 1</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261012002000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 2</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261012002000 +0000" stop="20261012032500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Baltimore Ravens @ Atlanta Falcons - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261012032500 +0000" stop="20261012044500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 3</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261012044500 +0000" stop="20261012054500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Hockenheim Round - Porsche Cup Germany 2026 - Race 2</title>
+    <category lang="en">MotorSports</category>
+  </programme>
+  <programme start="20261012054500 +0000" stop="20261012064500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Practice 1 - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261012064500 +0000" stop="20261012074500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Sprint Race Qualifying - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261012074500 +0000" stop="20261012084500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Sprint Race - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261012084500 +0000" stop="20261012094500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Main Race Qualifying - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261012094500 +0000" stop="20261012120000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261012120000 +0000" stop="20261012150000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Baltimore Ravens @ Atlanta Falcons - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
+  </programme>
+  <programme start="20261012150000 +0000" stop="20261012154500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 3  - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012154500 +0000" stop="20261012164500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 3  - Indonesia GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012164500 +0000" stop="20261012173000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012173000 +0000" stop="20261012183000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Sprint Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012183000 +0000" stop="20261012193000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012193000 +0000" stop="20261012201500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 2  - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012201500 +0000" stop="20261012211500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 2  - Indonesia GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261012211500 +0000" stop="20261012233000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Golden State vs Las Vegas - Semi Final - Game 3 - Women's National Basketball Association - WNBA</title>
+    <category lang="en">Basketball</category>
+  </programme>
+  <programme start="20261012233000 +0000" stop="20261013020000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Minnesota vs New York - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013040000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261013040000 +0000" stop="20261013044500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261013044500 +0000" stop="20261013054500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Sprint Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261013054500 +0000" stop="20261013070000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto GP - Indonesia GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261013070000 +0000" stop="20261013093000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Minnesota vs New York - Pre- Season NBA - 2026</title>
+    <category lang="en">Basketball - NBA</category>
+  </programme>
+  <programme start="20261013093000 +0000" stop="20261013101500 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 3  - Indonesia GP - Qualifying</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261013101500 +0000" stop="20261013113000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Moto 3  - Indonesia GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
+  </programme>
+  <programme start="20261013113000 +0000" stop="20261013123000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Practice 1 - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261013123000 +0000" stop="20261013133000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Sprint Race Qualifying - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261013133000 +0000" stop="20261013143000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Sprint Race - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261013143000 +0000" stop="20261013153000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Main Race Qualifying - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261013153000 +0000" stop="20261013183000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
+  </programme>
+  <programme start="20261013183000 +0000" stop="20261013210000 +0000" channel="beINSPORTS8.dz">
+    <title lang="en">Villarreal  vs Napoli - UEFA Champions League 2026-2027 - MD2</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261010173000 +0000" stop="20261010223000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Germany P2 2026 - Stupaczuk/Sanz Or Di Nenno/Navarro vs Sanchez Blasco/Gutierrez Or </title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261010223000 +0000" stop="20261011004500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Shanghai  Jumping - Against The Clock With Jump Off</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011004500 +0000" stop="20261011040000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Shanghai  Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011040000 +0000" stop="20261011054500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Madrid  Jumping - Round 1 - Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011054500 +0000" stop="20261011065500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Madrid  Jumping - Round 2 - Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011065500 +0000" stop="20261011094500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Madrid  Jumping - 1.50m Against the clock with Jump off</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011094500 +0000" stop="20261011120000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Madrid  Jumping - LGCT GRAND PRIX</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011120000 +0000" stop="20261011140000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Germany P2 2026 - Final 1</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261011140000 +0000" stop="20261011160000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Germany P2 2026 - Final 2</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261011160000 +0000" stop="20261011174500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Cannes  Jumping - Round 1 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011174500 +0000" stop="20261011185000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Cannes  Jumping - Round 2 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011185000 +0000" stop="20261011210000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Cannes  Jumping  - Against The Clock With Jump Off</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Cannes  Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261011233000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">GCL R2 – Competition Team - Shanghai Tour Highlights</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261011233000 +0000" stop="20261012010000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Round 1 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012021500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Round 2 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012021500 +0000" stop="20261012043500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Against The Clock With Jump Off</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012043500 +0000" stop="20261012070000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012083000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M1</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012083000 +0000" stop="20261012100000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M2</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012100000 +0000" stop="20261012113000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M3</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012113000 +0000" stop="20261012130000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M4</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012140000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">GCL R2 – Competition Team - Shanghai Tour Highlights</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261012140000 +0000" stop="20261012153000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M5</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012153000 +0000" stop="20261012170000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M6</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012170000 +0000" stop="20261012183000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M7</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261012183000 +0000" stop="20261012201000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Paris  Jumping - Round 1 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012201000 +0000" stop="20261012211500 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Paris  Jumping - Round 2 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012211500 +0000" stop="20261012233000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Paris  Jumping - Against The Clock With Jump Off</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261012233000 +0000" stop="20261013003000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Paris  Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261013003000 +0000" stop="20261013013000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Class 7 - LGCT GRAND PRIX Of Shanghai - Shanghai Tour Highlights</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013013000 +0000" stop="20261013031000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Monaco Jumping - Round 1 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261013031000 +0000" stop="20261013043000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Monaco Jumping - Round 2 Competition Team</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261013043000 +0000" stop="20261013070000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Monaco Jumping - Against The Clock With Jump Off</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261013070000 +0000" stop="20261013073000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Class 5 - Against the clock with Jump off 1.50 - Shanghai Tour Highlights</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013073000 +0000" stop="20261013090000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M1</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261013090000 +0000" stop="20261013103000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M2</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261013103000 +0000" stop="20261013120000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M3</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261013120000 +0000" stop="20261013133000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M4</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261013133000 +0000" stop="20261013160000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Longines Global Champions Tour - Monaco Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261013160000 +0000" stop="20261013173000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M5</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261013173000 +0000" stop="20261013190000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M6</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261013190000 +0000" stop="20261013210000 +0000" channel="beINSPORTS9.dz">
+    <title lang="en">Premier Padel - Milan P1 2026 - M7</title>
+    <category lang="en">Padel</category>
+  </programme>
+  <programme start="20261010200000 +0000" stop="20261010221500 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Den of Thieves: Pantera</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010221500 +0000" stop="20261010235900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Elevator Game</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010235900 +0000" stop="20261011012900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Goldilocks and the Three Bears: Death and Porridge</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011012900 +0000" stop="20261011031400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Young Imam</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011031400 +0000" stop="20261011045900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Art of Eight Limbs</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011045900 +0000" stop="20261011063100 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Winter Spring Summer or Fall</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011063100 +0000" stop="20261011082900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Lockdown</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011082900 +0000" stop="20261011102900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Materialists</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011102900 +0000" stop="20261011115900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Naked Gun</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011115900 +0000" stop="20261011141400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Den of Thieves: Pantera</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011141400 +0000" stop="20261011161400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Materialists</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011161400 +0000" stop="20261011175900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Dear Santa</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011175900 +0000" stop="20261011194400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Thing with Feathers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011194400 +0000" stop="20261011213000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Caught Stealing</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011213000 +0000" stop="20261011231400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Trouble Man</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011231400 +0000" stop="20261012005900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Flood</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012005900 +0000" stop="20261012024900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Lockdown</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012024900 +0000" stop="20261012061400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Kuru Otlar Üstüne</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012061400 +0000" stop="20261012075900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Lady Scorpions</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012075900 +0000" stop="20261012093100 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Stranger in My Home</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012093100 +0000" stop="20261012111500 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Thing with Feathers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012111500 +0000" stop="20261012130000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Dear Santa</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012144500 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Caught Stealing</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012144500 +0000" stop="20261012163000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Thing with Feathers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012163000 +0000" stop="20261012175900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Late Bloomers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012175900 +0000" stop="20261012194400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">GOAT</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012194400 +0000" stop="20261012221600 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Anatomy of a Fall</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012221600 +0000" stop="20261013001400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Spin the Bottle</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013001400 +0000" stop="20261013015900 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Bring Her Back</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013015900 +0000" stop="20261013041400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Rule Breakers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013041400 +0000" stop="20261013054400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Hard Home</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013054400 +0000" stop="20261013074400 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Cassino in Ischia</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013074400 +0000" stop="20261013093000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">GOAT</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013093000 +0000" stop="20261013110000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Late Bloomers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013110000 +0000" stop="20261013134500 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Anatomy of a Fall</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013134500 +0000" stop="20261013153000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">GOAT</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013153000 +0000" stop="20261013180000 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Reagan</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013180000 +0000" stop="20261013194500 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">Last Breath</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013194500 +0000" stop="20261013224500 +0000" channel="beINMOVIES1.dz">
+    <title lang="en">The Count of Monte-Cristo</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010204500 +0000" stop="20261010233000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Blade Runner 2049</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010233000 +0000" stop="20261011011500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Reawakening</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011011500 +0000" stop="20261011030000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Night of the Hunted</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011030000 +0000" stop="20261011044500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Bring Him to Me</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011044500 +0000" stop="20261011070000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">What Remains</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011070000 +0000" stop="20261011084500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">1 Million Followers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011084500 +0000" stop="20261011103000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Jack Ryan: Shadow Recruit</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011103000 +0000" stop="20261011123000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Baby Driver</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011123000 +0000" stop="20261011151500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Blade Runner 2049</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011151500 +0000" stop="20261011170000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Jack Ryan: Shadow Recruit</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011170000 +0000" stop="20261011185900 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Black and Blue</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011185900 +0000" stop="20261011210000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Collateral</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011225900 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Other Guys</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011225900 +0000" stop="20261012003500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Unknown Dimension: The Story of Paranormal Activity</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012003500 +0000" stop="20261012021500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Stopmotion</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012021500 +0000" stop="20261012044500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Da Vinci Code</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012044500 +0000" stop="20261012070000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Angels and Demons</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Inferno</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012090000 +0000" stop="20261012110000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Collateral</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012110000 +0000" stop="20261012130000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Black and Blue</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012144500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Other Guys</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012144500 +0000" stop="20261012164400 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Collateral</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012164400 +0000" stop="20261012190000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Equalizer</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012190000 +0000" stop="20261012204400 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Shaft</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012204400 +0000" stop="20261012230000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Equalizer 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012230000 +0000" stop="20261013002900 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">New Life</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013002900 +0000" stop="20261013020000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Bad Connection</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013034500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Daddy's Head</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013034500 +0000" stop="20261013053000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Rose's War</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013053000 +0000" stop="20261013071500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Ghostbusters</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013071500 +0000" stop="20261013090000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Ghostbusters II</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013090000 +0000" stop="20261013104500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Shaft</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013104500 +0000" stop="20261013130000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Equalizer</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013130000 +0000" stop="20261013150000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">The Equalizer 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013150000 +0000" stop="20261013164500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Shaft</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013164500 +0000" stop="20261013190000 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Spider-Man: Homecoming</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013190000 +0000" stop="20261013211500 +0000" channel="beINMOVIES2.dz">
+    <title lang="en">Spider-Man: Far from Home</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010201400 +0000" stop="20261010223000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">A Man Called Otto</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010223000 +0000" stop="20261011001500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Anselm</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011001500 +0000" stop="20261011015900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Float</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011015900 +0000" stop="20261011035900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Ingress</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011035900 +0000" stop="20261011054500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Groundhog Day</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011054500 +0000" stop="20261011080000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">A Few Good Men</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011080000 +0000" stop="20261011104400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Once Upon a Time in Hollywood</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011104400 +0000" stop="20261011122900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">She's Out of My League</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011122900 +0000" stop="20261011141400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Groundhog Day</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011141400 +0000" stop="20261011162900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">A Man Called Otto</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011162900 +0000" stop="20261011182900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Revolutionary Road</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011182900 +0000" stop="20261011195900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Christmas Waltz</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011195900 +0000" stop="20261011223000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Memoirs of a Geisha</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011223000 +0000" stop="20261012001500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">A Mouthful of Air</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012001500 +0000" stop="20261012014500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Christmas at Grand Valley</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012014500 +0000" stop="20261012034500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Here Now</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012034500 +0000" stop="20261012053000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">This Is the End</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012053000 +0000" stop="20261012071500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Float</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012071500 +0000" stop="20261012084500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Christmas Waltz</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012084500 +0000" stop="20261012103000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Anselm</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012103000 +0000" stop="20261012123000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Revolutionary Road</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012123000 +0000" stop="20261012140000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Christmas Waltz</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012140000 +0000" stop="20261012163000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Memoirs of a Geisha</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012163000 +0000" stop="20261012182900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Camera</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012182900 +0000" stop="20261012203000 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Smile</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012203000 +0000" stop="20261012221500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Daddy's Home</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012221500 +0000" stop="20261013000100 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Men, Women &amp; Children</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013000100 +0000" stop="20261013015900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">This Time Next Year</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013015900 +0000" stop="20261013034400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Saint-Exupery</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013034400 +0000" stop="20261013051400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Christmas at Grand Valley</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013051400 +0000" stop="20261013071400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Here Now</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013071400 +0000" stop="20261013091400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Smile</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013091400 +0000" stop="20261013105900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">A Mouthful of Air</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013105900 +0000" stop="20261013125900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Camera</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013125900 +0000" stop="20261013145900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Smile</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013145900 +0000" stop="20261013164400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Daddy's Home</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013164400 +0000" stop="20261013182900 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Daddy's Home 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013182900 +0000" stop="20261013201400 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Little Fockers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013201400 +0000" stop="20261013221500 +0000" channel="beINMOVIES3.dz">
+    <title lang="en">Meet the Fockers</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010203000 +0000" stop="20261010214500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Swan Princess: Escape from Castle Mountain</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010214500 +0000" stop="20261010231500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Buffalo Kids</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010231500 +0000" stop="20261011011500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Lyle, Lyle, Crocodile</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011011500 +0000" stop="20261011030000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Goosebumps</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011030000 +0000" stop="20261011043000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Living Large</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011043000 +0000" stop="20261011054500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Swan Princess: Escape from Castle Mountain</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011054500 +0000" stop="20261011074500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Annie</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011074500 +0000" stop="20261011091500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Finnick 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011091500 +0000" stop="20261011104400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Emoji Movie</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011104400 +0000" stop="20261011124500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Annie</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011124500 +0000" stop="20261011141400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Finnick 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011141400 +0000" stop="20261011154400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Emoji Movie</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011154400 +0000" stop="20261011173000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">A-X-L</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011173000 +0000" stop="20261011191400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Smurfs</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011191400 +0000" stop="20261011210000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Smurfs 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011223000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Dolphin Boy</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011223000 +0000" stop="20261012001400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">SuperKlaus</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012001400 +0000" stop="20261012015900 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Bernard: Mission Mars</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012015900 +0000" stop="20261012040000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Lyle, Lyle, Crocodile</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012040000 +0000" stop="20261012053000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Dolphin Boy</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012053000 +0000" stop="20261012071500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">A-X-L</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012071500 +0000" stop="20261012090000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Smurfs</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012090000 +0000" stop="20261012104400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Smurfs 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012104400 +0000" stop="20261012123000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">A-X-L</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012123000 +0000" stop="20261012141500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Smurfs</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012141500 +0000" stop="20261012160000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The Smurfs 2</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012160000 +0000" stop="20261012173000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Are We Done Yet?</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012173000 +0000" stop="20261012190000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Smurfs: The Lost Village</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012190000 +0000" stop="20261012204400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Are We There Yet?</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012204400 +0000" stop="20261012223000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Peter Rabbit</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012223000 +0000" stop="20261013001400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Pixels</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013001400 +0000" stop="20261013020000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Grand Prix of Europe</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013032500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Moonzy Homecoming</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013032500 +0000" stop="20261013050000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">SuperKlaus</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013063500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Peter Rabbit</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013063500 +0000" stop="20261013080400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Are We Done Yet?</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013080400 +0000" stop="20261013093400 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Smurfs: The Lost Village</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013093400 +0000" stop="20261013110900 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Are We There Yet?</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013110900 +0000" stop="20261013124500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Are We Done Yet?</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013124500 +0000" stop="20261013141500 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Smurfs: The Lost Village</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013141500 +0000" stop="20261013155900 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Are We There Yet?</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013155900 +0000" stop="20261013173000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">The SpongeBob Movie: Search for SquarePants</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013173000 +0000" stop="20261013190000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Jimmy Neutron: Boy Genius</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013190000 +0000" stop="20261013203000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Destined to Ride</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013203000 +0000" stop="20261013220000 +0000" channel="beINMOVIES4.dz">
+    <title lang="en">Muppets from Space</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010210000 +0000" stop="20261010220000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E3</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261010220000 +0000" stop="20261010230000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E4</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261010230000 +0000" stop="20261011000000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E5</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011000000 +0000" stop="20261011020000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">America's Got Talent S21 | E23</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011020000 +0000" stop="20261011030000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E6</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011030000 +0000" stop="20261011040000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011040000 +0000" stop="20261011050000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E8</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011050000 +0000" stop="20261011060000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E9</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011060000 +0000" stop="20261011070000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E10</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011070000 +0000" stop="20261011080000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Other Bennet Sister S1 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011080000 +0000" stop="20261011090000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Miniature Wife S1 | E5</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011090000 +0000" stop="20261011100000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Shark Tank S17 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011100000 +0000" stop="20261011110000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Matlock S2 | E16</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011110000 +0000" stop="20261011120000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">DOC S2 | E22</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011120000 +0000" stop="20261011130000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Titanic Sinks Tonight S1 | E1</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011130000 +0000" stop="20261011140000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Other Bennet Sister S1 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011140000 +0000" stop="20261011150000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Miniature Wife S1 | E5</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011150000 +0000" stop="20261011160000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">DOC S2 | E22</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011160000 +0000" stop="20261011170000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S8 | E3</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011170000 +0000" stop="20261011180000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Shark Tank S17 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011180000 +0000" stop="20261011190000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Matlock S2 | E16</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011190000 +0000" stop="20261011200000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Other Bennet Sister S1 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011200000 +0000" stop="20261011210000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Miniature Wife S1 | E5</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011220000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E9</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011220000 +0000" stop="20261011230000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E6</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261012000000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012000000 +0000" stop="20261012010000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Shark Tank S17 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012020000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Matlock S2 | E16</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012020000 +0000" stop="20261012030000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012030000 +0000" stop="20261012040200 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E9</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012040200 +0000" stop="20261012050000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E6</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012050000 +0000" stop="20261012060000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012060000 +0000" stop="20261012070000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Shark Tank S17 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012080000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Matlock S2 | E16</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012080000 +0000" stop="20261012090000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012090000 +0000" stop="20261012100000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E9</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012100000 +0000" stop="20261012110000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E6</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012110000 +0000" stop="20261012120000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012120000 +0000" stop="20261012130000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Shark Tank S17 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012140000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Matlock S2 | E16</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012140000 +0000" stop="20261012150000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012150000 +0000" stop="20261012160000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E9</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012160000 +0000" stop="20261012170000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E6</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012170000 +0000" stop="20261012180000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012180000 +0000" stop="20261012190000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">All American S8 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012190000 +0000" stop="20261012200000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">DOC S3 | E1</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012200000 +0000" stop="20261012210000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012210000 +0000" stop="20261012221100 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E10</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012221100 +0000" stop="20261012230800 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261012230800 +0000" stop="20261013001000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013001000 +0000" stop="20261013010000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">All American S8 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013020000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">DOC S3 | E1</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013030000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013030000 +0000" stop="20261013041500 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E10</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013041500 +0000" stop="20261013051100 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013051100 +0000" stop="20261013061000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013061000 +0000" stop="20261013070000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">All American S8 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013070000 +0000" stop="20261013080000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">DOC S3 | E1</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013080000 +0000" stop="20261013090000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013090000 +0000" stop="20261013101300 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E10</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013101300 +0000" stop="20261013110900 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013110900 +0000" stop="20261013120900 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013120900 +0000" stop="20261013130000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">All American S8 | E11</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013130000 +0000" stop="20261013140000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">DOC S3 | E1</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013140000 +0000" stop="20261013150000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013150000 +0000" stop="20261013160900 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Landman S2 | E10</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013160900 +0000" stop="20261013162900 +0000" channel="beINSERIES1.dz">
+    <title lang="en">beIN Action | E362</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261013162900 +0000" stop="20261013172500 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Yellowjackets S2 | E7</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013172500 +0000" stop="20261013182400 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Outlander S4 | E13</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013182400 +0000" stop="20261013191300 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Madison S1 | E6</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013191300 +0000" stop="20261013201300 +0000" channel="beINSERIES1.dz">
+    <title lang="en">Titanic Sinks Tonight S1 | E2</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261013201300 +0000" stop="20261013210000 +0000" channel="beINSERIES1.dz">
+    <title lang="en">The Good Doctor S2 | E12</title>
+    <category lang="en">Series</category>
+  </programme>
+</tv>
