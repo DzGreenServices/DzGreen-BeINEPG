@@ -60,6 +60,10 @@
     <display-name>beINSPORTS2FR</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS2_FRENCH_Digital_Mono.png" />
   </channel>
+  <channel id="beINSPORTS4K.dz">
+    <display-name>beIN SPORTS 4K</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/4k_DIGITAL_Mono.png" />
+  </channel>
   <channel id="beINSPORTSXTRA1.dz">
     <display-name>beINSPORTSXTRA1</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_XTRA1_Digital_Mono.png" />
@@ -120,6 +124,34 @@
     <display-name>beINSPORTSMAX6</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/beIN_SPORTS_MAX6_DIGITAL_Mono.png" />
   </channel>
+  <channel id="Alkass1.dz">
+    <display-name>Alkass 1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_1.png" />
+  </channel>
+  <channel id="Alkass2.dz">
+    <display-name>Alkass 2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_2.png" />
+  </channel>
+  <channel id="Alkass3.dz">
+    <display-name>Alkass 3</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_3.png" />
+  </channel>
+  <channel id="Alkass4.dz">
+    <display-name>Alkass 4</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_4.png" />
+  </channel>
+  <channel id="Alkass5.dz">
+    <display-name>Alkass 5</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_5.png" />
+  </channel>
+  <channel id="Alkass7.dz">
+    <display-name>Alkass 7</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_7.png" />
+  </channel>
+  <channel id="Alkass8.dz">
+    <display-name>Alkass 8</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_8.png" />
+  </channel>
   <channel id="beINMOVIES1.dz">
     <display-name>beINMOVIES1</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/MOVIES1_PREMIERE_DIGITAL_Mono.png" />
@@ -135,6 +167,22 @@
   <channel id="beINMOVIES4.dz">
     <display-name>beINMOVIES4</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/MOVIES4_FAMILY_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="logo_boxoffice1digitalmono.dz">
+    <display-name>BoxOffice1 DIGITAL Mono</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/BoxOffice1_DIGITAL_Mono.png" />
+  </channel>
+  <channel id="logo_boxoffice2digitalmonopng.dz">
+    <display-name>BoxOffice2 DIGITAL Mono.png</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/BoxOffice2_DIGITAL_Mono.png.png" />
+  </channel>
+  <channel id="StarAction.dz">
+    <display-name>Star Action</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/Star_Action_2024-200x200-1.png" />
+  </channel>
+  <channel id="logo_starmovies2024200x2001.dz">
+    <display-name>Star Movies 2024 200x200 1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/Star_Movies_2024-200x200-1.png" />
   </channel>
   <channel id="beINSERIES1.dz">
     <display-name>beINSERIES1</display-name>
@@ -152,6 +200,46 @@
     <display-name>beINGOURMET</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2015/06/GOURMET_DIGITAL_Mono.png" />
   </channel>
+  <channel id="logo_foodnetworklogo20181.dz">
+    <display-name>food network logo 2018 1</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/food-network-logo-2018-1.png" />
+  </channel>
+  <channel id="logo_hgtv.dz">
+    <display-name>HGTV</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/HGTV.png" />
+  </channel>
+  <channel id="logo_starworld2024200x2001.dz">
+    <display-name>Star World 2024 200x200 1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/Star_World_2024-200x200-1.png" />
+  </channel>
+  <channel id="logo_bloomberg1.dz">
+    <display-name>Bloomberg 1</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bloomberg-1.png" />
+  </channel>
+  <channel id="logo_natgeohd.dz">
+    <display-name>Nat geo hd</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Nat_geo_hd.png" />
+  </channel>
+  <channel id="logo_updatezngwfulllogo20182.dz">
+    <display-name>UPDATEz NGW Full Logo 20182</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/UPDATEz-NGW_Full_Logo_20182.png" />
+  </channel>
+  <channel id="logo_bbcearthnew200x200.dz">
+    <display-name>BBCEarth new 200x200</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/BBCEarth-new_200x200.png" />
+  </channel>
+  <channel id="logo_0004cnninternationallogosvg.dz">
+    <display-name>0004 CNN International logo.svg</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/0004_CNN_International_logo.svg.png" />
+  </channel>
+  <channel id="logo_euronews.dz">
+    <display-name>Euro News</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Euro-News.png" />
+  </channel>
+  <channel id="logo_discoverylogo1.dz">
+    <display-name>Discovery logo 1</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2021/03/Discovery-logo-1.png" />
+  </channel>
   <channel id="beINJUNIOR.dz">
     <display-name>beINJUNIOR</display-name>
     <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/beJUNIOR-1.png" />
@@ -163,6 +251,30 @@
   <channel id="BaraemTV.dz">
     <display-name>BaraemTV</display-name>
     <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Bara3em-1.png" />
+  </channel>
+  <channel id="logo_0001awgcnbrandlogo1colorblack4c.dz">
+    <display-name>0001 AWG CN Brand Logo 1color Black 4C</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2015/06/0001_AWG_CN_Brand_Logo_1color_Black_4C.png" />
+  </channel>
+  <channel id="logo_cartoonnetworkarabic1.dz">
+    <display-name>Cartoon Network Arabic 1</display-name>
+    <icon src="https://www.bein.com/en/wp-content/uploads/sites/3/2020/06/Cartoon-Network-Arabic-1.png" />
+  </channel>
+  <channel id="logo_dcbluenew.dz">
+    <display-name>DC Blue new</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/02/DC-Blue-new.png" />
+  </channel>
+  <channel id="logo_dj.dz">
+    <display-name>DJ</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2025/02/DJ.png" />
+  </channel>
+  <channel id="logo_babytv2.dz">
+    <display-name>Baby TV 2</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2021/11/Baby-TV-2.png" />
+  </channel>
+  <channel id="logo_cartoonito.dz">
+    <display-name>cartoonito</display-name>
+    <icon src="https://assets.bein.com/mena/sites/3/2020/06/cartoonito.png" />
   </channel>
   <programme start="20261010183000 +0000" stop="20261010213000 +0000" channel="beINSPORTS1.dz">
     <title lang="en">PSG vs Le Mans - French Ligue 1 2026/2027 - Week 6</title>
@@ -425,7 +537,7 @@
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261013213000 +0000" stop="20261013223000 +0000" channel="beINSPORTS1.dz">
-    <title lang="en">Bein Champions - UEFA Champions League 2026-2027 </title>
+    <title lang="en">Bein Champions - UEFA Champions League 2026-2027</title>
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261013223000 +0000" stop="20261013233000 +0000" channel="beINSPORTS1.dz">
@@ -437,7 +549,7 @@
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014011500 +0000" stop="20261014023000 +0000" channel="beINSPORTS1.dz">
-    <title lang="en">Bein Champions - UEFA Champions League 2026-2027 </title>
+    <title lang="en">Bein Champions - UEFA Champions League 2026-2027</title>
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014023000 +0000" stop="20261014030000 +0000" channel="beINSPORTS1.dz">
@@ -457,7 +569,7 @@
     <category lang="en">English Premier League</category>
   </programme>
   <programme start="20261014043000 +0000" stop="20261014053000 +0000" channel="beINSPORTS1.dz">
-    <title lang="en">Bein Champions - UEFA Champions League 2026-2027 </title>
+    <title lang="en">Bein Champions - UEFA Champions League 2026-2027</title>
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014053000 +0000" stop="20261014060000 +0000" channel="beINSPORTS1.dz">
@@ -485,7 +597,7 @@
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014131500 +0000" stop="20261014143000 +0000" channel="beINSPORTS1.dz">
-    <title lang="en">Bein Champions - UEFA Champions League 2026-2027 </title>
+    <title lang="en">Bein Champions - UEFA Champions League 2026-2027</title>
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014143000 +0000" stop="20261014150000 +0000" channel="beINSPORTS1.dz">
@@ -505,7 +617,7 @@
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014163000 +0000" stop="20261014173000 +0000" channel="beINSPORTS1.dz">
-    <title lang="en">Bein Champions - UEFA Champions League 2026-2027 </title>
+    <title lang="en">Bein Champions - UEFA Champions League 2026-2027</title>
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014173000 +0000" stop="20261014180000 +0000" channel="beINSPORTS1.dz">
@@ -713,7 +825,7 @@
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261014095000 +0000" stop="20261014120000 +0000" channel="beINSPORTS2.dz">
-    <title lang="en"> Vissel Kobe (JPN) vs Jeonbuk Hyundai Motors (KOR) - AFC Champions League Elite 2026/2027 - MD 2</title>
+    <title lang="en">Vissel Kobe (JPN) vs Jeonbuk Hyundai Motors (KOR) - AFC Champions League Elite 2026/2027 - MD 2</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261014120000 +0000" stop="20261014135000 +0000" channel="beINSPORTS2.dz">
@@ -1473,7 +1585,7 @@
     <category lang="en">MotorSports</category>
   </programme>
   <programme start="20261010213000 +0000" stop="20261010233000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261010233000 +0000" stop="20261011013200 +0000" channel="beINSPORTS6.dz">
@@ -1485,7 +1597,7 @@
     <category lang="en">MotorSports</category>
   </programme>
   <programme start="20261011024200 +0000" stop="20261011043000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261011043000 +0000" stop="20261011062000 +0000" channel="beINSPORTS6.dz">
@@ -1545,7 +1657,7 @@
     <category lang="en">NFL- National Football League</category>
   </programme>
   <programme start="20261012111500 +0000" stop="20261012130000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261012130000 +0000" stop="20261012150000 +0000" channel="beINSPORTS6.dz">
@@ -1553,7 +1665,7 @@
     <category lang="en">French League - Ligue 1</category>
   </programme>
   <programme start="20261012150000 +0000" stop="20261012170000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261012170000 +0000" stop="20261012183000 +0000" channel="beINSPORTS6.dz">
@@ -1569,7 +1681,7 @@
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261012214500 +0000" stop="20261012234500 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261012234500 +0000" stop="20261013013000 +0000" channel="beINSPORTS6.dz">
@@ -1593,11 +1705,11 @@
     <category lang="en">MotorSports</category>
   </programme>
   <programme start="20261013073000 +0000" stop="20261013093000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261013093000 +0000" stop="20261013113000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261013113000 +0000" stop="20261013133000 +0000" channel="beINSPORTS6.dz">
@@ -1641,11 +1753,11 @@
     <category lang="en">UEFA Champions League</category>
   </programme>
   <programme start="20261014050000 +0000" stop="20261014070000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">Nantes vs Reims - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261014070000 +0000" stop="20261014090000 +0000" channel="beINSPORTS6.dz">
-    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027 </title>
+    <title lang="en">St Etienne vs Rodez - French Ligue 2 - 2026/2027</title>
     <category lang="en">French League - Ligue 2</category>
   </programme>
   <programme start="20261014090000 +0000" stop="20261014104500 +0000" channel="beINSPORTS6.dz">
@@ -1944,138 +2056,6 @@
     <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
     <category lang="en">Formula One World Championship</category>
   </programme>
-  <programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">DTM - Hockenheim Round - Race 1</title>
-    <category lang="en">MotorSports</category>
-  </programme>
-  <programme start="20261011230000 +0000" stop="20261012002000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 2</title>
-    <category lang="en">MotorSports</category>
-  </programme>
-  <programme start="20261012002000 +0000" stop="20261012032500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Baltimore Ravens @ Atlanta Falcons - NFL -National Footbal League  - 2026/27</title>
-    <category lang="en">NFL- National Football League</category>
-  </programme>
-  <programme start="20261012032500 +0000" stop="20261012044500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Hockenheim Round - ADAC-GT4 2026 - Race 3</title>
-    <category lang="en">MotorSports</category>
-  </programme>
-  <programme start="20261012044500 +0000" stop="20261012054500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Hockenheim Round - Porsche Cup Germany 2026 - Race 2</title>
-    <category lang="en">MotorSports</category>
-  </programme>
-  <programme start="20261012054500 +0000" stop="20261012064500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Practice 1 - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261012064500 +0000" stop="20261012074500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Sprint Race Qualifying - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261012074500 +0000" stop="20261012084500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Sprint Race - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261012084500 +0000" stop="20261012094500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Main Race Qualifying - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261012094500 +0000" stop="20261012120000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261012120000 +0000" stop="20261012150000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Baltimore Ravens @ Atlanta Falcons - NFL -National Footbal League  - 2026/27</title>
-    <category lang="en">NFL- National Football League</category>
-  </programme>
-  <programme start="20261012150000 +0000" stop="20261012154500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto 3  - Indonesia GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012154500 +0000" stop="20261012164500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto 3  - Indonesia GP - Main Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012164500 +0000" stop="20261012173000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto GP - Indonesia GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012173000 +0000" stop="20261012183000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto GP - Indonesia GP - Sprint Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012183000 +0000" stop="20261012193000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto GP - Indonesia GP - Main Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012193000 +0000" stop="20261012201500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto 2  - Indonesia GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012201500 +0000" stop="20261012211500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto 2  - Indonesia GP - Main Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261012211500 +0000" stop="20261012233000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Golden State vs Las Vegas - Semi Final - Game 3 - Women's National Basketball Association - WNBA</title>
-    <category lang="en">Basketball</category>
-  </programme>
-  <programme start="20261012233000 +0000" stop="20261013020000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Minnesota vs New York - Pre- Season NBA - 2026</title>
-    <category lang="en">Basketball - NBA</category>
-  </programme>
-  <programme start="20261013020000 +0000" stop="20261013040000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261013040000 +0000" stop="20261013044500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto GP - Indonesia GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261013044500 +0000" stop="20261013054500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto GP - Indonesia GP - Sprint Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261013054500 +0000" stop="20261013070000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto GP - Indonesia GP - Main Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261013070000 +0000" stop="20261013093000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Minnesota vs New York - Pre- Season NBA - 2026</title>
-    <category lang="en">Basketball - NBA</category>
-  </programme>
-  <programme start="20261013093000 +0000" stop="20261013101500 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto 3  - Indonesia GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261013101500 +0000" stop="20261013113000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Moto 3  - Indonesia GP - Main Race</title>
-    <category lang="en">Moto GP - World Championship</category>
-  </programme>
-  <programme start="20261013113000 +0000" stop="20261013123000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Practice 1 - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261013123000 +0000" stop="20261013133000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Sprint Race Qualifying - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261013133000 +0000" stop="20261013143000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Sprint Race - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261013143000 +0000" stop="20261013153000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Main Race Qualifying - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261013153000 +0000" stop="20261013183000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Main Race - F1 Singapore Grand Prix - 2026</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261013183000 +0000" stop="20261013210000 +0000" channel="beINSPORTS8.dz">
-    <title lang="en">Villarreal  vs Napoli - UEFA Champions League 2026-2027 - MD2</title>
-    <category lang="en">UEFA Champions League</category>
-  </programme>
   <programme start="20261013210000 +0000" stop="20261013220000 +0000" channel="beINSPORTS8.dz">
     <title lang="en">Hockenheim Round - Porsche Cup Germany 2026 - Race 1</title>
     <category lang="en">MotorSports</category>
@@ -2129,7 +2109,7 @@
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261010173000 +0000" stop="20261010223000 +0000" channel="beINSPORTS9.dz">
-    <title lang="en">Premier Padel - Germany P2 2026 - Stupaczuk/Sanz Or Di Nenno/Navarro vs Sanchez Blasco/Gutierrez Or </title>
+    <title lang="en">Premier Padel - Germany P2 2026 - Stupaczuk/Sanz Or Di Nenno/Navarro vs Sanchez Blasco/Gutierrez Or</title>
     <category lang="en">Padel</category>
   </programme>
   <programme start="20261010223000 +0000" stop="20261011004500 +0000" channel="beINSPORTS9.dz">
@@ -2305,11 +2285,11 @@
     <category lang="en">Equestrian</category>
   </programme>
   <programme start="20261013230000 +0000" stop="20261014003000 +0000" channel="beINSPORTS9.dz">
-    <title lang="en">Longines Global Champions Tour - Riesenbeck  Jumping - Global Champion League of Riesenbeck - Round </title>
+    <title lang="en">Longines Global Champions Tour - Riesenbeck  Jumping - Global Champion League of Riesenbeck - Round</title>
     <category lang="en">Equestrian</category>
   </programme>
   <programme start="20261014003000 +0000" stop="20261014013000 +0000" channel="beINSPORTS9.dz">
-    <title lang="en">Longines Global Champions Tour - Riesenbeck  Jumping - Global Champion League of Riesenbeck - Round </title>
+    <title lang="en">Longines Global Champions Tour - Riesenbeck  Jumping - Global Champion League of Riesenbeck - Round</title>
     <category lang="en">Equestrian</category>
   </programme>
   <programme start="20261014013000 +0000" stop="20261014041500 +0000" channel="beINSPORTS9.dz">
@@ -3210,6 +3190,570 @@
   </programme>
   <programme start="20261014203000 +0000" stop="20261014230000 +0000" channel="beINMOVIES4.dz">
     <title lang="en">Hook</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010210000 +0000" stop="20261010222900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010222900 +0000" stop="20261010235900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010235900 +0000" stop="20261011012900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011012900 +0000" stop="20261011025900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011025900 +0000" stop="20261011042900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011042900 +0000" stop="20261011055900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011055900 +0000" stop="20261011072900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011072900 +0000" stop="20261011085900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011085900 +0000" stop="20261011102900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011102900 +0000" stop="20261011115900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011115900 +0000" stop="20261011132900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011132900 +0000" stop="20261011145900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011145900 +0000" stop="20261011162900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011162900 +0000" stop="20261011175900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011175900 +0000" stop="20261011192900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011192900 +0000" stop="20261011210000 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011222900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011222900 +0000" stop="20261011235900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011235900 +0000" stop="20261012012900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012012900 +0000" stop="20261012025900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012025900 +0000" stop="20261012042900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012042900 +0000" stop="20261012055900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012055900 +0000" stop="20261012072900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012072900 +0000" stop="20261012085900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012085900 +0000" stop="20261012102900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012102900 +0000" stop="20261012115900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012115900 +0000" stop="20261012132900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012132900 +0000" stop="20261012145900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012145900 +0000" stop="20261012162900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012162900 +0000" stop="20261012175900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012175900 +0000" stop="20261012192900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012192900 +0000" stop="20261012210000 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012210000 +0000" stop="20261012222900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012222900 +0000" stop="20261012235900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012235900 +0000" stop="20261013012900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013012900 +0000" stop="20261013025900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013025900 +0000" stop="20261013042900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013042900 +0000" stop="20261013055900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013055900 +0000" stop="20261013072900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013072900 +0000" stop="20261013085900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013085900 +0000" stop="20261013102900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013102900 +0000" stop="20261013115900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013115900 +0000" stop="20261013132900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013132900 +0000" stop="20261013145900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013145900 +0000" stop="20261013162900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013162900 +0000" stop="20261013175900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013175900 +0000" stop="20261013192900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013192900 +0000" stop="20261013210000 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013210000 +0000" stop="20261013222900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013222900 +0000" stop="20261013235900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013235900 +0000" stop="20261014012900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014012900 +0000" stop="20261014025900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014025900 +0000" stop="20261014042900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014042900 +0000" stop="20261014055900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014055900 +0000" stop="20261014072900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014072900 +0000" stop="20261014085900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014085900 +0000" stop="20261014102900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014102900 +0000" stop="20261014115900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014115900 +0000" stop="20261014132900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014132900 +0000" stop="20261014145900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014145900 +0000" stop="20261014162900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014162900 +0000" stop="20261014175900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014175900 +0000" stop="20261014192900 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014192900 +0000" stop="20261014210000 +0000" channel="logo_boxoffice1digitalmono.dz">
+    <title lang="en">The Pout-Pout Fish</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010210000 +0000" stop="20261010230000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010230000 +0000" stop="20261011010000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011010000 +0000" stop="20261011030000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011030000 +0000" stop="20261011050000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011050000 +0000" stop="20261011070000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011070000 +0000" stop="20261011090000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011090000 +0000" stop="20261011110000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011110000 +0000" stop="20261011130000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011130000 +0000" stop="20261011150000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011150000 +0000" stop="20261011170000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011170000 +0000" stop="20261011185900 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011185900 +0000" stop="20261011210000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011210000 +0000" stop="20261011230000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011230000 +0000" stop="20261012010000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012030000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012030000 +0000" stop="20261012050000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012050000 +0000" stop="20261012070000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012090000 +0000" stop="20261012110000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012110000 +0000" stop="20261012130000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012130000 +0000" stop="20261012150000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012150000 +0000" stop="20261012170000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012170000 +0000" stop="20261012190000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012190000 +0000" stop="20261012210000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012210000 +0000" stop="20261012230000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261012230000 +0000" stop="20261013010000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013030000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013030000 +0000" stop="20261013050000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013070000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013070000 +0000" stop="20261013090000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013090000 +0000" stop="20261013110000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013110000 +0000" stop="20261013130000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013130000 +0000" stop="20261013150000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013150000 +0000" stop="20261013170000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013170000 +0000" stop="20261013190000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013190000 +0000" stop="20261013210000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013210000 +0000" stop="20261013230000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261013230000 +0000" stop="20261014010000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014010000 +0000" stop="20261014030000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014030000 +0000" stop="20261014050000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014050000 +0000" stop="20261014070000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014070000 +0000" stop="20261014090000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014090000 +0000" stop="20261014110000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014110000 +0000" stop="20261014130000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014130000 +0000" stop="20261014150000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014150000 +0000" stop="20261014170000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014170000 +0000" stop="20261014190000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261014190000 +0000" stop="20261014210000 +0000" channel="logo_boxoffice2digitalmonopng.dz">
+    <title lang="en">Evil Dead Burn</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010205000 +0000" stop="20261010213500 +0000" channel="StarAction.dz">
+    <title lang="en">The Walking Dead (S9)</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261010213500 +0000" stop="20261010235000 +0000" channel="StarAction.dz">
+    <title lang="en">Divergent</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010235000 +0000" stop="20261011012000 +0000" channel="StarAction.dz">
+    <title lang="en">The Devil Below</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011012000 +0000" stop="20261011032000 +0000" channel="StarAction.dz">
+    <title lang="en">SAS: Red Notice</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011032000 +0000" stop="20261011045000 +0000" channel="StarAction.dz">
+    <title lang="en">The Colony</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011045000 +0000" stop="20261011064500 +0000" channel="StarAction.dz">
+    <title lang="en">3:10 to Yuma</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011064500 +0000" stop="20261011083500 +0000" channel="StarAction.dz">
+    <title lang="en">The Vault</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011083500 +0000" stop="20261011100500 +0000" channel="StarAction.dz">
+    <title lang="en">The Reef: Stalked</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011100500 +0000" stop="20261011115000 +0000" channel="StarAction.dz">
+    <title lang="en">Blacklight</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011115000 +0000" stop="20261011134000 +0000" channel="StarAction.dz">
+    <title lang="en">The Hitman's Bodyguard</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011134000 +0000" stop="20261011142000 +0000" channel="StarAction.dz">
+    <title lang="en">9-1-1</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261011142000 +0000" stop="20261011150000 +0000" channel="StarAction.dz">
+    <title lang="en">9-1-1</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261011150000 +0000" stop="20261011154000 +0000" channel="StarAction.dz">
+    <title lang="en">9-1-1</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261011154000 +0000" stop="20261011180000 +0000" channel="StarAction.dz">
+    <title lang="en">Kingdom of the Planet of the Apes</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011180000 +0000" stop="20261011200000 +0000" channel="StarAction.dz">
+    <title lang="en">Ted Bundy American Boogeyman</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011200000 +0000" stop="20261011204000 +0000" channel="StarAction.dz">
+    <title lang="en">The Walking Dead (S9)</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261011204000 +0000" stop="20261011205959 +0000" channel="StarAction.dz">
+    <title lang="en">The Walking Dead (S9)</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261010184500 +0000" stop="20261010211500 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">West Side Story</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010211500 +0000" stop="20261010233500 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">The Help</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261010233500 +0000" stop="20261011012000 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">On the Line</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011012000 +0000" stop="20261011034000 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Cinderella Man</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011034000 +0000" stop="20261011053500 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Becoming Jane</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011053500 +0000" stop="20261011072500 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">The Banshees of Inisherin</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011072500 +0000" stop="20261011095000 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Nightmare Alley</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011095000 +0000" stop="20261011122000 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Prisoners</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011122000 +0000" stop="20261011150500 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">The Aviator</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011150500 +0000" stop="20261011170000 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Swiped</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011170000 +0000" stop="20261011185000 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Boston Strangler</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261011185000 +0000" stop="20261011205959 +0000" channel="logo_starmovies2024200x2001.dz">
+    <title lang="en">Stillwater</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261010210000 +0000" stop="20261010220000 +0000" channel="beINSERIES1.dz">
