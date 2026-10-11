@@ -4,11 +4,16 @@ import csv
 import re
 import sys
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
-from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import (
+    sync_playwright,
+    Error as PlaywrightError,
+    TimeoutError as PlaywrightTimeoutError,
+)
 
 
 URL = "https://www.bein.com/en/tv-guide/?c=dz"
@@ -16,6 +21,7 @@ URL = "https://www.bein.com/en/tv-guide/?c=dz"
 CONFIG_FILE = Path("channels_config.csv")
 EPG_FILE = Path("epg.xml")
 CHANNELS_FILE = Path("channels.csv")
+MANUAL_DIR = Path("manual")  # pasted HTML of channels the site does not render
 
 DEFAULT_ID_SUFFIX = ".dz"
 PAGE_TIMEOUT = 60000
@@ -163,38 +169,66 @@ def collect_visible_rows(page, channels):
     return add_rows(page.evaluate(EXTRACT_JS), channels)
 
 
+# Work by row index inside the page itself: the site re-renders rows while
+# scrolling, so a Playwright element handle can become detached.
+ROW_COUNT_JS = "() => document.querySelectorAll('.channel-row').length"
+
+SCROLL_ROW_JS = """
+i => {
+    const row = document.querySelectorAll('.channel-row')[i];
+    if (!row) return false;
+    row.scrollIntoView({block: 'center'});
+    return true;
+}
+"""
+
+ROW_READY_JS = """
+i => {
+    const row = document.querySelectorAll('.channel-row')[i];
+    return !row || !!row.querySelector('.prog-block');
+}
+"""
+
+READ_ROW_JS = (
+    "i => { const row = document.querySelectorAll('.channel-row')[i]; "
+    "return row ? (" + ROW_JS + ")(row) : null; }"
+)
+
+
 def collect_all_rows(page, channels):
     """
     Scroll every channel row into view, wait for its programme blocks,
-    then read it. Returns (row_count, empty_row_count).
+    then read it. A failure on one row never stops the whole run.
+    Returns (row_count, empty_row_count).
     """
-    row_locator = page.locator(".channel-row")
-    total = row_locator.count()
+    total = page.evaluate(ROW_COUNT_JS)
     empty = 0
 
     for i in range(total):
-        # The DOM can change while scrolling; stop if the row is gone.
-        if i >= row_locator.count():
-            break
-
-        row = row_locator.nth(i)
-
         try:
-            row.scroll_into_view_if_needed(timeout=5000)
-            row.locator(".prog-block").first.wait_for(
-                state="attached", timeout=ROW_WAIT_MS
-            )
-        except PlaywrightTimeoutError:
-            pass
+            if not page.evaluate(SCROLL_ROW_JS, i):
+                continue
 
-        try:
-            data = row.evaluate(ROW_JS)
-        except PlaywrightTimeoutError:
-            continue
+            try:
+                page.wait_for_function(
+                    ROW_READY_JS, arg=i, timeout=ROW_WAIT_MS
+                )
+            except PlaywrightTimeoutError:
+                pass
 
-        _, added = add_rows([data], channels)
+            data = page.evaluate(READ_ROW_JS, i)
 
-        if added == 0:
+            if not data:
+                continue
+
+            _, added = add_rows([data], channels)
+
+            if added == 0:
+                empty += 1
+
+        except PlaywrightError as exc:
+            # Row replaced or page re-rendered mid-read: skip this row.
+            print(f"  row {i}: skipped ({str(exc).splitlines()[0]})")
             empty += 1
 
     return total, empty
@@ -258,6 +292,85 @@ def wait_for_guide(page):
         pass
 
     page.wait_for_timeout(UPDATE_WAIT_MS)
+
+
+class _ProgParser(HTMLParser):
+    """Collect every <... class="prog-block" data-*> element from pasted HTML."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.programs = []
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+
+        if "prog-block" not in (a.get("class") or "").split():
+            return
+
+        self.programs.append({
+            "title": (a.get("data-full-title") or "").strip(),
+            "category": (a.get("data-full-category") or "").strip(),
+            "start": (a.get("data-start-ms") or "").strip(),
+            "end": (a.get("data-end-ms") or "").strip(),
+        })
+
+
+def default_channel_name(slug):
+    """Readable name for a manual channel that was not scraped."""
+    for known_slug, known_name in KNOWN_LOGOS.values():
+        if known_slug == slug:
+            return known_name
+
+    return slug
+
+
+def load_manual(channels):
+    """
+    Read manual/<slug>.html (or <slug>__anything.html) files.
+
+    Each file holds the pasted outerHTML of a channel's row-timeline
+    (or the whole channel-row). <slug> must match the slug column in
+    channels.csv. Times come from data-start-ms / data-end-ms, which are
+    absolute timestamps, so no date has to be edited.
+    Manual programmes override scraped ones with the same start time.
+    """
+    if not MANUAL_DIR.is_dir():
+        return 0
+
+    total = 0
+
+    for path in sorted(MANUAL_DIR.glob("*.htm*")):
+        slug = path.stem.split("__")[0].strip()
+
+        if not slug:
+            continue
+
+        parser = _ProgParser()
+        parser.feed(path.read_text(encoding="utf-8-sig", errors="replace"))
+        programs = [p for p in parser.programs if valid_program(p)]
+
+        if not programs:
+            print(f"Manual: {path.name}: no valid programmes found")
+            continue
+
+        ch = channels.setdefault(
+            slug,
+            {"name": default_channel_name(slug), "logo": "", "programs": {}},
+        )
+
+        for prog in programs:
+            start_key = str(int(prog["start"]))
+            ch["programs"][start_key] = {
+                "title": prog["title"],
+                "category": prog["category"],
+                "start": start_key,
+                "end": str(int(prog["end"])),
+            }
+
+        total += len(programs)
+        print(f"Manual: {path.name}: {len(programs)} programmes -> {slug}")
+
+    return total
 
 
 def scrape():
@@ -418,6 +531,7 @@ def build_outputs(channels, config):
 def main():
     try:
         channels = scrape()
+        load_manual(channels)
         total = sum(
             len(ch["programs"]) for ch in channels.values()
         )
