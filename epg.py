@@ -1,4 +1,3 @@
-
 """Scrape the official beIN TV Guide and generate epg.xml + channels.csv."""
 
 import csv
@@ -21,6 +20,7 @@ CHANNELS_FILE = Path("channels.csv")
 DEFAULT_ID_SUFFIX = ".dz"
 PAGE_TIMEOUT = 60000
 UPDATE_WAIT_MS = 1200
+ROW_WAIT_MS = 1500  # max wait for one row to render its programme blocks
 
 
 # Known channels that may have no <a href>.
@@ -39,9 +39,11 @@ KNOWN_LOGOS = {
 }
 
 
-# Extract every row currently displayed by the guide.
-EXTRACT_JS = r"""
-() => [...document.querySelectorAll('.channel-row')].map(row => {
+# Extract one channel row. The guide renders programme blocks lazily
+# (rows far from the viewport are empty), so rows are read one by one
+# after being scrolled into view.
+ROW_JS = r"""
+row => {
     const a = row.querySelector('.channel-col a[href]');
     const img = row.querySelector('.channel-col img');
 
@@ -56,8 +58,15 @@ EXTRACT_JS = r"""
             end: b.dataset.endMs || ''
         }))
     };
-})
+}
 """
+
+# Same extraction for every row currently in the DOM.
+EXTRACT_JS = (
+    "() => [...document.querySelectorAll('.channel-row')].map("
+    + ROW_JS
+    + ")"
+)
 
 
 def normalize(value):
@@ -150,8 +159,49 @@ def valid_program(program):
 
 
 def collect_visible_rows(page, channels):
-    """Collect programmes from all channel rows currently on the page."""
-    rows = page.evaluate(EXTRACT_JS)
+    """Collect programmes from all channel rows currently in the DOM."""
+    return add_rows(page.evaluate(EXTRACT_JS), channels)
+
+
+def collect_all_rows(page, channels):
+    """
+    Scroll every channel row into view, wait for its programme blocks,
+    then read it. Returns (row_count, empty_row_count).
+    """
+    row_locator = page.locator(".channel-row")
+    total = row_locator.count()
+    empty = 0
+
+    for i in range(total):
+        # The DOM can change while scrolling; stop if the row is gone.
+        if i >= row_locator.count():
+            break
+
+        row = row_locator.nth(i)
+
+        try:
+            row.scroll_into_view_if_needed(timeout=5000)
+            row.locator(".prog-block").first.wait_for(
+                state="attached", timeout=ROW_WAIT_MS
+            )
+        except PlaywrightTimeoutError:
+            pass
+
+        try:
+            data = row.evaluate(ROW_JS)
+        except PlaywrightTimeoutError:
+            continue
+
+        _, added = add_rows([data], channels)
+
+        if added == 0:
+            empty += 1
+
+    return total, empty
+
+
+def add_rows(rows, channels):
+    """Merge extracted rows into the channels dict."""
     added_programmes = 0
 
     for row in rows:
@@ -242,7 +292,7 @@ def scrape():
 
                 # If there are no day selectors, still collect the current view.
                 if day_count == 0:
-                    collect_visible_rows(page, channels)
+                    collect_all_rows(page, channels)
                     continue
 
                 for day_index in range(day_count):
@@ -254,12 +304,12 @@ def scrape():
                     days.nth(day_index).click()
                     wait_for_guide(page)
 
-                    row_count, _ = collect_visible_rows(page, channels)
+                    row_count, empty_rows = collect_all_rows(page, channels)
 
                     print(
                         f"Category {category_index + 1}/{category_count}, "
                         f"day {day_index + 1}/{day_count}: "
-                        f"{row_count} visible rows, "
+                        f"{row_count} rows ({empty_rows} without programmes), "
                         f"{len(channels)} unique channels"
                     )
 
