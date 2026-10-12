@@ -2,7 +2,7 @@
 
 # 📺 beIN Sports & Entertainment EPG 
 
-**أداة آلية ذكية لاستخراج دليل البرامج (EPG) لشبكة قنوات beIN وتحويله إلى صيغة XMLTV جاهزة للاستخدام الفوري!**
+**أداة آلية ذكية لاستخراج دليل البرامج (EPG) لشبكة قنوات beIN وتحويله إلى صيغة XMLTV جاهزة للاستخدام **
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-Automated-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
@@ -10,8 +10,8 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
 # TVG ID FOR chanel
-https://raw.githubusercontent.com/DzGreenServices/DzGreen-BeINEPG/refs/heads/main/channels.csv
-use on your M3U list change Tgv iD
+https://github.com/DzGreenServices/DzGreen-BeINEPG/blob/main/channels.csv
+change Tgv iD on your M3U list 
 
 
 # XML file 
@@ -20,3 +20,4 @@ use it on EPG Url on your Player
 
 
 # Enjoy @Zaoui Oussama 
+
