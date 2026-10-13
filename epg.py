@@ -15,22 +15,18 @@ from playwright.sync_api import (
     TimeoutError as PlaywrightTimeoutError,
 )
 
-
 URL = "https://www.bein.com/en/tv-guide/?c=dz"
 
 CONFIG_FILE = Path("channels_config.csv")
 EPG_FILE = Path("epg.xml")
 CHANNELS_FILE = Path("channels.csv")
-MANUAL_DIR = Path("manual")  # pasted HTML of channels the site does not render
+MANUAL_DIR = Path("manual")
 
 DEFAULT_ID_SUFFIX = ".dz"
 PAGE_TIMEOUT = 60000
 UPDATE_WAIT_MS = 1200
-ROW_WAIT_MS = 1500  # max wait for one row to render its programme blocks
+ROW_WAIT_MS = 2500
 
-
-# Known channels that may have no <a href>.
-# The matching is based on the logo filename, not channel-index.
 KNOWN_LOGOS = {
     "4kdigitalmono": ("beINSPORTS4K", "beIN SPORTS 4K"),
     "2023alkass1": ("Alkass1", "Alkass 1"),
@@ -44,44 +40,168 @@ KNOWN_LOGOS = {
     "staraction2024200x2001": ("StarAction", "Star Action"),
 }
 
-
-# Extract one channel row. The guide renders programme blocks lazily
-# (rows far from the viewport are empty), so rows are read one by one
-# after being scrolled into view.
+# Extract programmes from the standard markup and common alternatives.
 ROW_JS = r"""
 row => {
-    const a = row.querySelector('.channel-col a[href]');
-    const img = row.querySelector('.channel-col img');
+    const first = (...values) =>
+        values.find(v => v !== undefined && v !== null &&
+            String(v).trim() !== '') || '';
+
+    const a = row.querySelector(
+        '.channel-col a[href], a[href*="beinconnect.app"], a[href]'
+    );
+    const img = row.querySelector(
+        '.channel-col img, img[src], img[data-src]'
+    );
+
+    const logo = img
+        ? first(img.currentSrc, img.src,
+                img.getAttribute('data-src'),
+                img.getAttribute('src'))
+        : '';
+
+    const candidates = [...row.querySelectorAll(
+        '.prog-block, .program-block, .programme-block, ' +
+        '.program-item, .programme-item, [data-full-title], ' +
+        '[data-title][data-start-ms], [data-start-ms][data-end-ms], ' +
+        '[data-start][data-end]'
+    )];
+
+    const seen = new Set();
+    const programs = [];
+
+    for (const b of candidates) {
+        const d = b.dataset || {};
+
+        const title = first(
+            d.fullTitle, d.programTitle, d.title,
+            b.getAttribute('title'),
+            b.getAttribute('aria-label')
+        );
+
+        const start = first(
+            d.startMs, d.start, d.startTime, d.programStart,
+            b.getAttribute('data-start-ms'),
+            b.getAttribute('data-start')
+        );
+
+        const end = first(
+            d.endMs, d.end, d.endTime, d.programEnd,
+            b.getAttribute('data-end-ms'),
+            b.getAttribute('data-end')
+        );
+
+        if (!title || !start || !end) continue;
+
+        const key = `${title}|${start}|${end}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+
+        programs.push({
+            title: String(title).trim(),
+            category: String(first(
+                d.fullCategory, d.category, d.programCategory
+            )).trim(),
+            start: String(start).trim(),
+            end: String(end).trim()
+        });
+    }
 
     return {
         index: row.getAttribute('data-channel-index') || '',
         href: a ? a.href : '',
-        logo: img ? (img.currentSrc || img.src || '') : '',
-        programs: [...row.querySelectorAll('.prog-block')].map(b => ({
-            title: (b.dataset.fullTitle || '').trim(),
-            category: (b.dataset.fullCategory || '').trim(),
-            start: b.dataset.startMs || '',
-            end: b.dataset.endMs || ''
-        }))
+        logo: String(logo || ''),
+        channelName: first(
+            img && img.getAttribute('alt'),
+            img && img.getAttribute('title'),
+            a && a.textContent,
+            row.getAttribute('data-channel-name')
+        ),
+        programs
     };
 }
 """
 
-# Same extraction for every row currently in the DOM.
-EXTRACT_JS = (
-    "() => [...document.querySelectorAll('.channel-row')].map("
-    + ROW_JS
-    + ")"
-)
+# First read the site's usual rows. Then discover other row wrappers by
+# walking up from programme elements to a container containing its channel logo.
+EXTRACT_JS = r"""
+() => {
+    const rows = new Set(
+        document.querySelectorAll('.channel-row, [data-channel-index]')
+    );
+
+    const selector =
+        '.prog-block, .program-block, .programme-block, ' +
+        '.program-item, .programme-item, [data-full-title], ' +
+        '[data-title][data-start-ms], [data-start-ms][data-end-ms], ' +
+        '[data-start][data-end]';
+
+    for (const p of document.querySelectorAll(selector)) {
+        let n = p;
+
+        for (let depth = 0; n && depth < 9; depth++, n = n.parentElement) {
+            if (n.matches &&
+                n.matches('.channel-row, [data-channel-index]')) {
+                rows.add(n);
+                break;
+            }
+
+            if (n.querySelector &&
+                n.querySelector('img[src], img[data-src]')) {
+                const logos =
+                    n.querySelectorAll('img[src], img[data-src]').length;
+
+                if (logos === 1) {
+                    rows.add(n);
+                    break;
+                }
+            }
+        }
+    }
+
+    return [...rows]
+        .map(row => (ROW_EXTRACT)(row))
+        .filter(x => x && (x.logo || x.href || x.programs.length));
+}
+""".replace("ROW_EXTRACT", "(" + ROW_JS + ")")
+
+# Used to verify that programme data has actually refreshed after date selection.
+DATE_STATE_JS = r"""
+() => {
+    const active = document.querySelector('.day-cell.active[data-date]');
+    const selector =
+        '.prog-block, .program-block, .programme-block, ' +
+        '.program-item, .programme-item, [data-full-title][data-start-ms], ' +
+        '[data-title][data-start-ms]';
+
+    const programs = [...document.querySelectorAll(selector)];
+
+    const signature = programs.slice(0, 12).map(p => {
+        const d = p.dataset || {};
+        return [
+            d.startMs || d.start || '',
+            d.fullTitle || d.title || '',
+            d.endMs || d.end || ''
+        ].join('|');
+    }).join('~');
+
+    return {
+        date: active
+            ? (active.getAttribute('data-date') ||
+               active.textContent.trim())
+            : '',
+        signature,
+        count: programs.length
+    };
+}
+"""
 
 
 def normalize(value):
-    """Normalize text for reliable logo matching."""
     return re.sub(r"[^a-z0-9]", "", (value or "").lower())
 
 
 def load_config():
-    """Read optional overrides: slug,tvg_id,name."""
     config = {}
 
     if not CONFIG_FILE.exists():
@@ -101,12 +221,6 @@ def load_config():
 
 
 def identify_channel(row):
-    """
-    Use the channel URL when available.
-    If there is no URL, identify the channel from its logo filename.
-    Never use channel-index as a unique channel ID because indexes can
-    repeat between categories.
-    """
     href = (row.get("href") or "").strip()
     logo = (row.get("logo") or "").strip()
 
@@ -117,125 +231,114 @@ def identify_channel(row):
         if slug:
             return slug, slug
 
-    if not logo:
-        return None, None
+    if logo:
+        filename = Path(urlparse(logo).path).stem
+        key = normalize(filename)
 
-    filename = Path(urlparse(logo).path).stem
-    key = normalize(filename)
+        if key in KNOWN_LOGOS:
+            return KNOWN_LOGOS[key]
 
-    # Exact known logo matches.
-    if key in KNOWN_LOGOS:
-        return KNOWN_LOGOS[key]
+        match = re.search(r"alkass[_-]?([1-8])", filename, re.I)
+        if match:
+            number = match.group(1)
+            return f"Alkass{number}", f"Alkass {number}"
 
-    # Handle Alkass logos with minor filename variations.
-    match = re.search(r"alkass[_-]?([1-8])", filename, re.IGNORECASE)
-    if match:
-        number = match.group(1)
-        return f"Alkass{number}", f"Alkass {number}"
+        if "4k" in key and "digital" in key:
+            return "beINSPORTS4K", "beIN SPORTS 4K"
 
-    # Handle common 4K logo filename variations.
-    if "4k" in key and "digital" in key:
-        return "beINSPORTS4K", "beIN SPORTS 4K"
+        slug = "logo_" + key if key else ""
+        if slug:
+            readable = re.sub(r"[_-]+", " ", filename).strip()
+            return slug, readable or slug
 
-    # Stable fallback for other channels without links.
-    # The filename is stable across different category indexes.
-    slug = "logo_" + key if key else ""
-    if not slug:
-        return None, None
+    name = (row.get("channelName") or "").strip()
+    if name:
+        slug = re.sub(r"[^A-Za-z0-9]+", "", name) or "unknown_channel"
+        return slug, name
 
-    readable_name = re.sub(r"[_-]+", " ", filename).strip()
-    readable_name = readable_name or slug
+    return None, None
 
-    return slug, readable_name
+
+def timestamp_ms(value):
+    """Accept Unix seconds, milliseconds, or ISO-8601 date strings."""
+    value = str(value or "").strip()
+
+    if not value:
+        raise ValueError("empty timestamp")
+
+    if re.fullmatch(r"\d+(?:\.\d+)?", value):
+        number = float(value)
+
+        if number < 100_000_000_000:
+            number *= 1000
+
+        return int(number)
+
+    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+
+    return int(parsed.timestamp() * 1000)
 
 
 def valid_program(program):
-    """Reject incomplete or invalid programme records."""
     try:
-        start = int(program.get("start", ""))
-        end = int(program.get("end", ""))
+        start = timestamp_ms(program.get("start", ""))
+        end = timestamp_ms(program.get("end", ""))
 
         return (
-            bool(program.get("title", "").strip())
+            bool((program.get("title") or "").strip())
             and start > 0
             and end > start
         )
-    except (TypeError, ValueError):
+
+    except (TypeError, ValueError, OverflowError):
         return False
 
 
-def collect_visible_rows(page, channels):
-    """Collect programmes from all channel rows currently in the DOM."""
-    return add_rows(page.evaluate(EXTRACT_JS), channels)
+ROW_COUNT_JS = (
+    "() => document.querySelectorAll("
+    "'.channel-row, [data-channel-index]').length"
+)
 
-
-# Work by row index inside the page itself: the site re-renders rows while
-# scrolling, so a Playwright element handle can become detached.
-ROW_COUNT_JS = "() => document.querySelectorAll('.channel-row').length"
-
-SCROLL_ROW_JS = """
+SCROLL_ROW_JS = r"""
 i => {
-    const row = document.querySelectorAll('.channel-row')[i];
+    const rows = [
+        ...document.querySelectorAll('.channel-row, [data-channel-index]')
+    ];
+    const row = rows[i];
+
     if (!row) return false;
+
     row.scrollIntoView({block: 'center'});
     return true;
 }
 """
 
-ROW_READY_JS = """
+ROW_READY_JS = r"""
 i => {
-    const row = document.querySelectorAll('.channel-row')[i];
-    return !row || !!row.querySelector('.prog-block');
+    const rows = [
+        ...document.querySelectorAll('.channel-row, [data-channel-index]')
+    ];
+    const row = rows[i];
+
+    return !row || !!row.querySelector(
+        '.prog-block, .program-block, .programme-block, ' +
+        '.program-item, .programme-item, [data-full-title], ' +
+        '[data-title][data-start-ms], [data-start-ms][data-end-ms]'
+    );
 }
 """
 
 READ_ROW_JS = (
-    "i => { const row = document.querySelectorAll('.channel-row')[i]; "
-    "return row ? (" + ROW_JS + ")(row) : null; }"
+    "i => { const rows = [...document.querySelectorAll("
+    "'.channel-row, [data-channel-index]')]; "
+    "const row = rows[i]; return row ? (" + ROW_JS + ")(row) : null; }"
 )
 
 
-def collect_all_rows(page, channels):
-    """
-    Scroll every channel row into view, wait for its programme blocks,
-    then read it. A failure on one row never stops the whole run.
-    Returns (row_count, empty_row_count).
-    """
-    total = page.evaluate(ROW_COUNT_JS)
-    empty = 0
-
-    for i in range(total):
-        try:
-            if not page.evaluate(SCROLL_ROW_JS, i):
-                continue
-
-            try:
-                page.wait_for_function(
-                    ROW_READY_JS, arg=i, timeout=ROW_WAIT_MS
-                )
-            except PlaywrightTimeoutError:
-                pass
-
-            data = page.evaluate(READ_ROW_JS, i)
-
-            if not data:
-                continue
-
-            _, added = add_rows([data], channels)
-
-            if added == 0:
-                empty += 1
-
-        except PlaywrightError as exc:
-            # Row replaced or page re-rendered mid-read: skip this row.
-            print(f"  row {i}: skipped ({str(exc).splitlines()[0]})")
-            empty += 1
-
-    return total, empty
-
-
 def add_rows(rows, channels):
-    """Merge extracted rows into the channels dict."""
     added_programmes = 0
 
     for row in rows:
@@ -253,7 +356,6 @@ def add_rows(rows, channels):
             },
         )
 
-        # Fill missing metadata without overwriting existing good values.
         if not ch["logo"] and row.get("logo"):
             ch["logo"] = row["logo"]
 
@@ -264,38 +366,140 @@ def add_rows(rows, channels):
             if not valid_program(prog):
                 continue
 
-            # Overlapping guide days can repeat the same programme.
-            # Keep one entry per start timestamp for each channel.
-            start_key = str(int(prog["start"]))
+            start_key = str(timestamp_ms(prog["start"]))
 
             ch["programs"][start_key] = {
                 "title": prog["title"].strip(),
-                "category": prog.get("category", "").strip(),
+                "category": (prog.get("category") or "").strip(),
                 "start": start_key,
-                "end": str(int(prog["end"])),
+                "end": str(timestamp_ms(prog["end"])),
             }
+
             added_programmes += 1
 
     return len(rows), added_programmes
 
 
+def collect_all_rows(page, channels):
+    """Scroll each standard row, then scan automatically for alternate wrappers."""
+    total = page.evaluate(ROW_COUNT_JS)
+    empty = 0
+
+    for i in range(total):
+        try:
+            if not page.evaluate(SCROLL_ROW_JS, i):
+                continue
+
+            try:
+                page.wait_for_function(
+                    ROW_READY_JS,
+                    arg=i,
+                    timeout=ROW_WAIT_MS,
+                )
+            except PlaywrightTimeoutError:
+                pass
+
+            data = page.evaluate(READ_ROW_JS, i)
+
+            if not data:
+                continue
+
+            _, added = add_rows([data], channels)
+
+            if added == 0:
+                empty += 1
+
+        except PlaywrightError as exc:
+            print(f"  row {i}: skipped ({str(exc).splitlines()[0]})")
+            empty += 1
+
+    try:
+        page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        page.wait_for_timeout(500)
+        add_rows(page.evaluate(EXTRACT_JS), channels)
+
+    except PlaywrightError as exc:
+        print(f"  automatic row scan: skipped ({str(exc).splitlines()[0]})")
+
+    return total, empty
+
+
 def wait_for_guide(page):
-    """Wait until programme blocks are present after a category/day change."""
+    """Wait for the guide container after changing category."""
     try:
         page.wait_for_selector(
-            ".channel-row .prog-block",
+            ".channel-row, [data-channel-index]",
             state="attached",
             timeout=20000,
         )
     except PlaywrightTimeoutError:
-        # Some dates may have no available programmes.
         pass
 
     page.wait_for_timeout(UPDATE_WAIT_MS)
 
 
+def select_day_and_wait(page, day):
+    """Wait for the selected date's programme data to refresh."""
+    date_value = (day.get_attribute("data-date") or "").strip()
+    before = page.evaluate(DATE_STATE_JS)
+
+    if date_value:
+        target = page.locator(
+            f'.day-cell[data-date="{date_value}"]'
+        ).first
+    else:
+        target = day
+
+    try:
+        target.click()
+    except PlaywrightError:
+        if date_value:
+            page.locator(
+                f'.day-cell[data-date="{date_value}"]'
+            ).first.click()
+        else:
+            raise
+
+    if date_value:
+        page.wait_for_function(
+            """date => {
+                const active = document.querySelector('.day-cell.active');
+                return !!active &&
+                    (active.getAttribute('data-date') || '') === date;
+            }""",
+            arg=date_value,
+            timeout=10000,
+        )
+
+    # Wait until programme timestamps change, not merely until an old
+    # .prog-block remains in the DOM.
+    if not date_value or date_value != before["date"]:
+        try:
+            page.wait_for_function(
+                "before => { const s = (" + DATE_STATE_JS +
+                ")(); return s.count > 0 && s.signature !== before.signature; }",
+                arg=before,
+                timeout=12000,
+            )
+        except PlaywrightTimeoutError:
+            print(
+                f"  Warning: programme data did not visibly refresh "
+                f"for {date_value or 'selected date'}."
+            )
+
+    page.wait_for_timeout(UPDATE_WAIT_MS)
+
+
 class _ProgParser(HTMLParser):
-    """Collect every <... class="prog-block" data-*> element from pasted HTML."""
+    """Read programmes from saved channel HTML with varied class/attribute names."""
+
+    PROGRAM_CLASSES = {
+        "prog-block",
+        "program-block",
+        "programme-block",
+        "program-item",
+        "programme-item",
+    }
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -303,20 +507,59 @@ class _ProgParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        classes = set((a.get("class") or "").split())
 
-        if "prog-block" not in (a.get("class") or "").split():
+        has_times = (
+            any(k in a for k in (
+                "data-start-ms", "data-start", "data-start-time"
+            ))
+            and any(k in a for k in (
+                "data-end-ms", "data-end", "data-end-time"
+            ))
+        )
+
+        if not (classes & self.PROGRAM_CLASSES or has_times):
+            return
+
+        title = (
+            a.get("data-full-title")
+            or a.get("data-program-title")
+            or a.get("data-title")
+            or a.get("title")
+            or a.get("aria-label")
+            or ""
+        ).strip()
+
+        start = (
+            a.get("data-start-ms")
+            or a.get("data-start")
+            or a.get("data-start-time")
+            or ""
+        ).strip()
+
+        end = (
+            a.get("data-end-ms")
+            or a.get("data-end")
+            or a.get("data-end-time")
+            or ""
+        ).strip()
+
+        if not title or not start or not end:
             return
 
         self.programs.append({
-            "title": (a.get("data-full-title") or "").strip(),
-            "category": (a.get("data-full-category") or "").strip(),
-            "start": (a.get("data-start-ms") or "").strip(),
-            "end": (a.get("data-end-ms") or "").strip(),
+            "title": title,
+            "category": (
+                a.get("data-full-category")
+                or a.get("data-category")
+                or ""
+            ).strip(),
+            "start": start,
+            "end": end,
         })
 
 
 def default_channel_name(slug):
-    """Readable name for a manual channel that was not scraped."""
     for known_slug, known_name in KNOWN_LOGOS.values():
         if known_slug == slug:
             return known_name
@@ -325,15 +568,7 @@ def default_channel_name(slug):
 
 
 def load_manual(channels):
-    """
-    Read manual/<slug>.html (or <slug>__anything.html) files.
-
-    Each file holds the pasted outerHTML of a channel's row-timeline
-    (or the whole channel-row). <slug> must match the slug column in
-    channels.csv. Times come from data-start-ms / data-end-ms, which are
-    absolute timestamps, so no date has to be edited.
-    Manual programmes override scraped ones with the same start time.
-    """
+    """Read optional HTML snippets stored in manual/<channel-slug>.html."""
     if not MANUAL_DIR.is_dir():
         return 0
 
@@ -346,8 +581,13 @@ def load_manual(channels):
             continue
 
         parser = _ProgParser()
-        parser.feed(path.read_text(encoding="utf-8-sig", errors="replace"))
-        programs = [p for p in parser.programs if valid_program(p)]
+        parser.feed(
+            path.read_text(encoding="utf-8-sig", errors="replace")
+        )
+
+        programs = [
+            prog for prog in parser.programs if valid_program(prog)
+        ]
 
         if not programs:
             print(f"Manual: {path.name}: no valid programmes found")
@@ -355,26 +595,33 @@ def load_manual(channels):
 
         ch = channels.setdefault(
             slug,
-            {"name": default_channel_name(slug), "logo": "", "programs": {}},
+            {
+                "name": default_channel_name(slug),
+                "logo": "",
+                "programs": {},
+            },
         )
 
         for prog in programs:
-            start_key = str(int(prog["start"]))
+            start_key = str(timestamp_ms(prog["start"]))
+
             ch["programs"][start_key] = {
                 "title": prog["title"],
                 "category": prog["category"],
                 "start": start_key,
-                "end": str(int(prog["end"])),
+                "end": str(timestamp_ms(prog["end"])),
             }
 
         total += len(programs)
-        print(f"Manual: {path.name}: {len(programs)} programmes -> {slug}")
+        print(
+            f"Manual: {path.name}: {len(programs)} programmes -> {slug}"
+        )
 
     return total
 
 
 def scrape():
-    """Visit each category and each displayed day, collecting all channels."""
+    """Visit every category and date; wait for the page to update on each date."""
     channels = {}
 
     with sync_playwright() as p:
@@ -384,9 +631,8 @@ def scrape():
             page = browser.new_page()
             page.set_default_timeout(PAGE_TIMEOUT)
             page.goto(URL, wait_until="domcontentloaded")
-            page.wait_for_selector(".category-tab", timeout=PAGE_TIMEOUT)
 
-            # Read the number of categories before starting the loop.
+            page.wait_for_selector(".category-tab", timeout=PAGE_TIMEOUT)
             category_count = page.locator(".category-tab").count()
 
             if category_count == 0:
@@ -401,28 +647,52 @@ def scrape():
                 tabs.nth(category_index).click()
                 wait_for_guide(page)
 
-                day_count = page.locator(".day-cell").count()
+                dates = page.locator(".day-cell").evaluate_all(
+                    """els => els.map((e, i) => ({
+                        date: e.getAttribute('data-date') || '',
+                        text: e.textContent.trim(),
+                        index: i
+                    }))"""
+                )
 
-                # If there are no day selectors, still collect the current view.
-                if day_count == 0:
-                    collect_all_rows(page, channels)
+                if not dates:
+                    row_count, empty_rows = collect_all_rows(page, channels)
+                    print(
+                        f"Category {category_index + 1}/{category_count}: "
+                        f"{row_count} rows ({empty_rows} without programmes)"
+                    )
                     continue
 
-                for day_index in range(day_count):
-                    days = page.locator(".day-cell")
+                for day_info in dates:
+                    date_value = day_info["date"]
 
-                    if day_index >= days.count():
-                        break
+                    try:
+                        if date_value:
+                            locator = page.locator(
+                                f'.day-cell[data-date="{date_value}"]'
+                            ).first
+                        else:
+                            locator = page.locator(".day-cell").nth(
+                                day_info["index"]
+                            )
 
-                    days.nth(day_index).click()
-                    wait_for_guide(page)
+                        select_day_and_wait(page, locator)
+
+                    except (PlaywrightError, PlaywrightTimeoutError) as exc:
+                        print(
+                            f"  date {date_value or day_info['text']}: "
+                            f"selection warning "
+                            f"({str(exc).splitlines()[0]})"
+                        )
+                        continue
 
                     row_count, empty_rows = collect_all_rows(page, channels)
+                    label = date_value or day_info["text"]
 
                     print(
                         f"Category {category_index + 1}/{category_count}, "
-                        f"day {day_index + 1}/{day_count}: "
-                        f"{row_count} rows ({empty_rows} without programmes), "
+                        f"date {label}: {row_count} rows "
+                        f"({empty_rows} without programmes), "
                         f"{len(channels)} unique channels"
                     )
 
@@ -432,22 +702,25 @@ def scrape():
     return channels
 
 
-def xmltv_time(ms):
-    """Convert Unix milliseconds to an XMLTV UTC timestamp."""
-    dt = datetime.fromtimestamp(int(ms) / 1000, tz=timezone.utc)
+def xmltv_time(value):
+    dt = datetime.fromtimestamp(
+        timestamp_ms(value) / 1000,
+        tz=timezone.utc,
+    )
     return dt.strftime("%Y%m%d%H%M%S +0000")
 
 
 def build_outputs(channels, config):
-    """Write XMLTV and CSV, preserving the original output structure."""
-    root = ET.Element("tv", {"generator-info-name": "bein-epg-scraper"})
+    root = ET.Element(
+        "tv",
+        {"generator-info-name": "bein-epg-scraper"},
+    )
+
     rows = []
     resolved = {}
 
-    # XMLTV requires all channel declarations before programme entries.
     for slug, ch in channels.items():
         cfg = config.get(slug, {})
-
         tvg_id = cfg.get("tvg_id") or f"{slug}{DEFAULT_ID_SUFFIX}"
         name = cfg.get("name") or ch.get("name") or slug
 
@@ -497,8 +770,7 @@ def build_outputs(channels, config):
 
             total_programmes += 1
 
-    # Write temporary files first so a failed write does not truncate
-    # the existing output files.
+    # Write temporary files first so a failed run won't truncate good outputs.
     temp_epg = EPG_FILE.with_suffix(EPG_FILE.suffix + ".tmp")
     temp_channels = CHANNELS_FILE.with_suffix(
         CHANNELS_FILE.suffix + ".tmp"
@@ -513,7 +785,9 @@ def build_outputs(channels, config):
     )
 
     with temp_channels.open(
-        "w", newline="", encoding="utf-8"
+        "w",
+        newline="",
+        encoding="utf-8",
     ) as f:
         writer = csv.DictWriter(
             f,
@@ -532,11 +806,11 @@ def main():
     try:
         channels = scrape()
         load_manual(channels)
+
         total = sum(
             len(ch["programs"]) for ch in channels.values()
         )
 
-        # Never replace previous good files with an empty result.
         if not channels or total == 0:
             print(
                 "لم يتم استخراج أي برنامج صالح؛ "
