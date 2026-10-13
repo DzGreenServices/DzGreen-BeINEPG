@@ -27,6 +27,14 @@ PAGE_TIMEOUT = 60000
 UPDATE_WAIT_MS = 1200
 ROW_WAIT_MS = 2500
 
+# Scrape from "now" up to N days (today included), matching the site's day strip.
+DAYS_TO_SCRAPE = 4
+# Drop programmes that already ended before the script runs.
+SKIP_FINISHED = True
+# Re-check channel rows that came back empty (lazy loading can be slow).
+RETRY_EMPTY_ROWS = True
+RETRY_WAIT_MS = 6000
+
 KNOWN_LOGOS = {
     "4kdigitalmono": ("beINSPORTS4K", "beIN SPORTS 4K"),
     "2023alkass1": ("Alkass1", "Alkass 1"),
@@ -282,6 +290,39 @@ def timestamp_ms(value):
     return int(parsed.timestamp() * 1000)
 
 
+def is_finished(program):
+    """True if the programme already ended before the current moment."""
+    try:
+        end = timestamp_ms(program.get("end", ""))
+    except (TypeError, ValueError, OverflowError):
+        return False
+
+    return end <= int(datetime.now(timezone.utc).timestamp() * 1000)
+
+
+def pick_dates(dates):
+    """Keep only the days from TODAY up to DAYS_TO_SCRAPE days (as in the site's strip)."""
+    if not dates:
+        return dates
+
+    start_index = 0
+
+    for i, item in enumerate(dates):
+        if "today" in (item.get("text") or "").lower():
+            start_index = i
+            break
+
+    picked = dates[start_index:start_index + DAYS_TO_SCRAPE]
+
+    if len(picked) < DAYS_TO_SCRAPE:
+        print(
+            f"  Warning: the site shows only {len(picked)} day(s), "
+            f"expected {DAYS_TO_SCRAPE}."
+        )
+
+    return picked
+
+
 def valid_program(program):
     try:
         start = timestamp_ms(program.get("start", ""))
@@ -380,38 +421,64 @@ def add_rows(rows, channels):
     return len(rows), added_programmes
 
 
+def read_row(page, i, wait_ms, channels):
+    """Scroll to row i, wait for its programmes, store them. Returns added count."""
+    if not page.evaluate(SCROLL_ROW_JS, i):
+        return None
+
+    try:
+        page.wait_for_function(
+            ROW_READY_JS,
+            arg=i,
+            timeout=wait_ms,
+        )
+    except PlaywrightTimeoutError:
+        pass
+
+    data = page.evaluate(READ_ROW_JS, i)
+
+    if not data:
+        return None
+
+    _, added = add_rows([data], channels)
+    return added
+
+
 def collect_all_rows(page, channels):
-    """Scroll each standard row, then scan automatically for alternate wrappers."""
+    """Scroll each standard row, retry empty ones, then scan alternate wrappers."""
     total = page.evaluate(ROW_COUNT_JS)
-    empty = 0
+    empty_indexes = []
 
     for i in range(total):
         try:
-            if not page.evaluate(SCROLL_ROW_JS, i):
-                continue
-
-            try:
-                page.wait_for_function(
-                    ROW_READY_JS,
-                    arg=i,
-                    timeout=ROW_WAIT_MS,
-                )
-            except PlaywrightTimeoutError:
-                pass
-
-            data = page.evaluate(READ_ROW_JS, i)
-
-            if not data:
-                continue
-
-            _, added = add_rows([data], channels)
+            added = read_row(page, i, ROW_WAIT_MS, channels)
 
             if added == 0:
-                empty += 1
+                empty_indexes.append(i)
 
         except PlaywrightError as exc:
             print(f"  row {i}: skipped ({str(exc).splitlines()[0]})")
-            empty += 1
+            empty_indexes.append(i)
+
+    if RETRY_EMPTY_ROWS and empty_indexes:
+        still_empty = []
+
+        for i in empty_indexes:
+            try:
+                added = read_row(page, i, RETRY_WAIT_MS, channels)
+
+                if not added:
+                    still_empty.append(i)
+
+            except PlaywrightError:
+                still_empty.append(i)
+
+        recovered = len(empty_indexes) - len(still_empty)
+
+        if recovered:
+            print(f"  retry recovered {recovered} row(s)")
+
+        empty_indexes = still_empty
 
     try:
         page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
@@ -421,7 +488,7 @@ def collect_all_rows(page, channels):
     except PlaywrightError as exc:
         print(f"  automatic row scan: skipped ({str(exc).splitlines()[0]})")
 
-    return total, empty
+    return total, len(empty_indexes)
 
 
 def wait_for_guide(page):
@@ -655,6 +722,8 @@ def scrape():
                     }))"""
                 )
 
+                dates = pick_dates(dates)
+
                 if not dates:
                     row_count, empty_rows = collect_all_rows(page, channels)
                     print(
@@ -749,6 +818,9 @@ def build_outputs(channels, config):
 
         for prog in programs:
             if not valid_program(prog):
+                continue
+
+            if SKIP_FINISHED and is_finished(prog):
                 continue
 
             programme = ET.SubElement(
