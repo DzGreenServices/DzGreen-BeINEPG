@@ -22,6 +22,49 @@ PAGE_TIMEOUT = 60000
 UPDATE_WAIT_MS = 1000
 GUIDE_WAIT_MS = 12000
 ROW_WAIT_MS = 900
+MAX_DAYS = 4  # today + the next 3 days, read from the site's day strip
+CATEGORY_CHANGE_WAIT_MS = 8000
+DAY_CHANGE_WAIT_MS = 15000
+
+
+# Dates (YYYY-MM-DD) of the days offered by the site's day strip.
+DAY_DATES_JS = r"""
+() => [...document.querySelectorAll('.day-cell')].map(e => e.dataset.date || '')
+"""
+
+# Start time of the first programme block currently in the DOM. It changes
+# when the site swaps the guide to another day.
+FIRST_START_JS = r"""
+() => {
+    const b = document.querySelector('.channel-row .prog-block');
+    return b ? (b.dataset.startMs || '') : '';
+}
+"""
+
+DAY_CHANGED_JS = r"""
+before => {
+    const b = document.querySelector('.channel-row .prog-block');
+    return !!b && (b.dataset.startMs || '') !== before;
+}
+"""
+
+# Row count + first logo tell which category is displayed.
+CATEGORY_SIGNATURE_JS = r"""
+() => {
+    const rows = document.querySelectorAll('.channel-row');
+    const img = document.querySelector('.channel-row .channel-col img');
+    return rows.length + '|' + (img ? (img.currentSrc || img.src || '') : '');
+}
+"""
+
+CATEGORY_CHANGED_JS = r"""
+before => {
+    const rows = document.querySelectorAll('.channel-row');
+    const img = document.querySelector('.channel-row .channel-col img');
+    const now = rows.length + '|' + (img ? (img.currentSrc || img.src || '') : '');
+    return rows.length > 0 && now !== before;
+}
+"""
 
 
 # Read the row's index, optional link/name, logo, and all programme data.
@@ -218,6 +261,51 @@ def wait_for_guide(page):
     page.wait_for_timeout(UPDATE_WAIT_MS)
 
 
+def has_class(locator, name):
+    """True if the element currently carries the given CSS class."""
+    return name in (locator.get_attribute("class") or "").split()
+
+
+def wait_until_changed(page, script, before, timeout_ms):
+    """True once the page differs from `before`; False if it never did."""
+    try:
+        page.wait_for_function(script, arg=before, timeout=timeout_ms)
+        return True
+    except PlaywrightTimeoutError:
+        return False
+
+
+def open_category(page, tab):
+    """Click a category tab and wait until its channel rows are displayed."""
+    already_active = has_class(tab, "active")
+    before = page.evaluate(CATEGORY_SIGNATURE_JS)
+    tab.click()
+
+    if not already_active:
+        wait_until_changed(
+            page, CATEGORY_CHANGED_JS, before, CATEGORY_CHANGE_WAIT_MS
+        )
+
+    wait_for_guide(page)
+
+
+def open_day(page, day_index, date):
+    """Show one day. wait_for_guide alone is not enough here: the previous
+    day's blocks are still in the DOM, so we wait for the content to change."""
+    day = page.locator(".day-cell").nth(day_index)
+
+    if not has_class(day, "active"):
+        before = page.evaluate(FIRST_START_JS)
+        day.click()
+
+        if not wait_until_changed(
+            page, DAY_CHANGED_JS, before, DAY_CHANGE_WAIT_MS
+        ):
+            print(f"  {date}: the guide did not change after the click")
+
+    wait_for_guide(page)
+
+
 def scrape():
     """Visit every displayed section and day, collecting all channel programmes."""
     channels = {}
@@ -242,11 +330,10 @@ def scrape():
                 tab = tabs.nth(category_index)
                 section = tab.inner_text().strip()
                 section_key = category_key(section, category_index)
-                tab.click()
-                wait_for_guide(page)
+                open_category(page, tab)
 
-                day_count = page.locator(".day-cell").count()
-                if not day_count:
+                dates = page.evaluate(DAY_DATES_JS)[:MAX_DAYS]
+                if not dates:
                     row_count, empty = collect_all_rows(
                         page, channels, section, section_key
                     )
@@ -256,18 +343,14 @@ def scrape():
                     )
                     continue
 
-                for day_index in range(day_count):
-                    days = page.locator(".day-cell")
-                    if day_index >= days.count():
-                        break
-
-                    days.nth(day_index).click()
-                    wait_for_guide(page)
+                for day_index, date in enumerate(dates):
+                    open_day(page, day_index, date)
                     row_count, empty = collect_all_rows(
                         page, channels, section, section_key
                     )
                     print(
-                        f"{section or section_key}, day {day_index + 1}/{day_count}: "
+                        f"{section or section_key}, {date} "
+                        f"({day_index + 1}/{len(dates)}): "
                         f"{row_count} indexes ({empty} without programmes), "
                         f"{len(channels)} channel IDs"
                     )
