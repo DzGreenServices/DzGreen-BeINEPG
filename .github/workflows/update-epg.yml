@@ -1,35 +1,16 @@
-name: Update EPG
-
-on:
-  schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
-  workflow_dispatch:        # manual run button
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install dependencies
+      - name: Commit and push EPG files
         run: |
-          pip install -r requirements.txt
-          playwright install --with-deps chromium
+          test -s epg_sports.xml
+          test -s epg_entertainment.xml
 
-      - name: Build EPG
-        run: python epg.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit results
-        run: |
-          git config user.name "epg-bot"
-          git config user.email "epg-bot@users.noreply.github.com"
-          git add epg.xml channels.csv
-          git diff --cached --quiet || git commit -m "Update EPG"
-          git push
+          git add epg_sports.xml epg_entertainment.xml
+
+          if git diff --cached --quiet; then
+            echo "EPG files unchanged."
+          else
+            git commit -m "Update EPG files"
+            git push origin HEAD:main
+          fi
