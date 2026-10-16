@@ -1,16 +1,119 @@
+name: Update beIN EPG
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bein-epg-update
+  cancel-in-progress: false
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright
+
+      - name: Install Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Check Python syntax
+        run: python -m py_compile epg.py
+
+      - name: Run EPG scraper
+        run: python epg.py
+
+      - name: Validate generated XML files
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          files = [
+              Path("epg_sports.xml"),
+              Path("epg_entertainment.xml"),
+          ]
+
+          for path in files:
+              if not path.is_file() or path.stat().st_size == 0:
+                  raise SystemExit(
+                      f"ERROR: Missing or empty file: {path}"
+                  )
+
+              root = ET.parse(path).getroot()
+
+              if root.tag != "tv":
+                  raise SystemExit(
+                      f"ERROR: Invalid XMLTV root in {path}"
+                  )
+
+              channels = root.findall("channel")
+              programmes = root.findall("programme")
+
+              if not channels or not programmes:
+                  raise SystemExit(
+                      f"ERROR: No channels or programmes in {path}"
+                  )
+
+              channel_ids = {
+                  channel.get("id")
+                  for channel in channels
+              }
+
+              missing_ids = sorted({
+                  programme.get("channel")
+                  for programme in programmes
+                  if programme.get("channel") not in channel_ids
+              })
+
+              if missing_ids:
+                  raise SystemExit(
+                      f"ERROR: Undefined channel IDs in {path}: "
+                      f"{missing_ids}"
+                  )
+
+              print(
+                  f"OK: {path} | "
+                  f"{len(channels)} channels | "
+                  f"{len(programmes)} programmes"
+              )
+          PY
+
       - name: Commit and push EPG files
         run: |
-          test -s epg_sports.xml
-          test -s epg_entertainment.xml
+          set -e
 
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add epg_sports.xml epg_entertainment.xml
 
           if git diff --cached --quiet; then
-            echo "EPG files unchanged."
-          else
-            git commit -m "Update EPG files"
-            git push origin HEAD:main
+            echo "EPG files unchanged. No commit needed."
+            exit 0
           fi
+
+          git commit -m "Update EPG files"
+          git push origin HEAD:main
