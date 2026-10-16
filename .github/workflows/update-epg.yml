@@ -1,4 +1,4 @@
-name: Update beIN EPG
+name: Update and Publish beIN EPG
 
 on:
   workflow_dispatch:
@@ -8,13 +8,16 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: bein-epg-update
   cancel-in-progress: false
 
 jobs:
-  update-epg:
+  build:
+    name: Extract and prepare EPG files
     runs-on: ubuntu-latest
 
     steps:
@@ -30,7 +33,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install Python dependencies
+      - name: Install Playwright
         run: |
           python -m pip install --upgrade pip
           python -m pip install playwright
@@ -57,23 +60,19 @@ jobs:
 
           for path in files:
               if not path.is_file() or path.stat().st_size == 0:
-                  raise SystemExit(
-                      f"ERROR: Missing or empty file: {path}"
-                  )
+                  raise SystemExit(f"Missing or empty file: {path}")
 
               root = ET.parse(path).getroot()
 
               if root.tag != "tv":
-                  raise SystemExit(
-                      f"ERROR: Invalid XMLTV root in {path}"
-                  )
+                  raise SystemExit(f"Invalid XMLTV root: {path}")
 
               channels = root.findall("channel")
               programmes = root.findall("programme")
 
               if not channels or not programmes:
                   raise SystemExit(
-                      f"ERROR: No channels or programmes in {path}"
+                      f"No channels or programmes in {path}"
                   )
 
               channel_ids = {
@@ -89,18 +88,23 @@ jobs:
 
               if missing_ids:
                   raise SystemExit(
-                      f"ERROR: Undefined channel IDs in {path}: "
-                      f"{missing_ids}"
+                      f"Undefined channel IDs in {path}: {missing_ids}"
                   )
 
               print(
-                  f"OK: {path} | "
-                  f"{len(channels)} channels | "
+                  f"OK: {path}: "
+                  f"{len(channels)} channels, "
                   f"{len(programmes)} programmes"
               )
           PY
 
-      - name: Commit and push EPG files
+      - name: Move XML files into xml folder
+        run: |
+          mkdir -p xml
+          mv -f epg_sports.xml xml/epg_sports.xml
+          mv -f epg_entertainment.xml xml/epg_entertainment.xml
+
+      - name: Commit XML files to main
         run: |
           set -e
 
@@ -108,12 +112,66 @@ jobs:
           git config user.email \
             "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add epg_sports.xml epg_entertainment.xml
+          git add -u
+          git add xml/epg_sports.xml xml/epg_entertainment.xml
 
           if git diff --cached --quiet; then
-            echo "EPG files unchanged. No commit needed."
-            exit 0
+            echo "XML files unchanged; no commit needed."
+          else
+            git commit -m "Update EPG files"
+            git push origin HEAD:main
           fi
 
-          git commit -m "Update EPG files"
-          git push origin HEAD:main
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare Pages website
+        run: |
+          rm -rf _site
+          mkdir -p _site/xml
+
+          cp xml/epg_sports.xml _site/xml/epg_sports.xml
+          cp xml/epg_entertainment.xml _site/xml/epg_entertainment.xml
+
+          touch _site/.nojekyll
+
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>beIN EPG</title>
+          </head>
+          <body>
+            <h1>beIN EPG</h1>
+            <ul>
+              <li><a href="xml/epg_sports.xml">Sports EPG</a></li>
+              <li><a href="xml/epg_entertainment.xml">Entertainment EPG</a></li>
+            </ul>
+          </body>
+          </html>
+          HTML
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    name: Publish GitHub Pages
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4
