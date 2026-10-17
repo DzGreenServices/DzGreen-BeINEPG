@@ -124,18 +124,6 @@
     <display-name>entertainment_30</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2020/06/cartoonito.png" />
   </channel>
-  <programme start="20261016234400 +0000" stop="20261017013000 +0000" channel="entertainment_0">
-    <title lang="en">28 Years Later: The Bone Temple</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017024400 +0000" channel="entertainment_0">
-    <title lang="en">#BFFs</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017024400 +0000" stop="20261017042900 +0000" channel="entertainment_0">
-    <title lang="en">Subservience</title>
-    <category lang="en">Movies</category>
-  </programme>
   <programme start="20261017042900 +0000" stop="20261017061400 +0000" channel="entertainment_0">
     <title lang="en">Broke</title>
     <category lang="en">Movies</category>
@@ -184,16 +172,12 @@
     <title lang="en">Day of the Fight</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261016233000 +0000" stop="20261017010300 +0000" channel="entertainment_1">
-    <title lang="en">Suitable Flesh</title>
+  <programme start="20261018025900 +0000" stop="20261018052900 +0000" channel="entertainment_0">
+    <title lang="en">Merrily We Roll Along</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017010300 +0000" stop="20261017023500 +0000" channel="entertainment_1">
-    <title lang="en">Faultline</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017023500 +0000" stop="20261017035900 +0000" channel="entertainment_1">
-    <title lang="en">Khamsa - The Well of Oblivion</title>
+  <programme start="20261018052900 +0000" stop="20261018065900 +0000" channel="entertainment_0">
+    <title lang="en">Nuked</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261017035900 +0000" stop="20261017054500 +0000" channel="entertainment_1">
@@ -244,16 +228,12 @@
     <title lang="en">The Shade</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261016221500 +0000" stop="20261017003000 +0000" channel="entertainment_2">
-    <title lang="en">Bad Actor</title>
+  <programme start="20261018031400 +0000" stop="20261018050000 +0000" channel="entertainment_1">
+    <title lang="en">Bring Him to Me</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017003000 +0000" stop="20261017021500 +0000" channel="entertainment_2">
-    <title lang="en">The Island Between Tides</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017021500 +0000" stop="20261017040000 +0000" channel="entertainment_2">
-    <title lang="en">Float</title>
+  <programme start="20261018050000 +0000" stop="20261018064500 +0000" channel="entertainment_1">
+    <title lang="en">Faultline</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261017040000 +0000" stop="20261017060000 +0000" channel="entertainment_2">
@@ -300,16 +280,16 @@
     <title lang="en">Christmas Eve in Miller's Point</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261016232900 +0000" stop="20261017010000 +0000" channel="entertainment_3">
-    <title lang="en">The Swan Princess</title>
+  <programme start="20261018012900 +0000" stop="20261018031400 +0000" channel="entertainment_2">
+    <title lang="en">Sky Peals</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017010000 +0000" stop="20261017030000 +0000" channel="entertainment_3">
-    <title lang="en">A Beautiful Day in the Neighborhood</title>
+  <programme start="20261018031400 +0000" stop="20261018045900 +0000" channel="entertainment_2">
+    <title lang="en">Float</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017043000 +0000" channel="entertainment_3">
-    <title lang="en">The Emoji Movie</title>
+  <programme start="20261018045900 +0000" stop="20261018064500 +0000" channel="entertainment_2">
+    <title lang="en">Maid in Manhattan</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261017043000 +0000" stop="20261017060000 +0000" channel="entertainment_3">
@@ -364,16 +344,20 @@
     <title lang="en">The Pirates! Band of Misfits</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261016230000 +0000" stop="20261017005900 +0000" channel="entertainment_4">
-    <title lang="en">Fackham Hall</title>
+  <programme start="20261018014500 +0000" stop="20261018031400 +0000" channel="entertainment_3">
+    <title lang="en">The Swan Princess</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017005900 +0000" stop="20261017025900 +0000" channel="entertainment_4">
-    <title lang="en">Fackham Hall</title>
+  <programme start="20261018031400 +0000" stop="20261018044500 +0000" channel="entertainment_3">
+    <title lang="en">Living Large</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017025900 +0000" stop="20261017045900 +0000" channel="entertainment_4">
-    <title lang="en">Fackham Hall</title>
+  <programme start="20261018044500 +0000" stop="20261018061500 +0000" channel="entertainment_3">
+    <title lang="en">Madeline</title>
+    <category lang="en">Movies</category>
+  </programme>
+  <programme start="20261018061500 +0000" stop="20261018075900 +0000" channel="entertainment_3">
+    <title lang="en">The Spiderwick Chronicles</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261017045900 +0000" stop="20261017065900 +0000" channel="entertainment_4">
@@ -420,16 +404,12 @@
     <title lang="en">Fackham Hall</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261016230000 +0000" stop="20261017010000 +0000" channel="entertainment_5">
-    <title lang="en">The Last Viking</title>
+  <programme start="20261018025900 +0000" stop="20261018045900 +0000" channel="entertainment_4">
+    <title lang="en">Fackham Hall</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017010000 +0000" stop="20261017025900 +0000" channel="entertainment_5">
-    <title lang="en">The Last Viking</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017025900 +0000" stop="20261017045900 +0000" channel="entertainment_5">
-    <title lang="en">The Last Viking</title>
+  <programme start="20261018045900 +0000" stop="20261018065900 +0000" channel="entertainment_4">
+    <title lang="en">Fackham Hall</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261017045900 +0000" stop="20261017065900 +0000" channel="entertainment_5">
@@ -476,16 +456,12 @@
     <title lang="en">The Last Viking</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261016224500 +0000" stop="20261017003000 +0000" channel="entertainment_6">
-    <title lang="en">Operation Chromite</title>
+  <programme start="20261018030000 +0000" stop="20261018045900 +0000" channel="entertainment_5">
+    <title lang="en">The Last Viking</title>
     <category lang="en">Movies</category>
   </programme>
-  <programme start="20261017003000 +0000" stop="20261017022500 +0000" channel="entertainment_6">
-    <title lang="en">The Hitman's Wife's Bodyguard</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017022500 +0000" stop="20261017035500 +0000" channel="entertainment_6">
-    <title lang="en">The Gateway</title>
+  <programme start="20261018045900 +0000" stop="20261018065900 +0000" channel="entertainment_5">
+    <title lang="en">The Last Viking</title>
     <category lang="en">Movies</category>
   </programme>
   <programme start="20261017035500 +0000" stop="20261017061500 +0000" channel="entertainment_6">
@@ -536,18 +512,6 @@
     <title lang="en">The Walking Dead (S9)</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261016221500 +0000" stop="20261017004000 +0000" channel="entertainment_7">
-    <title lang="en">Lincoln</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017004000 +0000" stop="20261017023500 +0000" channel="entertainment_7">
-    <title lang="en">Insomnia</title>
-    <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017023500 +0000" stop="20261017041500 +0000" channel="entertainment_7">
-    <title lang="en">White Men Can't Jump</title>
-    <category lang="en">Movies</category>
-  </programme>
   <programme start="20261017041500 +0000" stop="20261017064000 +0000" channel="entertainment_7">
     <title lang="en">Jackie Brown</title>
     <category lang="en">Movies</category>
@@ -587,34 +551,6 @@
   <programme start="20261017203000 +0000" stop="20261017205959 +0000" channel="entertainment_7">
     <title lang="en">The Secret: Dare to Dream</title>
     <category lang="en">Movies</category>
-  </programme>
-  <programme start="20261017001300 +0000" stop="20261017004000 +0000" channel="entertainment_8">
-    <title lang="en">My Hero Academia S1 | E3</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017004000 +0000" stop="20261017011000 +0000" channel="entertainment_8">
-    <title lang="en">My Hero Academia S1 | E4</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017011000 +0000" stop="20261017014000 +0000" channel="entertainment_8">
-    <title lang="en">My Hero Academia S1 | E5</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017014000 +0000" stop="20261017020800 +0000" channel="entertainment_8">
-    <title lang="en">My Hero Academia S1 | E6</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017020800 +0000" stop="20261017030500 +0000" channel="entertainment_8">
-    <title lang="en">Outlander S4 | E12</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017030500 +0000" stop="20261017040500 +0000" channel="entertainment_8">
-    <title lang="en">Outlander S4 | E13</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017040500 +0000" stop="20261017050500 +0000" channel="entertainment_8">
-    <title lang="en">Outlander S5 | E1</title>
-    <category lang="en">Series</category>
   </programme>
   <programme start="20261017050500 +0000" stop="20261017060000 +0000" channel="entertainment_8">
     <title lang="en">Outlander S5 | E2</title>
@@ -700,36 +636,28 @@
     <title lang="en">Jujutsu Kaisen S1 | E1</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="entertainment_9">
-    <title lang="en">Dexter S8 | E11 - Monkey in a Box</title>
+  <programme start="20261018013000 +0000" stop="20261018020000 +0000" channel="entertainment_8">
+    <title lang="en">Jujutsu Kaisen S1 | E2</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017010000 +0000" stop="20261017020000 +0000" channel="entertainment_9">
-    <title lang="en">Dexter S8 | E12 - Remember the Monsters?</title>
+  <programme start="20261018020000 +0000" stop="20261018030000 +0000" channel="entertainment_8">
+    <title lang="en">The Good Doctor S2 | E11</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017020000 +0000" stop="20261017023000 +0000" channel="entertainment_9">
-    <title lang="en">Black Clover S1 | E6</title>
+  <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="entertainment_8">
+    <title lang="en">The Good Doctor S2 | E12</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017023000 +0000" stop="20261017030000 +0000" channel="entertainment_9">
-    <title lang="en">Black Clover S1 | E7</title>
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="entertainment_8">
+    <title lang="en">The Good Doctor S2 | E13</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017033000 +0000" channel="entertainment_9">
-    <title lang="en">Black Clover S1 | E8</title>
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="entertainment_8">
+    <title lang="en">The Good Doctor S2 | E14</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017033000 +0000" stop="20261017040000 +0000" channel="entertainment_9">
-    <title lang="en">Black Clover S1 | E9</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017043000 +0000" channel="entertainment_9">
-    <title lang="en">Black Clover S1 | E10</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261017043000 +0000" stop="20261017050000 +0000" channel="entertainment_9">
-    <title lang="en">Black Clover S1 | E11</title>
+  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="entertainment_8">
+    <title lang="en">The Good Doctor S2 | E15</title>
     <category lang="en">Series</category>
   </programme>
   <programme start="20261017050000 +0000" stop="20261017053000 +0000" channel="entertainment_9">
@@ -824,24 +752,24 @@
     <title lang="en">Justified S1 | E13</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261016235900 +0000" stop="20261017005900 +0000" channel="entertainment_10">
-    <title lang="en">Afkaar Ummi S1 | E14</title>
+  <programme start="20261018020000 +0000" stop="20261018030000 +0000" channel="entertainment_9">
+    <title lang="en">Rabbit Hole S1 | E8</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017005900 +0000" stop="20261017015900 +0000" channel="entertainment_10">
-    <title lang="en">Afkaar Ummi S1 | E15</title>
+  <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="entertainment_9">
+    <title lang="en">Rabbit Hole S1 | E1</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017015900 +0000" stop="20261017025900 +0000" channel="entertainment_10">
-    <title lang="en">Matbakh Almadina S1 S1</title>
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="entertainment_9">
+    <title lang="en">Rabbit Hole S1 | E2</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017025900 +0000" stop="20261017035900 +0000" channel="entertainment_10">
-    <title lang="en">Matbakh Almadina S1 S1</title>
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="entertainment_9">
+    <title lang="en">Rabbit Hole S1 | E3</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017035900 +0000" stop="20261017045900 +0000" channel="entertainment_10">
-    <title lang="en">Matbakh Almadina S1 S1</title>
+  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="entertainment_9">
+    <title lang="en">Rabbit Hole S1 | E4</title>
     <category lang="en">Series</category>
   </programme>
   <programme start="20261017045900 +0000" stop="20261017055900 +0000" channel="entertainment_10">
@@ -928,25 +856,25 @@
     <title lang="en">Afkaar Ummi S1 | E18</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="entertainment_11">
-    <title lang="en">Maqloubeh S1 | E27</title>
+  <programme start="20261018020000 +0000" stop="20261018030000 +0000" channel="entertainment_10">
+    <title lang="en">Matbakh Almadina S1 S1</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017010000 +0000" stop="20261017020000 +0000" channel="entertainment_11">
-    <title lang="en">Afdhal Burger Ala Al Itlaq S1 | E28</title>
+  <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="entertainment_10">
+    <title lang="en">Matbakh Almadina S1 S1</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017020000 +0000" stop="20261017030000 +0000" channel="entertainment_11">
-    <title lang="en">Sehhi w Atyab EP 1</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261018040000 +0000" stop="20261018050000 +0000" channel="entertainment_10">
+    <title lang="en">Etneen Gherna S1 | E15</title>
+    <category lang="en">Series</category>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="entertainment_11">
-    <title lang="en">Sehhi w Atyab EP 2</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="entertainment_10">
+    <title lang="en">Father But .. S1 | E1</title>
+    <category lang="en">Series</category>
   </programme>
-  <programme start="20261017040000 +0000" stop="20261017050000 +0000" channel="entertainment_11">
-    <title lang="en">Sehhi w Atyab EP 3</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="entertainment_10">
+    <title lang="en">Father But .. S1 | E2</title>
+    <category lang="en">Series</category>
   </programme>
   <programme start="20261017050000 +0000" stop="20261017060000 +0000" channel="entertainment_11">
     <title lang="en">Al Moussakaa Al Uonaniya/ Kayak Sandwich S1 | E13</title>
@@ -1032,41 +960,25 @@
     <title lang="en">30 Days S1 | E1</title>
     <category lang="en">Series</category>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017004500 +0000" channel="entertainment_12">
-    <title lang="en">Restaurant: Impossible - The Imbalanced Chef</title>
+  <programme start="20261018015900 +0000" stop="20261018025900 +0000" channel="entertainment_11">
+    <title lang="en">Sehhi w Atyab EP 4</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017004500 +0000" stop="20261017010700 +0000" channel="entertainment_12">
-    <title lang="en">Diners, Drive-ins and Dives - Chicken And Briskets</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017010700 +0000" stop="20261017013000 +0000" channel="entertainment_12">
-    <title lang="en">Diners, Drive-ins and Dives - South Dakota Smorgasbord</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017015200 +0000" channel="entertainment_12">
-    <title lang="en">Beat Bobby Flay - Who's The Boss</title>
+  <programme start="20261018025900 +0000" stop="20261018035900 +0000" channel="entertainment_11">
+    <title lang="en">Sehhi w Atyab EP 5</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017015200 +0000" stop="20261017021500 +0000" channel="entertainment_12">
-    <title lang="en">Beat Bobby Flay - It's All Gravy</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261018035900 +0000" stop="20261018045900 +0000" channel="entertainment_11">
+    <title lang="en">Arz Sharqi Maa Bazelaa/ Tart Toufah S1 | E15</title>
+    <category lang="en">Series</category>
   </programme>
-  <programme start="20261017021500 +0000" stop="20261017030000 +0000" channel="entertainment_12">
-    <title lang="en">Halloween Baking Championship - Step Fright Up</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261018045900 +0000" stop="20261018055900 +0000" channel="entertainment_11">
+    <title lang="en">Maqluba Freekeh/ Fattet Hummus S1 | E16</title>
+    <category lang="en">Series</category>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="entertainment_12">
-    <title lang="en">Dinner: Impossible - Island Livin'</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017043000 +0000" channel="entertainment_12">
-    <title lang="en">Ina Garten.. Friends and Plates - Danny Meyer</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017043000 +0000" stop="20261017050000 +0000" channel="entertainment_12">
-    <title lang="en">Ina Garten.. Friends and Plates - Nicole Mann</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261018055900 +0000" stop="20261018065900 +0000" channel="entertainment_11">
+    <title lang="en">Escalope Al Dajaaj S1 | E17</title>
+    <category lang="en">Series</category>
   </programme>
   <programme start="20261017050000 +0000" stop="20261017053000 +0000" channel="entertainment_12">
     <title lang="en">Ina Garten.. Friends and Plates - David Remnick</title>
@@ -1143,50 +1055,6 @@
   <programme start="20261017193000 +0000" stop="20261017205959 +0000" channel="entertainment_12">
     <title lang="en">100 Cooks - 8 Cooks Down To 1</title>
     <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017002500 +0000" stop="20261017004500 +0000" channel="entertainment_13">
-    <title lang="en">Beachfront Bargain Hunt Renovation - Hatteras Island</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017004500 +0000" stop="20261017011000 +0000" channel="entertainment_13">
-    <title lang="en">House Hunters International - Ex-Army Brats, Bury St Edmunds</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017011000 +0000" stop="20261017013000 +0000" channel="entertainment_13">
-    <title lang="en">House Hunters International - Striking Gold In Gympie</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017015500 +0000" channel="entertainment_13">
-    <title lang="en">Flip or Flop - Loud, Louder, Loudest</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017015500 +0000" stop="20261017021500 +0000" channel="entertainment_13">
-    <title lang="en">Flip or Flop - A Neglected Flip</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017021500 +0000" stop="20261017024000 +0000" channel="entertainment_13">
-    <title lang="en">Tiny House Hunters - New Parents Go Tiny</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017024000 +0000" stop="20261017030000 +0000" channel="entertainment_13">
-    <title lang="en">Tiny House Hunters - Outdoorsy Couple Goes Tiny</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017030000 +0000" stop="20261017034500 +0000" channel="entertainment_13">
-    <title lang="en">Flip to a Million - Episode 6</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017034500 +0000" stop="20261017043200 +0000" channel="entertainment_13">
-    <title lang="en">The Renovator - New Addition</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017043200 +0000" stop="20261017045700 +0000" channel="entertainment_13">
-    <title lang="en">My Lottery Dream Home - 'Show-Me' State Dream Home</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017045700 +0000" stop="20261017051900 +0000" channel="entertainment_13">
-    <title lang="en">My Lottery Dream Home - Sweet Dream Home Alabama</title>
-    <category lang="en">Factual</category>
   </programme>
   <programme start="20261017051900 +0000" stop="20261017054400 +0000" channel="entertainment_13">
     <title lang="en">My Lottery Dream Home - The Good Life In Nebraska</title>
@@ -1292,30 +1160,6 @@
     <title lang="en">Al Hayah Fe Al Bahama - Out of the Operating Room</title>
     <category lang="en">Factual</category>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017004500 +0000" channel="entertainment_14">
-    <title lang="en">Nico's Cook in, Cook out - Episode 5</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017004500 +0000" stop="20261017013000 +0000" channel="entertainment_14">
-    <title lang="en">Nico's Cook in, Cook out - Episode 6</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017024000 +0000" channel="entertainment_14">
-    <title lang="en">Sullivan's Crossing - A Clear Perspective</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017024000 +0000" stop="20261017035000 +0000" channel="entertainment_14">
-    <title lang="en">Will Trent - You're The Worst Person In The World</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017035000 +0000" stop="20261017045000 +0000" channel="entertainment_14">
-    <title lang="en">Sullivan's Crossing - A Clear Perspective</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017045000 +0000" stop="20261017052500 +0000" channel="entertainment_14">
-    <title lang="en">Nico's Cook in, Cook out - Episode 3</title>
-    <category lang="en">Entertainment</category>
-  </programme>
   <programme start="20261017052500 +0000" stop="20261017060000 +0000" channel="entertainment_14">
     <title lang="en">Nico's Cook in, Cook out - Episode 4</title>
     <category lang="en">Entertainment</category>
@@ -1391,42 +1235,6 @@
   <programme start="20261017203000 +0000" stop="20261017205959 +0000" channel="entertainment_14">
     <title lang="en">Sullivan's Crossing - Misunderstandings</title>
     <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017000000 +0000" stop="20261017003000 +0000" channel="entertainment_15">
-    <title lang="en">The Mishal Husain Show</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017003000 +0000" stop="20261017010000 +0000" channel="entertainment_15">
-    <title lang="en">The Mishal Husain Show - Michael Palin</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017010000 +0000" stop="20261017013000 +0000" channel="entertainment_15">
-    <title lang="en">The Deal with Alex Rodriguez and Jason Kelly - Dynasty Equity Co-Founder and CEO K. Don Cornwell</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017020000 +0000" channel="entertainment_15">
-    <title lang="en">The Deal with Alex Rodriguez and Jason Kelly - FIFA's Jill Ellis on World Cup Demand</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017023000 +0000" channel="entertainment_15">
-    <title lang="en">The David Rubenstein Show - Ana Botin, Santander Executive Chair</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017023000 +0000" stop="20261017030000 +0000" channel="entertainment_15">
-    <title lang="en">Bloomberg Originals</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="entertainment_15">
-    <title lang="en">Bloomberg Wall Street Week</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017043000 +0000" channel="entertainment_15">
-    <title lang="en">The Circuit - Jennifer Doudna on CRISPR Gene Editing</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017043000 +0000" stop="20261017050000 +0000" channel="entertainment_15">
-    <title lang="en">Bloomberg Primer - The Race to Challenge China's EV Lead</title>
-    <category lang="en">News</category>
   </programme>
   <programme start="20261017050000 +0000" stop="20261017053000 +0000" channel="entertainment_15">
     <title lang="en">How Larry Ellison Built His Empire</title>
@@ -1520,34 +1328,6 @@
     <title lang="en">The Circuit - Jennifer Doudna on CRISPR Gene Editing</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261016234500 +0000" stop="20261017003000 +0000" channel="entertainment_16">
-    <title lang="en">Fi Al Barryia Ma'a Bear Grylls - Rainn Wilson in Utah's La Sal Mountains</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017003000 +0000" stop="20261017011500 +0000" channel="entertainment_16">
-    <title lang="en">Wehdat Inqadh Al Sayarat - Ford Pop Hot Rod</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017011500 +0000" stop="20261017020000 +0000" channel="entertainment_16">
-    <title lang="en">Wehdat Inqadh Al Sayarat - Datsun 240k Skyline</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017024500 +0000" channel="entertainment_16">
-    <title lang="en">Fi Al Barryia Ma'a Bear Grylls - Rob Riggle In Iceland</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017024500 +0000" stop="20261017033000 +0000" channel="entertainment_16">
-    <title lang="en">Fi Al Barryia Ma'a Bear Grylls - Dave Bautista In Glen Canyon, Arizona</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017033000 +0000" stop="20261017041500 +0000" channel="entertainment_16">
-    <title lang="en">Fi Al Barryia Ma'a Bear Grylls - Channing Tatum In The Mountains of Norway</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017041500 +0000" stop="20261017050000 +0000" channel="entertainment_16">
-    <title lang="en">Fi Al Barryia Ma'a Bear Grylls - Alex Honnold In The Swiss Alps</title>
-    <category lang="en">Factual</category>
-  </programme>
   <programme start="20261017050000 +0000" stop="20261017054500 +0000" channel="entertainment_16">
     <title lang="en">Fi Al Barryia Ma'a Bear Grylls - Bobby Bones In Norway Fjords</title>
     <category lang="en">Factual</category>
@@ -1630,30 +1410,6 @@
   </programme>
   <programme start="20261017200000 +0000" stop="20261017205959 +0000" channel="entertainment_16">
     <title lang="en">Hekaayat Silyan</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261016234500 +0000" stop="20261017003000 +0000" channel="entertainment_17">
-    <title lang="en">Germany's Magic Mountains - Romantic Central Uplands</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017003000 +0000" stop="20261017011500 +0000" channel="entertainment_17">
-    <title lang="en">Wild Detectives - The Land</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017011500 +0000" stop="20261017024500 +0000" channel="entertainment_17">
-    <title lang="en">Wild Detectives - The Coast</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017024500 +0000" stop="20261017033000 +0000" channel="entertainment_17">
-    <title lang="en">Germany's Magic Mountains - Romantic Central Uplands</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017033000 +0000" stop="20261017035500 +0000" channel="entertainment_17">
-    <title lang="en">Prairie Dog Manor - New Sheriff In Town</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017035500 +0000" stop="20261017044500 +0000" channel="entertainment_17">
-    <title lang="en">Cannibal Sharks</title>
     <category lang="en">Factual</category>
   </programme>
   <programme start="20261017044500 +0000" stop="20261017053000 +0000" channel="entertainment_17">
@@ -1744,30 +1500,6 @@
     <title lang="en">Doctor Pol Al Modhhel - Dramatic Paws</title>
     <category lang="en">Factual</category>
   </programme>
-  <programme start="20261016234500 +0000" stop="20261017003500 +0000" channel="entertainment_18">
-    <title lang="en">Earth's Great Rivers - Nile</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017003500 +0000" stop="20261017012500 +0000" channel="entertainment_18">
-    <title lang="en">Ice Town: Life on the Edge - Welcome to Svalbard</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017012500 +0000" stop="20261017021000 +0000" channel="entertainment_18">
-    <title lang="en">Coast New Zealand - North Otago</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017021000 +0000" stop="20261017030000 +0000" channel="entertainment_18">
-    <title lang="en">The Truth about Getting Fit at Home - Episode 1</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="entertainment_18">
-    <title lang="en">Planet Earth II - Cities</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017044500 +0000" channel="entertainment_18">
-    <title lang="en">Coast New Zealand - North Otago</title>
-    <category lang="en">Factual</category>
-  </programme>
   <programme start="20261017044500 +0000" stop="20261017053000 +0000" channel="entertainment_18">
     <title lang="en">AL Hayat Taht Asefr - Inside Out</title>
     <category lang="en">Factual</category>
@@ -1852,22 +1584,6 @@
     <title lang="en">AL Hayat Taht Asefr - Ahead of the Game</title>
     <category lang="en">Factual</category>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017010000 +0000" channel="entertainment_19">
-    <title lang="en">CNN NewsNight with Abby Phillip</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017010000 +0000" stop="20261017020000 +0000" channel="entertainment_19">
-    <title lang="en">Laura Coates Live</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017040000 +0000" channel="entertainment_19">
-    <title lang="en">The Story Is with Elex Michaelson</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017050000 +0000" channel="entertainment_19">
-    <title lang="en">CNN Newsroom</title>
-    <category lang="en">News</category>
-  </programme>
   <programme start="20261017050000 +0000" stop="20261017060000 +0000" channel="entertainment_19">
     <title lang="en">CNN Newsroom</title>
     <category lang="en">News</category>
@@ -1922,74 +1638,6 @@
   </programme>
   <programme start="20261017200000 +0000" stop="20261017205959 +0000" channel="entertainment_19">
     <title lang="en">CNN Newsroom</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017001500 +0000" stop="20261017003000 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017003000 +0000" stop="20261017010000 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017010000 +0000" stop="20261017011400 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017011400 +0000" stop="20261017013000 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017014600 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017014600 +0000" stop="20261017020000 +0000" channel="entertainment_20">
-    <title lang="en">Made in Europe</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017021500 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017021500 +0000" stop="20261017023000 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017023000 +0000" stop="20261017030000 +0000" channel="entertainment_20">
-    <title lang="en">Global Week-End</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017030000 +0000" stop="20261017031500 +0000" channel="entertainment_20">
-    <title lang="en">5 Minutes</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017031500 +0000" stop="20261017033000 +0000" channel="entertainment_20">
-    <title lang="en">5 Minutes</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017033000 +0000" stop="20261017040000 +0000" channel="entertainment_20">
-    <title lang="en">5 Minutes</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017040500 +0000" channel="entertainment_20">
-    <title lang="en">5 Minutes</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017040500 +0000" stop="20261017042900 +0000" channel="entertainment_20">
-    <title lang="en">The Ring</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017042900 +0000" stop="20261017043400 +0000" channel="entertainment_20">
-    <title lang="en">5 Minutes</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017043400 +0000" stop="20261017050000 +0000" channel="entertainment_20">
-    <title lang="en">The Ring</title>
-    <category lang="en">News</category>
-  </programme>
-  <programme start="20261017050000 +0000" stop="20261017050500 +0000" channel="entertainment_20">
-    <title lang="en">5 Minutes</title>
     <category lang="en">News</category>
   </programme>
   <programme start="20261017050500 +0000" stop="20261017053000 +0000" channel="entertainment_20">
@@ -2276,34 +1924,6 @@
     <title lang="en">The Ring</title>
     <category lang="en">News</category>
   </programme>
-  <programme start="20261016234800 +0000" stop="20261017003800 +0000" channel="entertainment_21">
-    <title lang="en">Blowing Up History - Legend Of Xanadu</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017003800 +0000" stop="20261017012800 +0000" channel="entertainment_21">
-    <title lang="en">Blowing Up History - Enigma Of The Red Pyramid</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017012800 +0000" stop="20261017021400 +0000" channel="entertainment_21">
-    <title lang="en">Kindig Customs - Hum-Dinger</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017021400 +0000" stop="20261017030000 +0000" channel="entertainment_21">
-    <title lang="en">Kindig Customs - Concours d'Ele-Kindig</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017030000 +0000" stop="20261017034600 +0000" channel="entertainment_21">
-    <title lang="en">Extreme engineering - New Orleans Surge Barrier</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017034600 +0000" stop="20261017043200 +0000" channel="entertainment_21">
-    <title lang="en">Extreme engineering - Rio De Janeiro Power Grid</title>
-    <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017043200 +0000" stop="20261017051800 +0000" channel="entertainment_21">
-    <title lang="en">Extreme engineering - South African Gold Mine</title>
-    <category lang="en">Factual</category>
-  </programme>
   <programme start="20261017051800 +0000" stop="20261017060400 +0000" channel="entertainment_21">
     <title lang="en">Extreme engineering - Melbourne Stadium</title>
     <category lang="en">Factual</category>
@@ -2387,114 +2007,6 @@
   <programme start="20261017204500 +0000" stop="20261017205959 +0000" channel="entertainment_21">
     <title lang="en">In the Eye of the Storm - Episode 5</title>
     <category lang="en">Factual</category>
-  </programme>
-  <programme start="20261017002200 +0000" stop="20261017003400 +0000" channel="entertainment_22">
-    <title lang="en">GOGO Bus</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017003400 +0000" stop="20261017004700 +0000" channel="entertainment_22">
-    <title lang="en">GOGO Bus EP 2 - The Missing Sculpture</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017004700 +0000" stop="20261017005400 +0000" channel="entertainment_22">
-    <title lang="en">TIK TAK S1 | E13</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017005400 +0000" stop="20261017005900 +0000" channel="entertainment_22">
-    <title lang="en">PINS AND NETTIE EP 1 - Hedgie Sing-a-Long</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017005900 +0000" stop="20261017010500 +0000" channel="entertainment_22">
-    <title lang="en">PINS AND NETTIE EP 2 - Hedgie Puddles</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017010500 +0000" stop="20261017011200 +0000" channel="entertainment_22">
-    <title lang="en">Atom Town S1 EP 13 - Atomic Cycling</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017011200 +0000" stop="20261017012400 +0000" channel="entertainment_22">
-    <title lang="en">COUNTING WITH PAULA S5 -  S5</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017012400 +0000" stop="20261017013500 +0000" channel="entertainment_22">
-    <title lang="en">Monchhichi S2-P1-2 EP 25 - SAD TUMBLEKINS</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017013500 +0000" stop="20261017014600 +0000" channel="entertainment_22">
-    <title lang="en">Monchhichi S2-P1-2 EP 26 - NASTY SNEEZES</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017014600 +0000" stop="20261017020000 +0000" channel="entertainment_22">
-    <title lang="en">DONKEY HODIE S1 S1</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017020500 +0000" channel="entertainment_22">
-    <title lang="en">Nitso and the Very Hairy Alphabet EP 25 - The Letter Y</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017020500 +0000" stop="20261017021400 +0000" channel="entertainment_22">
-    <title lang="en">Nitso and the Very Hairy Alphabet EP 26 - The Letter Z</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017021400 +0000" stop="20261017022400 +0000" channel="entertainment_22">
-    <title lang="en">Builder Brother Dream Factory S2 S2 | E3</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017022400 +0000" stop="20261017023500 +0000" channel="entertainment_22">
-    <title lang="en">Builder Brother Dream Factory S2 S2 | E4</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017023500 +0000" stop="20261017024600 +0000" channel="entertainment_22">
-    <title lang="en">THE JUNGLE BUNCH TO THE RESCUE S3 P1-2 EP 25 - Flight of the flamingos</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017024600 +0000" stop="20261017025700 +0000" channel="entertainment_22">
-    <title lang="en">THE JUNGLE BUNCH TO THE RESCUE S3 P1-2 EP 26 - Tiger and grumpy</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017025700 +0000" stop="20261017032100 +0000" channel="entertainment_22">
-    <title lang="en">Arthur and The Minimoys EP 13 - Betameche loses it</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017032100 +0000" stop="20261017034400 +0000" channel="entertainment_22">
-    <title lang="en">Dronix S1 EP 13 - DISCOVERY</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017034400 +0000" stop="20261017035100 +0000" channel="entertainment_22">
-    <title lang="en">WOLF S1 S1</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017035100 +0000" stop="20261017035900 +0000" channel="entertainment_22">
-    <title lang="en">WOLF S1 S1</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017035900 +0000" stop="20261017041000 +0000" channel="entertainment_22">
-    <title lang="en">SONIC BOOM S2 S2</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017041000 +0000" stop="20261017042200 +0000" channel="entertainment_22">
-    <title lang="en">SONIC BOOM S2 S2</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017042200 +0000" stop="20261017044400 +0000" channel="entertainment_22">
-    <title lang="en">MoominValley S1 EP 5 - The Golden Tale</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017044400 +0000" stop="20261017045600 +0000" channel="entertainment_22">
-    <title lang="en">ATCHOO S2 S2 | E25</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017045600 +0000" stop="20261017050700 +0000" channel="entertainment_22">
-    <title lang="en">ATCHOO S2 S2 | E26</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017050700 +0000" stop="20261017051500 +0000" channel="entertainment_22">
-    <title lang="en">TIP THE MOUSE S1 EP 25 - I want to play!</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017051500 +0000" stop="20261017052300 +0000" channel="entertainment_22">
-    <title lang="en">TIP THE MOUSE S1 EP 26 - I’m not tired at all!</title>
-    <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261017052300 +0000" stop="20261017053400 +0000" channel="entertainment_22">
     <title lang="en">BIGGLETON S1 S1 | E25</title>
@@ -2948,92 +2460,108 @@
     <title lang="en">Monchhichi S2 - P2 -  EP 1 Kauri And The Cartepillars</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017001500 +0000" stop="20261017003800 +0000" channel="entertainment_23">
-    <title lang="en">Wild kratts S1</title>
+  <programme start="20261018013600 +0000" stop="20261018014900 +0000" channel="entertainment_22">
+    <title lang="en">Monchhichi S2 - P2 -  EP 2 The Lost Teddy Bear</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017003800 +0000" stop="20261017005100 +0000" channel="entertainment_23">
-    <title lang="en">Open Season: Call of Nature (S1) S1</title>
+  <programme start="20261018014900 +0000" stop="20261018020200 +0000" channel="entertainment_22">
+    <title lang="en">DONKEY HODIE S1 S1</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017005100 +0000" stop="20261017010200 +0000" channel="entertainment_23">
-    <title lang="en">Science Voyagers S1 | E11</title>
+  <programme start="20261018020200 +0000" stop="20261018021000 +0000" channel="entertainment_22">
+    <title lang="en">Nitso and the Very Hairy Alphabet EP 1 - The Letter A</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017010200 +0000" stop="20261017012600 +0000" channel="entertainment_23">
-    <title lang="en">The Ice Machine</title>
+  <programme start="20261018021000 +0000" stop="20261018021800 +0000" channel="entertainment_22">
+    <title lang="en">Nitso and the Very Hairy Alphabet EP 2 - The Letter B</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017012600 +0000" stop="20261017013700 +0000" channel="entertainment_23">
-    <title lang="en">Builder Brothers Dream Factory S1 | E1</title>
+  <programme start="20261018021800 +0000" stop="20261018022900 +0000" channel="entertainment_22">
+    <title lang="en">Builder Brother Dream Factory S2 S2 | E5</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017013700 +0000" stop="20261017014900 +0000" channel="entertainment_23">
-    <title lang="en">The Monchhichi Tribe P1 S2 | E1</title>
+  <programme start="20261018022900 +0000" stop="20261018024000 +0000" channel="entertainment_22">
+    <title lang="en">Builder Brother Dream Factory S2 S2 | E6</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017014900 +0000" stop="20261017020200 +0000" channel="entertainment_23">
-    <title lang="en">ODD SQUAD S3 MOBILE UNIT P1 S3</title>
+  <programme start="20261018024000 +0000" stop="20261018025000 +0000" channel="entertainment_22">
+    <title lang="en">THE JUNGLE BUNCH TO THE RESCUE S3 P1-2 EP 27 - special convoy</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017020200 +0000" stop="20261017021700 +0000" channel="entertainment_23">
-    <title lang="en">Robocar Poli S4 | E6</title>
+  <programme start="20261018025000 +0000" stop="20261018030200 +0000" channel="entertainment_22">
+    <title lang="en">THE JUNGLE BUNCH TO THE RESCUE S3 P1-2 EP 28 - Who Framed Ronald The Elephant ?</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017021700 +0000" stop="20261017024600 +0000" channel="entertainment_23">
-    <title lang="en">Teela Toola S8 EP 4 - Peach</title>
+  <programme start="20261018030200 +0000" stop="20261018032500 +0000" channel="entertainment_22">
+    <title lang="en">Arthur and The Minimoys EP 14 - The Chilop's attacks</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017024600 +0000" stop="20261017025500 +0000" channel="entertainment_23">
-    <title lang="en">Yeti Tales S5 S5</title>
+  <programme start="20261018032500 +0000" stop="20261018034800 +0000" channel="entertainment_22">
+    <title lang="en">Dronix S1 EP 14 - THE BIG TOURNAMENT</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017025500 +0000" stop="20261017030400 +0000" channel="entertainment_23">
-    <title lang="en">Oggy Oggy S1 S1</title>
+  <programme start="20261018034800 +0000" stop="20261018035500 +0000" channel="entertainment_22">
+    <title lang="en">WOLF S1 S1</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017030400 +0000" stop="20261017031600 +0000" channel="entertainment_23">
-    <title lang="en">Biggleton S1 | E31</title>
+  <programme start="20261018035500 +0000" stop="20261018040200 +0000" channel="entertainment_22">
+    <title lang="en">WOLF S1 S1</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017031600 +0000" stop="20261017032900 +0000" channel="entertainment_23">
-    <title lang="en">Ranger Rob S1 | E31</title>
+  <programme start="20261018040200 +0000" stop="20261018041400 +0000" channel="entertainment_22">
+    <title lang="en">SONIC BOOM S2 S2</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017032900 +0000" stop="20261017034000 +0000" channel="entertainment_23">
-    <title lang="en">Fafa S5 | E4</title>
+  <programme start="20261018041400 +0000" stop="20261018042500 +0000" channel="entertainment_22">
+    <title lang="en">SONIC BOOM S2 S2</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017034000 +0000" stop="20261017035200 +0000" channel="entertainment_23">
-    <title lang="en">PONDEMONIUM EP 30 - The Weight-lifting Champion</title>
+  <programme start="20261018042500 +0000" stop="20261018044800 +0000" channel="entertainment_22">
+    <title lang="en">MoominValley S1 EP 6 - Hattifattener Island</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017035200 +0000" stop="20261017035800 +0000" channel="entertainment_23">
-    <title lang="en">Big words Small Stories S1 | E32</title>
+  <programme start="20261018044800 +0000" stop="20261018045800 +0000" channel="entertainment_22">
+    <title lang="en">ATCHOO S2 S2 | E27</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017035800 +0000" stop="20261017040700 +0000" channel="entertainment_23">
-    <title lang="en">Yeti Tales S5 S5</title>
+  <programme start="20261018045800 +0000" stop="20261018050900 +0000" channel="entertainment_22">
+    <title lang="en">ATCHOO S2 S2 | E28</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017040700 +0000" stop="20261017041600 +0000" channel="entertainment_23">
-    <title lang="en">Oggy Oggy S1 S1</title>
+  <programme start="20261018050900 +0000" stop="20261018051700 +0000" channel="entertainment_22">
+    <title lang="en">TIP THE MOUSE S1 EP 27 - Work is no fun at all!</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017041600 +0000" stop="20261017043000 +0000" channel="entertainment_23">
-    <title lang="en">Donkey Hodie S1 | E31</title>
+  <programme start="20261018051700 +0000" stop="20261018052500 +0000" channel="entertainment_22">
+    <title lang="en">TIP THE MOUSE S1 EP 28 - I want my mommy!</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017043000 +0000" stop="20261017044400 +0000" channel="entertainment_23">
-    <title lang="en">Robocar Poli S4 | E7</title>
+  <programme start="20261018052500 +0000" stop="20261018053600 +0000" channel="entertainment_22">
+    <title lang="en">Biggleton S2 S2</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017044400 +0000" stop="20261017051300 +0000" channel="entertainment_23">
-    <title lang="en">Teela Toola S8 EP 5 - Banana</title>
+  <programme start="20261018053600 +0000" stop="20261018054900 +0000" channel="entertainment_22">
+    <title lang="en">Biggleton S2 S2</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017051300 +0000" stop="20261017052500 +0000" channel="entertainment_23">
-    <title lang="en">Biggleton S1 | E32</title>
+  <programme start="20261018054900 +0000" stop="20261018055600 +0000" channel="entertainment_22">
+    <title lang="en">THE CHOCOLIX S3 S3 | E7</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018055600 +0000" stop="20261018060500 +0000" channel="entertainment_22">
+    <title lang="en">THE CHOCOLIX S3 S3 | E8</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018060500 +0000" stop="20261018061100 +0000" channel="entertainment_22">
+    <title lang="en">Doodleboo S2 | E27</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018061100 +0000" stop="20261018061700 +0000" channel="entertainment_22">
+    <title lang="en">Doodleboo S2 | E28</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018061700 +0000" stop="20261018062900 +0000" channel="entertainment_22">
+    <title lang="en">GOGO Bus</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261017052500 +0000" stop="20261017053800 +0000" channel="entertainment_23">
@@ -3376,76 +2904,92 @@
     <title lang="en">The Monchhichi Tribe P1 S2 | E8</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261016235900 +0000" stop="20261017005900 +0000" channel="entertainment_24">
-    <title lang="en">Baraem Night Loop EP 7</title>
+  <programme start="20261018013600 +0000" stop="20261018014800 +0000" channel="entertainment_23">
+    <title lang="en">Nicholas' Fantastic Summer S1 | E5</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017005900 +0000" stop="20261017020000 +0000" channel="entertainment_24">
-    <title lang="en">Baraem Night Loop EP 7</title>
+  <programme start="20261018014800 +0000" stop="20261018020100 +0000" channel="entertainment_23">
+    <title lang="en">ODD SQUAD S3 MOBILE UNIT P1 S3</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017020000 +0000" stop="20261017030000 +0000" channel="entertainment_24">
-    <title lang="en">Baraem Night Loop EP 7</title>
+  <programme start="20261018020100 +0000" stop="20261018020800 +0000" channel="entertainment_23">
+    <title lang="en">Big words Small Stories S1 | E29</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017030700 +0000" channel="entertainment_24">
-    <title lang="en">Sea Shore Show</title>
+  <programme start="20261018020800 +0000" stop="20261018022000 +0000" channel="entertainment_23">
+    <title lang="en">Ranger Rob S2 S2</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017030700 +0000" stop="20261017031600 +0000" channel="entertainment_24">
-    <title lang="en">Stuck in Limbo</title>
+  <programme start="20261018022000 +0000" stop="20261018023200 +0000" channel="entertainment_23">
+    <title lang="en">Biggleton S1 | E26</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017031600 +0000" stop="20261017032100 +0000" channel="entertainment_24">
-    <title lang="en">Numberblocks S1-4 EP 11 - The Whole of Me</title>
+  <programme start="20261018023200 +0000" stop="20261018024200 +0000" channel="entertainment_23">
+    <title lang="en">Yeti Tales S6 S6</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017032100 +0000" stop="20261017032700 +0000" channel="entertainment_24">
-    <title lang="en">Numberblocks S1-4 EP 12 - The Terrible Twos</title>
+  <programme start="20261018024200 +0000" stop="20261018025600 +0000" channel="entertainment_23">
+    <title lang="en">Robocar Poli S3 | E24</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017032700 +0000" stop="20261017034000 +0000" channel="entertainment_24">
-    <title lang="en">Fafa S7 | E4</title>
+  <programme start="20261018025600 +0000" stop="20261018032500 +0000" channel="entertainment_23">
+    <title lang="en">Teela Toola S4 EP 26 Football player</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017034000 +0000" stop="20261017035200 +0000" channel="entertainment_24">
-    <title lang="en">Dylan’s Playtime Adventures S1 | E27</title>
+  <programme start="20261018032500 +0000" stop="20261018033600 +0000" channel="entertainment_23">
+    <title lang="en">PONDEMONIUM EP 75 - A Skateboarding Fool</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017035200 +0000" stop="20261017040500 +0000" channel="entertainment_24">
-    <title lang="en">Dylan’s Playtime Adventures S1 | E28</title>
+  <programme start="20261018033600 +0000" stop="20261018035300 +0000" channel="entertainment_23">
+    <title lang="en">Fafa S4 EP 24 - Endurance</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017040500 +0000" stop="20261017041100 +0000" channel="entertainment_24">
-    <title lang="en">Reggie Rex S1 | E27</title>
+  <programme start="20261018035300 +0000" stop="20261018040500 +0000" channel="entertainment_23">
+    <title lang="en">Ranger Rob S3 S3</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017041100 +0000" stop="20261017041800 +0000" channel="entertainment_24">
-    <title lang="en">Reggie Rex S1 | E28</title>
+  <programme start="20261018040500 +0000" stop="20261018041700 +0000" channel="entertainment_23">
+    <title lang="en">Biggleton S1 | E27</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017041800 +0000" stop="20261017043800 +0000" channel="entertainment_24">
-    <title lang="en">Hourouf Wa Rousoum S13 S13 | E2</title>
+  <programme start="20261018041700 +0000" stop="20261018042700 +0000" channel="entertainment_23">
+    <title lang="en">Yeti Tales S6 S6</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017043800 +0000" stop="20261017044900 +0000" channel="entertainment_24">
-    <title lang="en">Biggleton S1 | E11</title>
+  <programme start="20261018042700 +0000" stop="20261018043200 +0000" channel="entertainment_23">
+    <title lang="en">Big words Small Stories S1 | E30</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017044900 +0000" stop="20261017050100 +0000" channel="entertainment_24">
-    <title lang="en">Biggleton S1 | E12</title>
+  <programme start="20261018043200 +0000" stop="20261018044600 +0000" channel="entertainment_23">
+    <title lang="en">Donkey Hodie S1 | E8</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017050100 +0000" stop="20261017050400 +0000" channel="entertainment_24">
-    <title lang="en">I have a question S1 | E1</title>
+  <programme start="20261018044600 +0000" stop="20261018045500 +0000" channel="entertainment_23">
+    <title lang="en">Oggy Oggy S2 S2 | E4</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017050400 +0000" stop="20261017051300 +0000" channel="entertainment_24">
-    <title lang="en">Briko S1 | E11</title>
+  <programme start="20261018045500 +0000" stop="20261018051000 +0000" channel="entertainment_23">
+    <title lang="en">Robocar Poli S3 | E25</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017051300 +0000" stop="20261017052300 +0000" channel="entertainment_24">
-    <title lang="en">Briko S1 | E12</title>
+  <programme start="20261018051000 +0000" stop="20261018053800 +0000" channel="entertainment_23">
+    <title lang="en">Teela Toola S7 EP 1 - GRAPE</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018053800 +0000" stop="20261018054900 +0000" channel="entertainment_23">
+    <title lang="en">PONDEMONIUM EP 76 - Between a Rock and a Hardhead</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018054900 +0000" stop="20261018060200 +0000" channel="entertainment_23">
+    <title lang="en">Fafa S4 EP 25 - Patriotism</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018060200 +0000" stop="20261018061400 +0000" channel="entertainment_23">
+    <title lang="en">Ranger Rob S3 S3</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018061400 +0000" stop="20261018062700 +0000" channel="entertainment_23">
+    <title lang="en">Biggleton S1 | E27</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261017052300 +0000" stop="20261017054200 +0000" channel="entertainment_24">
@@ -3852,17 +3396,105 @@
     <title lang="en">Baraem Night Loop EP 7</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261016223000 +0000" stop="20261017030000 +0000" channel="entertainment_25">
-    <title lang="en">The Amazing World of Gumball</title>
-    <category lang="en">Kids</category>
+  <programme start="20261018020000 +0000" stop="20261018030000 +0000" channel="entertainment_24">
+    <title lang="en">Baraem Night Loop EP 7</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017030000 +0000" stop="20261017043000 +0000" channel="entertainment_25">
-    <title lang="en">The Amazing World of Gumball</title>
-    <category lang="en">Kids</category>
+  <programme start="20261018030000 +0000" stop="20261018031000 +0000" channel="entertainment_24">
+    <title lang="en">Briko S1 | E19</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261017043000 +0000" stop="20261017051500 +0000" channel="entertainment_25">
-    <title lang="en">The Tom and Jerry Show</title>
-    <category lang="en">Kids</category>
+  <programme start="20261018031000 +0000" stop="20261018032000 +0000" channel="entertainment_24">
+    <title lang="en">Briko S1 | E20</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018032000 +0000" stop="20261018032300 +0000" channel="entertainment_24">
+    <title lang="en">Robotik S1 | E21</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018032300 +0000" stop="20261018032600 +0000" channel="entertainment_24">
+    <title lang="en">Robotik S1 | E22</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018032600 +0000" stop="20261018033000 +0000" channel="entertainment_24">
+    <title lang="en">Robotik S1 | E23</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018033000 +0000" stop="20261018034300 +0000" channel="entertainment_24">
+    <title lang="en">Fafa S7 | E10</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018034300 +0000" stop="20261018034700 +0000" channel="entertainment_24">
+    <title lang="en">Let's Sing Together S1 | E29</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018034700 +0000" stop="20261018040000 +0000" channel="entertainment_24">
+    <title lang="en">SUPERDINO S1 | E29</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018040000 +0000" stop="20261018041400 +0000" channel="entertainment_24">
+    <title lang="en">SUPERDINO S1 | E30</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018041400 +0000" stop="20261018042200 +0000" channel="entertainment_24">
+    <title lang="en">Oggy Oggy S2 S2 | E31</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018042200 +0000" stop="20261018043000 +0000" channel="entertainment_24">
+    <title lang="en">Oggy Oggy S2 S2 | E32</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018043000 +0000" stop="20261018043900 +0000" channel="entertainment_24">
+    <title lang="en">Oggy Oggy S2 S2 | E33</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018043900 +0000" stop="20261018045000 +0000" channel="entertainment_24">
+    <title lang="en">PONDEMONIUM EP 38 - A Competition</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018045000 +0000" stop="20261018050100 +0000" channel="entertainment_24">
+    <title lang="en">PONDEMONIUM EP 39 - An Orange Peel</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018050100 +0000" stop="20261018051300 +0000" channel="entertainment_24">
+    <title lang="en">Dylan’s Playtime Adventures S1 | E19</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018051300 +0000" stop="20261018052500 +0000" channel="entertainment_24">
+    <title lang="en">Dylan’s Playtime Adventures S1 | E20</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018052500 +0000" stop="20261018053100 +0000" channel="entertainment_24">
+    <title lang="en">Numberblocks S1-4 EP 19 - Ten</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018053100 +0000" stop="20261018053700 +0000" channel="entertainment_24">
+    <title lang="en">Numberblocks S1-4 EP 20 - Just Add One</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018053700 +0000" stop="20261018054400 +0000" channel="entertainment_24">
+    <title lang="en">In the Wild</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018054400 +0000" stop="20261018055200 +0000" channel="entertainment_24">
+    <title lang="en">Picnic Panic</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018055200 +0000" stop="20261018055900 +0000" channel="entertainment_24">
+    <title lang="en">Reggie Rex S1 | E17</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018055900 +0000" stop="20261018060600 +0000" channel="entertainment_24">
+    <title lang="en">Reggie Rex S1 | E18</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018060600 +0000" stop="20261018061700 +0000" channel="entertainment_24">
+    <title lang="en">Biggleton S1 | E25</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261018061700 +0000" stop="20261018063000 +0000" channel="entertainment_24">
+    <title lang="en">Biggleton S1 | E26</title>
+    <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261017051500 +0000" stop="20261017060000 +0000" channel="entertainment_25">
     <title lang="en">Scooby-Doo and Guess Who?</title>
@@ -3948,18 +3580,6 @@
     <title lang="en">Adventure Time (S10)</title>
     <category lang="en">Kids</category>
   </programme>
-  <programme start="20261017000000 +0000" stop="20261017020000 +0000" channel="entertainment_26">
-    <title lang="en">We Bare Bears</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017030000 +0000" channel="entertainment_26">
-    <title lang="en">Ben 10 (S1)</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017030000 +0000" stop="20261017040000 +0000" channel="entertainment_26">
-    <title lang="en">Ben 10 (S1)</title>
-    <category lang="en">Kids</category>
-  </programme>
   <programme start="20261017040000 +0000" stop="20261017060000 +0000" channel="entertainment_26">
     <title lang="en">Roll No 21</title>
     <category lang="en">Kids</category>
@@ -3998,62 +3618,6 @@
   </programme>
   <programme start="20261017200000 +0000" stop="20261017205959 +0000" channel="entertainment_26">
     <title lang="en">Tom and Jerry</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017001000 +0000" stop="20261017003500 +0000" channel="entertainment_27">
-    <title lang="en">Hamster and Gretel - New Adventures of Super Kevin, the - Part I/ New Adventures of Super Kev...</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017003500 +0000" stop="20261017005500 +0000" channel="entertainment_27">
-    <title lang="en">Hamster and Gretel - The Search for Super Guy/ Lorraine, Rattle, and Roll</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017005500 +0000" stop="20261017012000 +0000" channel="entertainment_27">
-    <title lang="en">Phineas and Ferb - It's About Time! (Part 1 and 2)</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017012000 +0000" stop="20261017014000 +0000" channel="entertainment_27">
-    <title lang="en">Phineas and Ferb - Jerk De Soleil/ Toy to the World</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017014000 +0000" stop="20261017020500 +0000" channel="entertainment_27">
-    <title lang="en">Phineas and Ferb - One Good Scare Ought to Do It! (Part 1 and 2)</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020500 +0000" stop="20261017022500 +0000" channel="entertainment_27">
-    <title lang="en">Hamster and Gretel - No Powers Day/ Everybody Loves Main Computer</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017022500 +0000" stop="20261017024500 +0000" channel="entertainment_27">
-    <title lang="en">Hamster and Gretel - Gretel Keeps It Reel/ Squeaky Friday</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017024500 +0000" stop="20261017030500 +0000" channel="entertainment_27">
-    <title lang="en">Hamster and Gretel - Gran Slam/ The Art of Deception</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017030500 +0000" stop="20261017033000 +0000" channel="entertainment_27">
-    <title lang="en">Big City Greens - Move, The</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033000 +0000" stop="20261017035000 +0000" channel="entertainment_27">
-    <title lang="en">Big City Greens - Country Side/ Junk Mountain</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035000 +0000" stop="20261017040000 +0000" channel="entertainment_27">
-    <title lang="en">Big City Greens - Montaged</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017042000 +0000" channel="entertainment_27">
-    <title lang="en">Kiff - Kiff is Good at Sports/ Mushroommates</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017042000 +0000" stop="20261017044500 +0000" channel="entertainment_27">
-    <title lang="en">Kiff - Principal Helen/ Dial B for Butt</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017044500 +0000" stop="20261017051000 +0000" channel="entertainment_27">
-    <title lang="en">Big City Greens - Country Side/ Junk Mountain</title>
     <category lang="en">Kids</category>
   </programme>
   <programme start="20261017051000 +0000" stop="20261017053000 +0000" channel="entertainment_27">
@@ -4215,86 +3779,6 @@
   <programme start="20261017204500 +0000" stop="20261017205959 +0000" channel="entertainment_27">
     <title lang="en">Wizards Beyond Waverly Place - Wiz-Taken Identity</title>
     <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261017002500 +0000" stop="20261017005000 +0000" channel="entertainment_28">
-    <title lang="en">Spidey and His Amazing Friends - Odd Bot Team Up/ The Lost King</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017005000 +0000" stop="20261017011500 +0000" channel="entertainment_28">
-    <title lang="en">Spidey and His Amazing Friends - Curse of the Corn Dog King, The/ Zola's Halloween Heist</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017011500 +0000" stop="20261017014000 +0000" channel="entertainment_28">
-    <title lang="en">Spidey and His Amazing Friends - Robo-Spideys/ Saber-Toothed Kitten</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017014000 +0000" stop="20261017020500 +0000" channel="entertainment_28">
-    <title lang="en">RoboGobo - Raccoons Who Cried Rescue, The/ Jumpin' Jaguars</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020500 +0000" stop="20261017023000 +0000" channel="entertainment_28">
-    <title lang="en">RoboGobo - Crab-Cuffed/ Bees is for Booster</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017023000 +0000" stop="20261017025500 +0000" channel="entertainment_28">
-    <title lang="en">RoboGobo - Mammoth Meltdown/ Silly Suit Switch-A-Roo</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017025500 +0000" stop="20261017030500 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Puppets</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017030500 +0000" stop="20261017031000 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Stories</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017031000 +0000" stop="20261017031500 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Musical Statues</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017031500 +0000" stop="20261017032500 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Cubby</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017032500 +0000" stop="20261017033000 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Space</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033000 +0000" stop="20261017034000 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Granny Mobile</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017034000 +0000" stop="20261017035000 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Tradies</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035000 +0000" stop="20261017035500 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Onesies</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035500 +0000" stop="20261017040000 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Turtle Boy</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017040500 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Cricket</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040500 +0000" stop="20261017041000 +0000" channel="entertainment_28">
-    <title lang="en">Bluey - Dirt</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017041000 +0000" stop="20261017043500 +0000" channel="entertainment_28">
-    <title lang="en">Spidey and His Amazing Friends - Tree House Takeover/ Incredible Shrinking Zola, The</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017043500 +0000" stop="20261017050000 +0000" channel="entertainment_28">
-    <title lang="en">Spidey and His Amazing Friends - Snow Day for Aunt May, A/ Hanukkah Heist</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017050000 +0000" stop="20261017052500 +0000" channel="entertainment_28">
-    <title lang="en">Mickey Mouse Clubhouse - Martian Mickey's Clubhouse</title>
-    <category lang="en">Kids</category>
   </programme>
   <programme start="20261017052500 +0000" stop="20261017055000 +0000" channel="entertainment_28">
     <title lang="en">Sofia the First - New Horse on the Block/The Green-Eyed Monster</title>
@@ -4558,330 +4042,6 @@
   </programme>
   <programme start="20261017204000 +0000" stop="20261017205959 +0000" channel="entertainment_28">
     <title lang="en">SuperKitties - Flying Piggy/ Get the Zoomies</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017002200 +0000" stop="20261017002600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Take it Easy</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017002600 +0000" stop="20261017003000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Pillow Time</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017003000 +0000" stop="20261017003300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Bright Moon</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017003300 +0000" stop="20261017003700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Relaxing Journey</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017003700 +0000" stop="20261017004100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sleep with a Smile</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017004100 +0000" stop="20261017004500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Twilight Time</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017004500 +0000" stop="20261017005000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time Out</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017005000 +0000" stop="20261017005300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Dream and Smile</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017005300 +0000" stop="20261017005800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time to Unwind</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017005800 +0000" stop="20261017010100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sleep and Dream</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017010100 +0000" stop="20261017010400 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Lay Your Head</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017010400 +0000" stop="20261017010800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sleepy Time</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017010800 +0000" stop="20261017011100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Full Moon</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017011100 +0000" stop="20261017011500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Twinkling Stars</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017011500 +0000" stop="20261017011800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time for Bed 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017011800 +0000" stop="20261017012200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Relaxing Time 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017012200 +0000" stop="20261017012500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time to Dream 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017012500 +0000" stop="20261017012800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Tranquil Time 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017012800 +0000" stop="20261017013200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Take a Break 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017013200 +0000" stop="20261017013600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Starry Night 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017013600 +0000" stop="20261017013900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - After Hours 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017013900 +0000" stop="20261017014200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nightfall 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017014200 +0000" stop="20261017014600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nap Time 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017014600 +0000" stop="20261017015000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Chill Out 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017015000 +0000" stop="20261017015300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time for Bed 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017015300 +0000" stop="20261017015700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Relaxing Time 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017015700 +0000" stop="20261017020100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time to Dream 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020100 +0000" stop="20261017020500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Tranquil Time 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020500 +0000" stop="20261017020800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Take a Break 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020800 +0000" stop="20261017021200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Starry Night 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017021200 +0000" stop="20261017021500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - After Hours 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017021500 +0000" stop="20261017021900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nightfall 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017021900 +0000" stop="20261017022200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nap Time 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017022200 +0000" stop="20261017022600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Chill Out 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017022600 +0000" stop="20261017022900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sunset</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017022900 +0000" stop="20261017023300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Luminous Night</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017023300 +0000" stop="20261017023600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Let's Unwind</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017023600 +0000" stop="20261017024000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Over the Moon</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017024000 +0000" stop="20261017024400 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Reach for the Stars</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017024400 +0000" stop="20261017024700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - After Dusk</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017024700 +0000" stop="20261017025100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Take it Easy</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017025100 +0000" stop="20261017025500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Pillow Time</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017025500 +0000" stop="20261017025800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Bright Moon</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017025800 +0000" stop="20261017030200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Relaxing Journey</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017030200 +0000" stop="20261017030600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sleep with a Smile</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017030600 +0000" stop="20261017030900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Twilight Time</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017030900 +0000" stop="20261017031400 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time Out</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017031400 +0000" stop="20261017031800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Dream and Smile</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017031800 +0000" stop="20261017032200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time to Unwind</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017032200 +0000" stop="20261017032600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sleep and Dream</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017032600 +0000" stop="20261017032900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Lay Your Head</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017032900 +0000" stop="20261017033300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sleepy Time</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033300 +0000" stop="20261017033600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Full Moon</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033600 +0000" stop="20261017033900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Twinkling Stars</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033900 +0000" stop="20261017034300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time for Bed 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017034300 +0000" stop="20261017034600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Relaxing Time 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017034600 +0000" stop="20261017035000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time to Dream 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035000 +0000" stop="20261017035300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Tranquil Time 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035300 +0000" stop="20261017035700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Take a Break 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035700 +0000" stop="20261017040000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Starry Night 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017040400 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - After Hours 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040400 +0000" stop="20261017040700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nightfall 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040700 +0000" stop="20261017041100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nap Time 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017041100 +0000" stop="20261017041500 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Chill Out 2</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017041500 +0000" stop="20261017041800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time for Bed 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017041800 +0000" stop="20261017042200 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Relaxing Time 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017042200 +0000" stop="20261017042600 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Time to Dream 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017042600 +0000" stop="20261017042900 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Tranquil Time 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017042900 +0000" stop="20261017043300 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Take a Break 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017043300 +0000" stop="20261017043700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Starry Night 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017043700 +0000" stop="20261017044000 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - After Hours 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017044000 +0000" stop="20261017044400 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nightfall 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017044400 +0000" stop="20261017044700 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Nap Time 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017044700 +0000" stop="20261017045100 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Chill Out 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017045100 +0000" stop="20261017045400 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Sunset</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017045400 +0000" stop="20261017045800 +0000" channel="entertainment_29">
-    <title lang="en">Close your Eyes - Luminous Night</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017045800 +0000" stop="20261017050200 +0000" channel="entertainment_29">
-    <title lang="en">The Tiny Bunch - Squirrel's Tree House</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017050200 +0000" stop="20261017050600 +0000" channel="entertainment_29">
-    <title lang="en">The Tiny Bunch - The Package</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017050600 +0000" stop="20261017051000 +0000" channel="entertainment_29">
-    <title lang="en">The Tiny Bunch - Elephant’s New Hat</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017051000 +0000" stop="20261017051600 +0000" channel="entertainment_29">
-    <title lang="en">Billy Bam Bam - Robots</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017051600 +0000" stop="20261017052100 +0000" channel="entertainment_29">
-    <title lang="en">Billy Bam Bam - Xylophone</title>
     <category lang="en">Kids</category>
   </programme>
   <programme start="20261017052100 +0000" stop="20261017052600 +0000" channel="entertainment_29">
@@ -5618,118 +4778,6 @@
   </programme>
   <programme start="20261017205600 +0000" stop="20261017205959 +0000" channel="entertainment_29">
     <title lang="en">Cuddlies - Blanket</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017002500 +0000" stop="20261017003500 +0000" channel="entertainment_30">
-    <title lang="en">King Şakir - Goldenday</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017003500 +0000" stop="20261017005000 +0000" channel="entertainment_30">
-    <title lang="en">King Şakir - Housework</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017005000 +0000" stop="20261017010000 +0000" channel="entertainment_30">
-    <title lang="en">King Şakir - Super Joystick</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017010000 +0000" stop="20261017011000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Great Wall Disco</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017011000 +0000" stop="20261017011500 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Choco-Noodles</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017011500 +0000" stop="20261017012000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Tough Cookie</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017012000 +0000" stop="20261017013000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Artificial Intelligence, Natural Idiocy</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017013000 +0000" stop="20261017013500 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - All Out for Silk</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017013500 +0000" stop="20261017014500 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Hello Grizzy? Here Lemmings!</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017014500 +0000" stop="20261017015000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Grasshopper Bounty</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017015000 +0000" stop="20261017020000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Sound and Light</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017020000 +0000" stop="20261017021000 +0000" channel="entertainment_30">
-    <title lang="en">MR BEAN - Wrestle Bean</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017021000 +0000" stop="20261017022000 +0000" channel="entertainment_30">
-    <title lang="en">MR BEAN - Rare Bird</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017022000 +0000" stop="20261017023000 +0000" channel="entertainment_30">
-    <title lang="en">MR BEAN - Bean's Safari</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017023000 +0000" stop="20261017024500 +0000" channel="entertainment_30">
-    <title lang="en">MR BEAN - A Round of Golf</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017024500 +0000" stop="20261017025500 +0000" channel="entertainment_30">
-    <title lang="en">MR BEAN - What a load of Rubbish</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017025500 +0000" stop="20261017031500 +0000" channel="entertainment_30">
-    <title lang="en">Be Cool, Scooby-Doo! - Professor Huh? Part 1</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017031500 +0000" stop="20261017032500 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Nutty Family</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017032500 +0000" stop="20261017033000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Badly Sprained Bear</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033000 +0000" stop="20261017033500 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Winning Tokens</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017033500 +0000" stop="20261017034500 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Game of Marbles</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017034500 +0000" stop="20261017035000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Five-Star Bowl</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017035000 +0000" stop="20261017040000 +0000" channel="entertainment_30">
-    <title lang="en">Grizzy and the Lemmings - Lost Object</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017040000 +0000" stop="20261017041000 +0000" channel="entertainment_30">
-    <title lang="en">Dino Ranch - The Dino Boss</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017041000 +0000" stop="20261017043000 +0000" channel="entertainment_30">
-    <title lang="en">Dino Ranch - Big Baby Rescue</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017043000 +0000" stop="20261017044000 +0000" channel="entertainment_30">
-    <title lang="en">Batwheels - The Butler Did It</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017044000 +0000" stop="20261017050000 +0000" channel="entertainment_30">
-    <title lang="en">Batwheels - Batty Body Swap</title>
-    <category lang="en">Kids</category>
-  </programme>
-  <programme start="20261017050000 +0000" stop="20261017051000 +0000" channel="entertainment_30">
-    <title lang="en">Batwheels - A Jet Out of Water</title>
     <category lang="en">Kids</category>
   </programme>
   <programme start="20261017051000 +0000" stop="20261017052800 +0000" channel="entertainment_30">
