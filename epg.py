@@ -1,4 +1,4 @@
-"""Scrape beIN TV Guide into separate sports and entertainment XMLTV files."""
+"""Lightweight beIN EPG scraper: separate sports and entertainment XMLTV."""
 
 import re
 import sys
@@ -7,17 +7,13 @@ from pathlib import Path
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
-from playwright.sync_api import (
-    sync_playwright,
-    TimeoutError as PlaywrightTimeoutError,
-)
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 try:
     from zoneinfo import ZoneInfo
     ALGERIA_TZ = ZoneInfo("Africa/Algiers")
 except Exception:
     ALGERIA_TZ = timezone(timedelta(hours=1))
-
 
 URL = "https://www.bein.com/en/tv-guide/?c=dz"
 
@@ -27,163 +23,132 @@ ENTERTAINMENT_XML = Path("epg_entertainment.xml")
 PAST_HOURS = 1
 FUTURE_HOURS = 24
 
-PAGE_TIMEOUT_MS = 60000
-CATEGORY_TIMEOUT_MS = 10000
-DAY_TIMEOUT_MS = 15000
-GUIDE_TIMEOUT_MS = 12000
-ROW_TIMEOUT_MS = 1800
-SETTLE_MS = 500
+PAGE_TIMEOUT = 60000
+DAY_WAIT = 12000
+ROW_WAIT = 1200
+SETTLE_MS = 700
 
 
 DATES_JS = r"""
-() => [...document.querySelectorAll('.day-cell')]
+() => [...new Set(
+  [...document.querySelectorAll('.day-cell')]
     .map(e => e.dataset.date || '')
+    .filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d))
+)]
 """
 
 
-PROGRAM_SIGNATURE_JS = r"""
-() => [...document.querySelectorAll('.channel-row')].map(row =>
-    (row.dataset.channelIndex || '') + ':' +
-    [...row.querySelectorAll('.prog-block')].map(p => [
-        p.dataset.startMs || '',
-        p.dataset.endMs || '',
-        p.dataset.fullTitle || ''
-    ].join(',')).join('~')
+SIGNATURE_JS = r"""
+() => [...document.querySelectorAll('.channel-row')].map(r =>
+  [...r.querySelectorAll('.prog-block')].map(p => [
+    p.dataset.startMs || '',
+    p.dataset.endMs || '',
+    p.dataset.fullTitle || ''
+  ].join(':')).join('~')
 ).join('|')
 """
 
 
 WAIT_DAY_JS = r"""
 ({date, before}) => {
-    const day = [...document.querySelectorAll('.day-cell')]
-        .find(e => (e.dataset.date || '') === date);
+  const d = [...document.querySelectorAll('.day-cell')]
+    .find(e => e.dataset.date === date);
 
-    if (!day || !day.classList.contains('active')) return false;
+  if (!d || !d.classList.contains('active')) return false;
 
-    const current = [...document.querySelectorAll('.channel-row')].map(row =>
-        (row.dataset.channelIndex || '') + ':' +
-        [...row.querySelectorAll('.prog-block')].map(p => [
-            p.dataset.startMs || '',
-            p.dataset.endMs || '',
-            p.dataset.fullTitle || ''
-        ].join(',')).join('~')
-    ).join('|');
+  const now = [...document.querySelectorAll('.channel-row')].map(r =>
+    [...r.querySelectorAll('.prog-block')].map(p => [
+      p.dataset.startMs || '',
+      p.dataset.endMs || '',
+      p.dataset.fullTitle || ''
+    ].join(':')).join('~')
+  ).join('|');
 
-    return current !== before;
-}
-"""
-
-
-CATEGORY_SIGNATURE_JS = r"""
-() => {
-    const rows = document.querySelectorAll('.channel-row');
-    const img = document.querySelector('.channel-row .channel-col img');
-
-    return rows.length + '|' +
-        (img ? (img.currentSrc || img.src || '') : '');
-}
-"""
-
-
-CATEGORY_CHANGED_JS = r"""
-before => {
-    const rows = document.querySelectorAll('.channel-row');
-    const img = document.querySelector('.channel-row .channel-col img');
-
-    const current = rows.length + '|' +
-        (img ? (img.currentSrc || img.src || '') : '');
-
-    return rows.length > 0 && current !== before;
+  return now !== before;
 }
 """
 
 
 ROW_JS = r"""
 row => {
-    const link = row.querySelector('.channel-col a[href]');
-    const img = row.querySelector('.channel-col img');
+  const a = row.querySelector('.channel-col a[href]');
+  const img = row.querySelector('.channel-col img');
+  const label = row.querySelector(
+    '[data-channel-name], .channel-name, .channel-title'
+  );
 
-    const label = row.querySelector(
-        '[data-channel-name], .channel-name, .channel-title'
-    );
+  const alt = img ? (img.getAttribute('alt') || '').trim() : '';
+  const href = a ? a.href : '';
+  const path = href ? new URL(href).pathname.replace(/\/+$/, '') : '';
 
-    const alt = img ? (img.getAttribute('alt') || '').trim() : '';
-    const usefulAlt = alt && !/^(channel\s+)?logo$/i.test(alt) ? alt : '';
-
-    const href = link ? link.href : '';
-    const path = href ? new URL(href).pathname.replace(/\/+$/, '') : '';
-    const slug = path ? path.split('/').pop() : '';
-
-    return {
-        index: row.getAttribute('data-channel-index') || '',
-        href,
-        name: (label ? (label.textContent || '').trim() : '') || usefulAlt || slug,
-        slug,
-        logo: img ? (img.currentSrc || img.src || '') : '',
-        programs: [...row.querySelectorAll('.prog-block')].map(p => ({
-            title: (p.dataset.fullTitle || '').trim(),
-            category: (p.dataset.fullCategory || '').trim(),
-            start: p.dataset.startMs || '',
-            end: p.dataset.endMs || ''
-        }))
-    };
+  return {
+    index: row.getAttribute('data-channel-index') || '',
+    href: href,
+    slug: path ? path.split('/').pop() : '',
+    name: (label ? (label.textContent || '').trim() : '') ||
+          (alt && !/^(channel\s+)?logo$/i.test(alt) ? alt : ''),
+    logo: img ? (img.currentSrc || img.src || '') : '',
+    programs: [...row.querySelectorAll('.prog-block')].map(p => ({
+      title: (p.dataset.fullTitle || '').trim(),
+      category: (p.dataset.fullCategory || '').trim(),
+      start: p.dataset.startMs || '',
+      end: p.dataset.endMs || ''
+    }))
+  };
 }
 """
 
 
 INDEXES_JS = r"""
 () => [...new Set(
-    [...document.querySelectorAll('.channel-row')]
-        .map(row => row.getAttribute('data-channel-index'))
-        .filter(value => value !== null && /^\d+$/.test(value))
+  [...document.querySelectorAll('.channel-row')]
+    .map(r => r.getAttribute('data-channel-index'))
+    .filter(v => v !== null && /^\d+$/.test(v))
 )].map(Number).sort((a, b) => a - b)
 """
 
 
-SCROLL_ROW_JS = r"""
+SCROLL_JS = r"""
 i => {
-    const row = document.querySelector(
-        '.channel-row[data-channel-index="' + i + '"]'
-    );
+  const r = document.querySelector(
+    '.channel-row[data-channel-index="' + String(i) + '"]'
+  );
 
-    if (!row) return false;
+  if (!r) return false;
 
-    row.scrollIntoView({block: 'center'});
-    return true;
+  r.scrollIntoView({block: 'center'});
+  return true;
 }
 """
 
 
 ROW_READY_JS = r"""
 i => {
-    const row = document.querySelector(
-        '.channel-row[data-channel-index="' + i + '"]'
-    );
+  const r = document.querySelector(
+    '.channel-row[data-channel-index="' + String(i) + '"]'
+  );
 
-    return !!row && row.querySelector('.prog-block') !== null;
+  return !!r && r.querySelectorAll('.prog-block').length > 0;
 }
 """
 
 
 READ_ROW_JS = (
-    "i => { const row = document.querySelector("
-    "'.channel-row[data-channel-index=\"' + i + '\"]'); "
-    "return row ? (" + ROW_JS.strip() + ")(row) : null; }"
+    "i => {"
+    "const r = document.querySelector("
+    "'.channel-row[data-channel-index=\"' + String(i) + '\"]');"
+    "return r ? (" + ROW_JS.strip() + ")(r) : null;"
+    "}"
 )
 
 
 def section_key(label, position):
-    """Identify the sports and entertainment tabs."""
-    compact = re.sub(
-        r"[^a-z0-9]+",
-        "",
-        (label or "").strip().lower(),
-    )
+    text = re.sub(r"[^a-z0-9]+", "", (label or "").lower())
 
-    if "sport" in compact:
+    if "sport" in text:
         return "sports"
 
-    if "entertain" in compact:
+    if "entertain" in text:
         return "entertainment"
 
     if position == 0:
@@ -192,50 +157,44 @@ def section_key(label, position):
     if position == 1:
         return "entertainment"
 
-    return ""
+    return None
+
+
+def tvg_id_for(key, index):
+    # Keep this ID aligned with the M3U entry for BeIN Movies 1.
+    if key == "entertainment" and index == "0":
+        return "beINMOVIES1"
+
+    return f"{key}_{index}"
 
 
 def valid_program(program):
-    """Reject incomplete or invalid programme records."""
     try:
         title = (program.get("title") or "").strip()
-        start = int(program.get("start", ""))
-        end = int(program.get("end", ""))
+        start = int(program["start"])
+        end = int(program["end"])
 
         return bool(title) and start > 0 and end > start
 
-    except (AttributeError, TypeError, ValueError):
+    except (KeyError, TypeError, ValueError, AttributeError):
         return False
 
 
-def add_row(
-    row,
-    key,
-    section_name,
-    channels,
-    window_start_ms,
-    window_end_ms,
-):
-    """Add a row under its section/index ID and keep programmes in the window."""
+def add_row(row, key, section, channels, start_limit, end_limit):
     raw_index = str(row.get("index", "")).strip()
 
     if not raw_index.isdigit():
         return 0
 
     index = str(int(raw_index))
-
-    # Special test: BeIN Movies 1 gets the ID used in the M3U.
-    # The M3U tvg-id must also be changed to exactly "beINMOVIES1".
-    if key == "entertainment" and index == "0":
-        tvg_id = "beINMOVIES1"
-    else:
-        tvg_id = f"{key}_{index}"
+    tvg_id = tvg_id_for(key, index)
 
     href = (row.get("href") or "").strip()
     path = urlparse(href).path.rstrip("/")
-    slug = path.rsplit("/", 1)[-1] if path else (
-        row.get("slug") or ""
-    ).strip()
+    slug = (row.get("slug") or "").strip()
+
+    if not slug and path:
+        slug = path.rsplit("/", 1)[-1]
 
     name = (row.get("name") or "").strip() or slug
     logo = (row.get("logo") or "").strip()
@@ -243,24 +202,22 @@ def add_row(
     channel = channels.setdefault(
         tvg_id,
         {
-            "tvg_id": tvg_id,
             "name": name,
             "slug": slug,
             "logo": logo,
-            "section": section_name,
+            "section": section,
             "index": index,
             "programs": {},
         },
     )
 
-    if not channel["name"] and name:
-        channel["name"] = name
-
-    if not channel["slug"] and slug:
-        channel["slug"] = slug
-
-    if not channel["logo"] and logo:
-        channel["logo"] = logo
+    for field, value in (
+        ("name", name),
+        ("slug", slug),
+        ("logo", logo),
+    ):
+        if not channel[field] and value:
+            channel[field] = value
 
     added = 0
 
@@ -271,8 +228,8 @@ def add_row(
         start = int(program["start"])
         end = int(program["end"])
 
-        # Keep programmes overlapping [window_start, window_end).
-        if end <= window_start_ms or start >= window_end_ms:
+        # Keep any full programme that overlaps the requested time window.
+        if end <= start_limit or start >= end_limit:
             continue
 
         start_key = str(start)
@@ -289,13 +246,12 @@ def add_row(
     return added
 
 
-def wait_for_guide(page):
-    """Wait for the guide and its programme blocks to appear."""
+def wait_guide(page):
     try:
         page.wait_for_selector(
             ".channel-row",
             state="attached",
-            timeout=GUIDE_TIMEOUT_MS,
+            timeout=10000,
         )
     except PlaywrightTimeoutError:
         pass
@@ -304,7 +260,7 @@ def wait_for_guide(page):
         page.wait_for_selector(
             ".channel-row .prog-block",
             state="attached",
-            timeout=GUIDE_TIMEOUT_MS,
+            timeout=7000,
         )
     except PlaywrightTimeoutError:
         pass
@@ -312,102 +268,75 @@ def wait_for_guide(page):
     page.wait_for_timeout(SETTLE_MS)
 
 
-def wait_for_condition(page, expression, argument, timeout_ms):
-    """Wait for a JavaScript condition, returning False on timeout."""
-    try:
-        page.wait_for_function(
-            expression,
-            arg=argument,
-            timeout=timeout_ms,
-        )
-        return True
-
-    except PlaywrightTimeoutError:
-        return False
-
-
-def choose_category(page, position):
-    """Select a category and wait for its channel rows to change."""
+def select_section(page, position):
     tab = page.locator(".category-tab").nth(position)
-    classes = (tab.get_attribute("class") or "").split()
+    name = tab.inner_text().strip()
 
-    if "active" not in classes:
-        before = page.evaluate(CATEGORY_SIGNATURE_JS)
+    if "active" not in (tab.get_attribute("class") or "").split():
         tab.click()
 
-        changed = wait_for_condition(
-            page,
-            CATEGORY_CHANGED_JS,
-            before,
-            CATEGORY_TIMEOUT_MS,
-        )
-
-        if not changed:
-            raise RuntimeError(
-                f"لم يتأكد تغيير القسم إلى الخيار رقم {position + 1}."
+        try:
+            page.wait_for_function(
+                "i => document.querySelectorAll('.category-tab')[i]"
+                "?.classList.contains('active')",
+                arg=position,
+                timeout=8000,
             )
+        except PlaywrightTimeoutError:
+            print(f"Warning: category change not confirmed: {name}")
+            page.wait_for_timeout(1500)
 
-    wait_for_guide(page)
-    return tab.inner_text().strip()
+    wait_guide(page)
+    return name
 
 
-def choose_day(page, date):
-    """Click an exact date and confirm the programme data changes."""
+def select_day(page, date):
     day = page.locator(f'.day-cell[data-date="{date}"]').first
 
     if day.count() == 0:
-        available = page.evaluate(DATES_JS)
-
-        raise RuntimeError(
-            f"التاريخ {date} غير موجود. التواريخ المتاحة: {available}"
-        )
+        print(f"Warning: date {date} is no longer available; skipping.")
+        return False
 
     if "active" in (day.get_attribute("class") or "").split():
-        wait_for_guide(page)
-        return
+        wait_guide(page)
+        return True
 
-    before = page.evaluate(PROGRAM_SIGNATURE_JS)
+    before = page.evaluate(SIGNATURE_JS)
     day.click()
 
-    changed = wait_for_condition(
-        page,
-        WAIT_DAY_JS,
-        {"date": date, "before": before},
-        DAY_TIMEOUT_MS,
-    )
-
-    if not changed:
-        raise RuntimeError(
-            f"لم يتأكد تحديث برامج التاريخ {date}. "
-            "أوقفت العملية لحماية الملفات السابقة."
+    try:
+        page.wait_for_function(
+            WAIT_DAY_JS,
+            arg={"date": date, "before": before},
+            timeout=DAY_WAIT,
         )
+    except PlaywrightTimeoutError:
+        # Do not abort the full extraction because the signature timed out.
+        print(
+            f"Warning: programme change not confirmed for {date}; "
+            "waiting briefly and continuing."
+        )
+        page.wait_for_timeout(1800)
 
-    wait_for_guide(page)
+    wait_guide(page)
+    return True
 
 
-def collect_rows(
-    page,
-    key,
-    section_name,
-    channels,
-    window_start_ms,
-    window_end_ms,
-):
-    """Scroll through all channel indexes and collect their programmes."""
+def collect_rows(page, key, section, channels, start_limit, end_limit):
     indexes = page.evaluate(INDEXES_JS)
-    empty_rows = 0
+    empty = 0
 
     for index in indexes:
         try:
-            if not page.evaluate(SCROLL_ROW_JS, index):
-                empty_rows += 1
+            if not page.evaluate(SCROLL_JS, index):
+                empty += 1
                 continue
 
             try:
                 page.wait_for_function(
                     ROW_READY_JS,
                     arg=index,
-                    timeout=ROW_TIMEOUT_MS,
+                    timeout=ROW_WAIT,
                 )
             except PlaywrightTimeoutError:
                 pass
@@ -415,49 +344,50 @@ def collect_rows(
             row = page.evaluate(READ_ROW_JS, index)
 
             if not row:
-                empty_rows += 1
+                empty += 1
                 continue
 
             added = add_row(
-                row,
-                key,
-                section_name,
-                channels,
-                window_start_ms,
-                window_end_ms,
+                row, key, section, channels, start_limit, end_limit
             )
+
+            # One short retry for rows whose programmes lazy-load on scroll.
+            if added == 0:
+                page.wait_for_timeout(350)
+                row = page.evaluate(READ_ROW_JS, index)
+
+                if row:
+                    added = add_row(
+                        row, key, section, channels,
+                        start_limit, end_limit
+                    )
 
             if added == 0:
-                empty_rows += 1
+                empty += 1
 
-        except Exception as exc:
+        except PlaywrightError as exc:
             print(
-                f"  index {index}: تم تخطي الصف "
+                f"  index {index}: skipped "
                 f"({str(exc).splitlines()[0]})"
             )
-            empty_rows += 1
+            empty += 1
 
-    return len(indexes), empty_rows
+    return len(indexes), empty
 
 
 def xmltv_time(milliseconds):
-    """Convert Unix milliseconds to an XMLTV UTC timestamp."""
     return datetime.fromtimestamp(
         int(milliseconds) / 1000,
-        tz=timezone.utc,
+        timezone.utc,
     ).strftime("%Y%m%d%H%M%S +0000")
 
 
-def build_xml(channels):
-    """Build XMLTV data in memory before touching output files."""
-    programme_count = sum(
-        len(channel["programs"])
-        for channel in channels.values()
-    )
+def make_tree(channels, filename):
+    total = sum(len(c["programs"]) for c in channels.values())
 
-    if programme_count == 0:
+    if not channels or total == 0:
         raise RuntimeError(
-            "لا توجد برامج صالحة لهذه الفئة؛ لم يتم استبدال الملف السابق."
+            f"{filename}: no valid programmes; previous file was preserved."
         )
 
     root = ET.Element(
@@ -470,15 +400,10 @@ def build_xml(channels):
         key=lambda item: int(item[1]["index"]),
     )
 
-    # Write channel declarations before programme entries.
     for tvg_id, channel in ordered:
-        element = ET.SubElement(
-            root,
-            "channel",
-            {"id": tvg_id},
-        )
+        element = ET.SubElement(root, "channel", {"id": tvg_id})
 
-        # Use the ID as a display-name fallback if the site has no name.
+        # Use the ID as a valid display name if the real name is unknown.
         ET.SubElement(element, "display-name").text = (
             channel["name"] or tvg_id
         )
@@ -500,7 +425,7 @@ def build_xml(channels):
             if not valid_program(program):
                 continue
 
-            item = ET.SubElement(
+            element = ET.SubElement(
                 root,
                 "programme",
                 {
@@ -511,84 +436,82 @@ def build_xml(channels):
             )
 
             ET.SubElement(
-                item,
+                element,
                 "title",
                 {"lang": "en"},
             ).text = program["title"]
 
             if program["category"]:
                 ET.SubElement(
-                    item,
+                    element,
                     "category",
                     {"lang": "en"},
                 ).text = program["category"]
 
     tree = ET.ElementTree(root)
     ET.indent(tree, space="  ")
-    return tree
+
+    return tree, len(channels), total
 
 
-def write_both_xml(sports, entertainment):
-    """Validate both outputs before replacing either previous file."""
-    outputs = [
-        (SPORTS_XML, sports),
-        (ENTERTAINMENT_XML, entertainment),
-    ]
-
-    temporary_paths = []
+def write_outputs(sports, entertainment):
+    # Build and validate both temporary files before replacing existing ones.
+    prepared = []
 
     try:
-        for destination, channels in outputs:
-            tree = build_xml(channels)
-
-            temp_path = destination.with_suffix(
-                destination.suffix + ".tmp"
+        for path, channels in (
+            (SPORTS_XML, sports),
+            (ENTERTAINMENT_XML, entertainment),
+        ):
+            tree, channel_count, program_count = make_tree(
+                channels, path.name
             )
 
+            temp = path.with_suffix(path.suffix + ".tmp")
+
             tree.write(
-                temp_path,
+                temp,
                 encoding="utf-8",
                 xml_declaration=True,
             )
 
-            # Parse the temporary file before accepting it.
-            ET.parse(temp_path)
-            temporary_paths.append((temp_path, destination))
+            root = ET.parse(temp).getroot()
+            declared = {
+                channel.get("id")
+                for channel in root.findall("channel")
+            }
 
-        for temp_path, destination in temporary_paths:
-            temp_path.replace(destination)
+            missing = sorted({
+                program.get("channel")
+                for program in root.findall("programme")
+                if program.get("channel") not in declared
+            })
+
+            if missing:
+                raise RuntimeError(
+                    f"{path.name}: undefined channel IDs: {missing}"
+                )
+
+            prepared.append(
+                (temp, path, channel_count, program_count)
+            )
+
+        for temp, path, _channels, _programs in prepared:
+            temp.replace(path)
 
     finally:
-        for temp_path, _destination in temporary_paths:
-            if temp_path.exists():
-                temp_path.unlink()
+        for temp, _path, _channels, _programs in prepared:
+            if temp.exists():
+                temp.unlink()
 
-    for destination, channels in outputs:
-        count = sum(
-            len(channel["programs"])
-            for channel in channels.values()
-        )
-
+    for _temp, path, channel_count, program_count in prepared:
         print(
-            f"{destination}: {len(channels)} channels, "
-            f"{count} programmes"
+            f"{path}: {channel_count} channels, "
+            f"{program_count} programmes"
         )
-
-
-def dates_between(start_date, end_date):
-    """Return ISO dates between two dates, inclusive."""
-    dates = []
-    day = start_date
-
-    while day <= end_date:
-        dates.append(day.isoformat())
-        day += timedelta(days=1)
-
-    return dates
 
 
 def scrape():
-    """Collect sports and entertainment programmes for the rolling time window."""
     now = datetime.now(ALGERIA_TZ)
 
     window_start = now - timedelta(hours=PAST_HOURS)
@@ -597,23 +520,13 @@ def scrape():
     start_ms = int(window_start.timestamp() * 1000)
     end_ms = int(window_end.timestamp() * 1000)
 
-    candidate_dates = dates_between(
-        window_start.date(),
-        window_end.date(),
-    )
-
-    required_dates = dates_between(
-        now.date(),
-        window_end.date(),
-    )
-
-    print(f"توقيت الجزائر: {now:%Y-%m-%d %H:%M:%S}")
+    print(f"Algeria time: {now:%Y-%m-%d %H:%M:%S}")
     print(
-        f"نافذة البرامج: {window_start:%Y-%m-%d %H:%M} "
-        f"إلى {window_end:%Y-%m-%d %H:%M}"
+        f"Programme window: {window_start:%Y-%m-%d %H:%M} to "
+        f"{window_end:%Y-%m-%d %H:%M}"
     )
 
-    results = {
+    data = {
         "sports": {},
         "entertainment": {},
     }
@@ -623,112 +536,92 @@ def scrape():
 
         try:
             page = browser.new_page()
-            page.set_default_timeout(PAGE_TIMEOUT_MS)
+            page.set_default_timeout(PAGE_TIMEOUT)
 
-            page.goto(
-                URL,
-                wait_until="domcontentloaded",
-            )
-
+            page.goto(URL, wait_until="domcontentloaded")
             page.wait_for_selector(
                 ".category-tab",
-                timeout=PAGE_TIMEOUT_MS,
+                timeout=PAGE_TIMEOUT,
             )
 
             tab_count = page.locator(".category-tab").count()
 
             if tab_count == 0:
-                raise RuntimeError(
-                    "لم يتم العثور على أقسام القنوات."
-                )
+                raise RuntimeError("No category tabs found on the guide.")
 
-            found_sections = set()
+            found = set()
 
             for position in range(tab_count):
-                section_name = choose_category(page, position)
-                key = section_key(section_name, position)
+                section = select_section(page, position)
+                key = section_key(section, position)
 
-                if key not in results or key in found_sections:
-                    print(
-                        f"تم تجاهل القسم غير المعروف أو المكرر: "
-                        f"{section_name}"
-                    )
+                if key not in data or key in found:
+                    print(f"Skipping unknown or repeated section: {section}")
                     continue
 
-                found_sections.add(key)
+                found.add(key)
 
-                # Switching category can recreate the date strip.
-                available_dates = page.evaluate(DATES_JS)
+                # The site's calendar may be ahead of Algeria's local date.
+                # Read and use the dates actually offered by the guide.
+                dates = page.evaluate(DATES_JS)
 
-                missing_required = [
-                    date for date in required_dates
-                    if date not in available_dates
-                ]
-
-                if missing_required:
+                if not dates:
                     raise RuntimeError(
-                        f"قسم {section_name} لا يعرض التواريخ المطلوبة "
-                        f"{missing_required}. المتاح: {available_dates}. "
-                        "لم تُكتب ملفات جديدة."
+                        f"No date cells found in section {section}."
                     )
 
-                dates_to_read = [
-                    date for date in candidate_dates
-                    if date in available_dates
-                ]
+                print(f"{section} dates available: {', '.join(dates)}")
 
-                if window_start.date().isoformat() not in available_dates:
-                    print(
-                        f"تنبيه: قسم {section_name} لا يعرض تاريخ الساعة "
-                        "السابقة؛ سأقرأ التواريخ المتاحة."
-                    )
-
-                for date in dates_to_read:
-                    choose_day(page, date)
+                for date in dates:
+                    if not select_day(page, date):
+                        continue
 
                     row_count, empty_count = collect_rows(
                         page,
                         key,
-                        section_name,
-                        results[key],
+                        section,
+                        data[key],
                         start_ms,
                         end_ms,
                     )
 
-                    print(
-                        f"{section_name} | {date}: {row_count} صفوف، "
-                        f"{empty_count} صفوف بلا برامج ضمن النافذة"
+                    accumulated = sum(
+                        len(channel["programs"])
+                        for channel in data[key].values()
                     )
 
-            missing_sections = set(results) - found_sections
+                    print(
+                        f"{section} | {date}: {row_count} rows, "
+                        f"{empty_count} without matching programmes; "
+                        f"{accumulated} unique programmes accumulated"
+                    )
 
-            if missing_sections:
+            if found != {"sports", "entertainment"}:
                 raise RuntimeError(
-                    f"لم يتم التعرف على الأقسام: "
-                    f"{sorted(missing_sections)}"
+                    f"Could not identify both sections: {sorted(found)}"
                 )
 
         finally:
             browser.close()
 
-    return results
+    return data
 
 
 def main():
     try:
         results = scrape()
 
-        write_both_xml(
+        write_outputs(
             results["sports"],
             results["entertainment"],
         )
 
-        print("تم استخراج ملفي الرياضة والترفيه بنجاح.")
-        print(f"الرياضة: {SPORTS_XML.resolve()}")
-        print(f"الترفيه: {ENTERTAINMENT_XML.resolve()}")
+        print("Extraction completed successfully.")
+        print(f"Sports XML: {SPORTS_XML.resolve()}")
+        print(f"Entertainment XML: {ENTERTAINMENT_XML.resolve()}")
 
     except Exception as exc:
-        print(f"فشل الاستخراج: {exc}", file=sys.stderr)
+        print(f"Extraction failed: {exc}", file=sys.stderr)
         sys.exit(1)
 
 
