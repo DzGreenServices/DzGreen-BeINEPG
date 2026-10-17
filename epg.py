@@ -199,6 +199,9 @@ def add_row(row, key, section_name, channels, window_start_ms, window_end_ms):
         return 0
 
     index = str(int(raw_index))
+    if key == "entertainment" and index == "0":
+    tvg_id = "beINMOVIES1"
+else:
     tvg_id = f"{key}_{index}"
 
     path = urlparse((row.get("href") or "").strip()).path.rstrip("/")
