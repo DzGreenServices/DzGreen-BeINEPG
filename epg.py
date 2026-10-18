@@ -164,9 +164,6 @@ def tvg_id_for(key, index):
     if key == "entertainment" and index == "0":
         return "beINMOVIES1"
 
-    if key == "sports" and index == "37":
-        return "Alkass8"
-
     return f"{key}_{index}"
 
 
