@@ -152,18 +152,6 @@
     <display-name>sports_37</display-name>
     <icon src="https://assets.bein.com/mena/sites/3/2020/06/2023_Alkass_8.png" />
   </channel>
-  <programme start="20261108023000 +0000" stop="20261108052300 +0000" channel="sports_0">
-    <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 10</title>
-    <category lang="en">English Premier League</category>
-  </programme>
-  <programme start="20261108052300 +0000" stop="20261108073700 +0000" channel="sports_0">
-    <title lang="en">Arsenal vs Hull City - English Premier League 2026/2027 - Week 10</title>
-    <category lang="en">English Premier League</category>
-  </programme>
-  <programme start="20261108073700 +0000" stop="20261108102200 +0000" channel="sports_0">
-    <title lang="en">Nottingham Forest vs Manchester City - English Premier League 2026/2027 - Week 10</title>
-    <category lang="en">English Premier League</category>
-  </programme>
   <programme start="20261108102200 +0000" stop="20261108130000 +0000" channel="sports_0">
     <title lang="en">Valencia vs Real Madrid - Spanish LaLiga 2026/2027 - Week 12</title>
     <category lang="en">Spanish League - Primera División</category>
@@ -180,25 +168,101 @@
     <title lang="en">Manchester United vs Aston Villa - English Premier League 2026/2027 - Week 10</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108190000 +0000" stop="20261109180000 +0000" channel="sports_0">
+  <programme start="20261108190000 +0000" stop="20261108220000 +0000" channel="sports_0">
     <title lang="en">Atletico Madrid vs Barcelona - Spanish LaLiga 2026/2027 - Week 12</title>
     <category lang="en">Spanish League - Primera División</category>
   </programme>
-  <programme start="20261108021500 +0000" stop="20261108051500 +0000" channel="sports_1">
-    <title lang="en">PSG vs Troyes - French Ligue 1 2026/2027 - Week 10</title>
-    <category lang="en">French League - Ligue 1</category>
+  <programme start="20261108220000 +0000" stop="20261108223000 +0000" channel="sports_0">
+    <title lang="en">UEFA UCL  Magazine2026/2027 -MD4 Review</title>
+    <category lang="en">UEFA Champions League</category>
   </programme>
-  <programme start="20261108051500 +0000" stop="20261108070200 +0000" channel="sports_1">
-    <title lang="en">Melbourne City FC (AUS) vs Beijing Jingtan Football Club (CHN) - AFC Women's Champions League 2026/2</title>
-    <category lang="en">AFC Champions League</category>
+  <programme start="20261108223000 +0000" stop="20261108230000 +0000" channel="sports_0">
+    <title lang="en">UEFA Nations League 2026/27 - Magazine EP2</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070200 +0000" stop="20261108090000 +0000" channel="sports_1">
-    <title lang="en">Fulham vs Newcastle United - English Premier League 2026/2027 - Week 10</title>
+  <programme start="20261108230000 +0000" stop="20261108233000 +0000" channel="sports_0">
+    <title lang="en">EPL Stories  2026/2027 EP.17</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108104400 +0000" channel="sports_1">
+  <programme start="20261108233000 +0000" stop="20261109000000 +0000" channel="sports_0">
+    <title lang="en">Arsenal vs Hull City - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109000000 +0000" stop="20261109003000 +0000" channel="sports_0">
+    <title lang="en">Nottingham Forest vs Manchester City - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109003000 +0000" stop="20261109014500 +0000" channel="sports_0">
+    <title lang="en">Trendyol Super Lig Highlight 2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109014500 +0000" stop="20261109021500 +0000" channel="sports_0">
+    <title lang="en">Crystal Palace vs Liverpool - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109021500 +0000" stop="20261109024500 +0000" channel="sports_0">
+    <title lang="en">Manchester United vs Aston Villa - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109024500 +0000" stop="20261109031500 +0000" channel="sports_0">
+    <title lang="en">Valencia vs Real Madrid - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261109031500 +0000" stop="20261109034500 +0000" channel="sports_0">
+    <title lang="en">Atletico Madrid vs Barcelona - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261109034500 +0000" stop="20261109041500 +0000" channel="sports_0">
     <title lang="en">PSG vs Troyes - French Ligue 1 2026/2027 - Week 10</title>
     <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261109041500 +0000" stop="20261109050000 +0000" channel="sports_0">
+    <title lang="en">UEFA UCL  Magazine2026/2027 -MD4 Review</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109053000 +0000" channel="sports_0">
+    <title lang="en">Arsenal vs Hull City - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109053000 +0000" stop="20261109060000 +0000" channel="sports_0">
+    <title lang="en">UEFA Nations League 2026/27 - Magazine EP2</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109060000 +0000" stop="20261109063000 +0000" channel="sports_0">
+    <title lang="en">Nottingham Forest vs Manchester City - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109063000 +0000" stop="20261109070000 +0000" channel="sports_0">
+    <title lang="en">EPL Stories  2026/2027 EP.17</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109073000 +0000" channel="sports_0">
+    <title lang="en">Crystal Palace vs Liverpool - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109073000 +0000" stop="20261109080000 +0000" channel="sports_0">
+    <title lang="en">EPL Netbusters - 2026/2027 EP 9</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109083000 +0000" channel="sports_0">
+    <title lang="en">Manchester United vs Aston Villa - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="sports_0">
+    <title lang="en">Valencia vs Real Madrid - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_0">
+    <title lang="en">Atletico Madrid vs Barcelona - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261109093000 +0000" stop="20261109122800 +0000" channel="sports_0">
+    <title lang="en">Crystal Palace vs Liverpool - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109122800 +0000" stop="20261109150000 +0000" channel="sports_0">
+    <title lang="en">Manchester United vs Aston Villa - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
   </programme>
   <programme start="20261108104400 +0000" stop="20261108123000 +0000" channel="sports_1">
     <title lang="en">Melbourne City FC (AUS) vs Beijing Jingtan Football Club (CHN) - AFC Women's Champions League 2026/2</title>
@@ -236,25 +300,25 @@
     <title lang="en">Brest vs Lyon - French Ligue 1 2026/2027 - Week 10</title>
     <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108034500 +0000" stop="20261108052500 +0000" channel="sports_2">
-    <title lang="en">Machida Zelvia vs Shanghai Shenhua - AFC Champions League Two 2026/2027 - MD 4</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108052500 +0000" stop="20261108071000 +0000" channel="sports_2">
-    <title lang="en">Svay Rieng vs Tampines Rovers - AFC Champions League Two 2026/2027 - MD 4</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108071000 +0000" stop="20261108074500 +0000" channel="sports_2">
-    <title lang="en">Ligue 1 Show - 2026/2027</title>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_1">
+    <title lang="en">Lens vs Marseille - French Ligue 1 2026/2027 - Week 10</title>
     <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108074500 +0000" stop="20261108094500 +0000" channel="sports_2">
-    <title lang="en">Malaga vs Racing Santander - Spanish LaLiga 2026/2027 - Week 12</title>
-    <category lang="en">Spanish League - Primera División</category>
+  <programme start="20261109070000 +0000" stop="20261109084500 +0000" channel="sports_1">
+    <title lang="en">Sundowns vs USMA Algeria - CAF Super Cup 2026</title>
+    <category lang="en">CAF Super Cup</category>
   </programme>
-  <programme start="20261108094500 +0000" stop="20261108114500 +0000" channel="sports_2">
-    <title lang="en">Espanyol vs Deportivo La Coruna - Spanish LaLiga 2026/2027 - Week 12</title>
-    <category lang="en">Spanish League - Primera División</category>
+  <programme start="20261109084500 +0000" stop="20261109104500 +0000" channel="sports_1">
+    <title lang="en">Fulham vs Newcastle United - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
+  </programme>
+  <programme start="20261109104500 +0000" stop="20261109123000 +0000" channel="sports_1">
+    <title lang="en">Brest vs Lyon - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109143000 +0000" channel="sports_1">
+    <title lang="en">Lens vs Marseille - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
   </programme>
   <programme start="20261108114500 +0000" stop="20261108135000 +0000" channel="sports_2">
     <title lang="en">Osasuna vs Athletic Bilbao - Spanish LaLiga 2026/2027 - Week 12</title>
@@ -292,29 +356,25 @@
     <title lang="en">Sunderland vs Chelsea - English Premier League 2026/2027 - Week 10</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108024900 +0000" stop="20261108043100 +0000" channel="sports_3">
-    <title lang="en">Toulouse vs Strasbourg - French Ligue 1 2026/2027 - Week 10</title>
+  <programme start="20261109063000 +0000" stop="20261109083000 +0000" channel="sports_2">
+    <title lang="en">Le Mans vs Monaco - French Ligue 1 2026/2027 - Week 10</title>
     <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108043100 +0000" stop="20261108045900 +0000" channel="sports_3">
-    <title lang="en">Ligue 1 Show - 2026/2027</title>
-    <category lang="en">French League - Ligue 1</category>
+  <programme start="20261109083000 +0000" stop="20261109101500 +0000" channel="sports_2">
+    <title lang="en">Elche vs Real Betis - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
   </programme>
-  <programme start="20261108045900 +0000" stop="20261108064500 +0000" channel="sports_3">
-    <title lang="en">Auxerre vs Paris FC - French Ligue 1 2026/2027 - Week 10</title>
-    <category lang="en">French League - Ligue 1</category>
+  <programme start="20261109101500 +0000" stop="20261109120000 +0000" channel="sports_2">
+    <title lang="en">Real Sociedad vs Rayo Vallecano - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
   </programme>
-  <programme start="20261108064500 +0000" stop="20261108082500 +0000" channel="sports_3">
-    <title lang="en">Wrexham vs Wolverhampton Wanderers - EFL - English Football League  SkyBet - Championship 2026/2027</title>
-    <category lang="en">English League - Championship</category>
-  </programme>
-  <programme start="20261108082500 +0000" stop="20261108102300 +0000" channel="sports_3">
-    <title lang="en">Birmingham City vs Swansea City - EFL - English Football League  SkyBet - Championship 2026/2027</title>
-    <category lang="en">English League - Championship</category>
+  <programme start="20261109120000 +0000" stop="20261109140000 +0000" channel="sports_2">
+    <title lang="en">Celta Vigo vs Levante - Spanish LaLiga 2026/2027 - Week 12</title>
+    <category lang="en">Spanish League - Primera División</category>
   </programme>
   <programme start="20261108102300 +0000" stop="20261108120500 +0000" channel="sports_3">
-    <title lang="en">Toulouse vs Strasbourg - French Ligue 1 2026/2027 - Week 10</title>
-    <category lang="en">French League - Ligue 1</category>
+    <title lang="en">Galatasaray A.Ş. vs Amed Sportif Faaliyetler - Turkish Super League 2027 - MD11</title>
+    <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108120500 +0000" stop="20261108135000 +0000" channel="sports_3">
     <title lang="en">St-etienne vs Laval - French Ligue 2 - 2026/2027</title>
@@ -356,21 +416,25 @@
     <title lang="en">Le Mans vs Monaco - French Ligue 1 2026/2027 - Week 10</title>
     <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108034900 +0000" stop="20261108053400 +0000" channel="sports_4">
-    <title lang="en">Sparta Praque vs Bournemouth - UEFA Europa League MD4</title>
-    <category lang="en">UEFA Europa League</category>
+  <programme start="20261109053000 +0000" stop="20261109060000 +0000" channel="sports_3">
+    <title lang="en">UEFA Nations League 2026/27 - Magazine EP2</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108053400 +0000" stop="20261108072100 +0000" channel="sports_4">
-    <title lang="en">Naegohyang Women's FC (PRK) vs INAC Kobe Leonessa (JPN) - AFC Women's Champions League 2026/27 - MD3</title>
-    <category lang="en">AFC Champions League</category>
+  <programme start="20261109060000 +0000" stop="20261109074500 +0000" channel="sports_3">
+    <title lang="en">Angers vs Nice - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108072100 +0000" stop="20261108091600 +0000" channel="sports_4">
-    <title lang="en">Sunderland vs Dinamo Zagreb - UEFA Europa League MD4</title>
-    <category lang="en">UEFA Europa League</category>
+  <programme start="20261109074500 +0000" stop="20261109093000 +0000" channel="sports_3">
+    <title lang="en">Havre AC vs Lorient - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108091600 +0000" stop="20261108110000 +0000" channel="sports_4">
-    <title lang="en">Montpellier vs Metz - French Ligue 2 - 2026/2027</title>
-    <category lang="en">French League - Ligue 2</category>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_3">
+    <title lang="en">UEFA UCL  Magazine2026/2027 -MD4 Review</title>
+    <category lang="en">UEFA Champions League</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109133000 +0000" channel="sports_3">
+    <title lang="en">Brighton &amp; Hove Albion vs Brentford - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108125000 +0000" channel="sports_4">
     <title lang="en">Atletico Madrid vs Bayern Munich - UEFA Champions League MD4</title>
@@ -412,17 +476,21 @@
     <title lang="en">Beşiktaş A.Ş. vs Gençlerbirliği - Turkish Super League 2027 - MD11</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108032000 +0000" stop="20261108093000 +0000" channel="sports_5">
-    <title lang="en">Argentina vs Spain - FIP World Cup Qatar 2026 - Finals 1</title>
-    <category lang="en">Padel</category>
+  <programme start="20261109064500 +0000" stop="20261109084500 +0000" channel="sports_4">
+    <title lang="en">Naegohyang Women's FC (PRK) vs INAC Kobe Leonessa (JPN) - AFC Women's Champions League 2026/27 - MD3</title>
+    <category lang="en">AFC Champions League</category>
   </programme>
-  <programme start="20261108093000 +0000" stop="20261108101500 +0000" channel="sports_5">
-    <title lang="en">ATP Tour - Magazine 2026</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109084500 +0000" stop="20261109104500 +0000" channel="sports_4">
+    <title lang="en">Bam Khatoon FC (IRN) vs Ayeyawady FC - Women (MYA) - AFC Women's Champions League 2026/27 - MD3</title>
+    <category lang="en">AFC Champions League</category>
   </programme>
-  <programme start="20261108101500 +0000" stop="20261108104500 +0000" channel="sports_5">
-    <title lang="en">Freetour La Liga</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109104500 +0000" stop="20261109124500 +0000" channel="sports_4">
+    <title lang="en">Auxerre vs Paris FC - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261109124500 +0000" stop="20261109144500 +0000" channel="sports_4">
+    <title lang="en">Sparta Praque vs Bournemouth - UEFA Europa League MD4</title>
+    <category lang="en">UEFA Europa League</category>
   </programme>
   <programme start="20261108104500 +0000" stop="20261108135000 +0000" channel="sports_5">
     <title lang="en">Spain vs Argentina - FIP World Cup Qatar 2026 - Finals 2</title>
@@ -468,28 +536,28 @@
     <title lang="en">Villarreal vs Getafe - Spanish LaLiga 2026/2027 - Week 12</title>
     <category lang="en">Spanish League - Primera División</category>
   </programme>
-  <programme start="20261108020000 +0000" stop="20261108040500 +0000" channel="sports_6">
-    <title lang="en">Alex De Minaur (AUS) vs Carlos Alcaraz (ESP) - Final - ATP 500 Erste Bank Open 2026</title>
-    <category lang="en">Tennis - ATP 500</category>
+  <programme start="20261109061500 +0000" stop="20261109081500 +0000" channel="sports_5">
+    <title lang="en">Brest vs Lyon - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108040500 +0000" stop="20261108064900 +0000" channel="sports_6">
-    <title lang="en">Luca Van Assche (FRA) vs Ben Shelton (USA) - SF - ATP 1000 Rolex Paris Masters 2026</title>
+  <programme start="20261109081500 +0000" stop="20261109101500 +0000" channel="sports_5">
+    <title lang="en">Arca Çorum Fk vs Fenerbahçe A.Ş. - Turkish Super League 2027 - MD11</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108064900 +0000" stop="20261108090500 +0000" channel="sports_6">
-    <title lang="en">Casper Ruud (NOR) vs Carlos Alcaraz (ESP) - SF - ATP 1000 Rolex Paris Masters 2026</title>
+  <programme start="20261109101500 +0000" stop="20261109121500 +0000" channel="sports_5">
+    <title lang="en">Corendon Alanyaspor vs Trabzonspor A.Ş. - Turkish Super League 2027 - MD11</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090500 +0000" stop="20261108111500 +0000" channel="sports_6">
-    <title lang="en">Alex De Minaur (AUS) vs Carlos Alcaraz (ESP) - Final - ATP 500 Erste Bank Open 2026</title>
-    <category lang="en">Tennis - ATP 500</category>
+  <programme start="20261109121500 +0000" stop="20261109140000 +0000" channel="sports_5">
+    <title lang="en">Beşiktaş A.Ş. vs Gençlerbirliği - Turkish Super League 2027 - MD11</title>
+    <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108111500 +0000" stop="20261108140000 +0000" channel="sports_6">
     <title lang="en">Premier Padel - Milan P1 2026 - Final - Agustin Tapia (ARG) / Arturo Coello (ESP) vs Juan Lebron (ES</title>
     <category lang="en">Padel</category>
   </programme>
   <programme start="20261108140000 +0000" stop="20261108164500 +0000" channel="sports_6">
-    <title lang="en">Final - ATP 1000 Rolex Paris Masters 2026</title>
+    <title lang="en">Ben Shelton (USA) vs  Carlos Alcaraz (ESP) - Final - ATP 1000 Rolex Paris Masters 2026</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108164500 +0000" stop="20261108172000 +0000" channel="sports_6">
@@ -501,7 +569,7 @@
     <category lang="en">Spanish League - Segunda Division</category>
   </programme>
   <programme start="20261108193000 +0000" stop="20261108220000 +0000" channel="sports_6">
-    <title lang="en">Final - ATP 1000 Rolex Paris Masters 2026</title>
+    <title lang="en">Ben Shelton (USA) vs  Carlos Alcaraz (ESP) - Final - ATP 1000 Rolex Paris Masters 2026</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108220000 +0000" stop="20261108223000 +0000" channel="sports_6">
@@ -521,28 +589,28 @@
     <category lang="en">Basketball - NBA</category>
   </programme>
   <programme start="20261109033000 +0000" stop="20261109060000 +0000" channel="sports_6">
-    <title lang="en">Final - ATP 1000 Rolex Paris Masters 2026</title>
+    <title lang="en">Ben Shelton (USA) vs  Carlos Alcaraz (ESP) - Final - ATP 1000 Rolex Paris Masters 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108013000 +0000" stop="20261108043100 +0000" channel="sports_7">
-    <title lang="en">Orlando vs Golden State - NBA Season  - 2026</title>
+  <programme start="20261109060000 +0000" stop="20261109080000 +0000" channel="sports_6">
+    <title lang="en">Toucoing vs Sete - Alterna Volstar Volleyball French league</title>
+    <category lang="en">Volleyball</category>
+  </programme>
+  <programme start="20261109080000 +0000" stop="20261109104500 +0000" channel="sports_6">
+    <title lang="en">Boston vs Milwaukee - NBA Season  - 2026</title>
     <category lang="en">Basketball - NBA</category>
   </programme>
-  <programme start="20261108043100 +0000" stop="20261108071000 +0000" channel="sports_7">
-    <title lang="en">F1 Sao Paolo Grand Prix - 2026 - Main Race Qualifying</title>
-    <category lang="en">Formula One World Championship</category>
-  </programme>
-  <programme start="20261108071000 +0000" stop="20261108102300 +0000" channel="sports_7">
-    <title lang="en">One Friday Fights - 177</title>
-    <category lang="en">Boxing</category>
-  </programme>
-  <programme start="20261108102300 +0000" stop="20261108105300 +0000" channel="sports_7">
+  <programme start="20261109104500 +0000" stop="20261109111500 +0000" channel="sports_6">
     <title lang="en">ATP Tour - Magazine 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108105300 +0000" stop="20261108115000 +0000" channel="sports_7">
-    <title lang="en">Moto GP - Qatar GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
+  <programme start="20261109111500 +0000" stop="20261109120000 +0000" channel="sports_6">
+    <title lang="en">NBA Action 2026/2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109140000 +0000" channel="sports_6">
+    <title lang="en">M1 - ATP 250 Bybit Stockholm Open 2026</title>
+    <category lang="en">Tennis - ATP 250</category>
   </programme>
   <programme start="20261108115000 +0000" stop="20261108125000 +0000" channel="sports_7">
     <title lang="en">Moto GP - Qatar GP - Sprint Race</title>
@@ -552,13 +620,13 @@
     <title lang="en">Elche vs Real Betis - Spanish LaLiga 2026/2027 - Week 12</title>
     <category lang="en">Spanish League - Primera División</category>
   </programme>
-  <programme start="20261108150000 +0000" stop="20261108153000 +0000" channel="sports_7">
+  <programme start="20261108150000 +0000" stop="20261108155000 +0000" channel="sports_7">
     <title lang="en">NBA Action 2026/2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108153000 +0000" stop="20261108163000 +0000" channel="sports_7">
-    <title lang="en">Moto GP - Qatar GP - Qualifying</title>
-    <category lang="en">Moto GP - World Championship</category>
+  <programme start="20261108155000 +0000" stop="20261108163000 +0000" channel="sports_7">
+    <title lang="en">Highlight - F1 Mexico Grand Prix - 2026</title>
+    <category lang="en">Formula One World Championship</category>
   </programme>
   <programme start="20261108163000 +0000" stop="20261108193300 +0000" channel="sports_7">
     <title lang="en">F1 Sao Paolo Grand Prix - 2026 - Main Race</title>
@@ -592,21 +660,25 @@
     <title lang="en">F1 Sao Paolo Grand Prix - 2026 - Main Race</title>
     <category lang="en">Formula One World Championship</category>
   </programme>
-  <programme start="20261108033200 +0000" stop="20261108044500 +0000" channel="sports_8">
-    <title lang="en">Longines Global Champions Tour - Shanghai  Jumping - Round 2 Competition Team</title>
-    <category lang="en">Equestrian</category>
+  <programme start="20261109073000 +0000" stop="20261109083000 +0000" channel="sports_7">
+    <title lang="en">Moto 2 - Qatar GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
   </programme>
-  <programme start="20261108044500 +0000" stop="20261108070000 +0000" channel="sports_8">
-    <title lang="en">Longines Global Champions Tour - Shanghai  Jumping - Against The Clock With Jump Off</title>
-    <category lang="en">Equestrian</category>
+  <programme start="20261109083000 +0000" stop="20261109093000 +0000" channel="sports_7">
+    <title lang="en">Moto 3 - Qatar GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108100000 +0000" channel="sports_8">
-    <title lang="en">Longines Global Champions Tour - Shanghai  Jumping - Grand Prix</title>
-    <category lang="en">Equestrian</category>
+  <programme start="20261109093000 +0000" stop="20261109103000 +0000" channel="sports_7">
+    <title lang="en">Moto GP - Qatar GP - Main Race</title>
+    <category lang="en">Moto GP - World Championship</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_8">
-    <title lang="en">GCL R2 – Competition Team</title>
-    <category lang="en">Equestrian</category>
+  <programme start="20261109103000 +0000" stop="20261109123000 +0000" channel="sports_7">
+    <title lang="en">Rennes vs Lille - French Ligue 1 2026/2027 - Week 10</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109153000 +0000" channel="sports_7">
+    <title lang="en">Green Bay Packers @ New England Patriots - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108123300 +0000" channel="sports_8">
     <title lang="en">GCL R1 Competition Team - Longines Global Champions Tour - Rabat  Jumping - Round 1 Competition Team</title>
@@ -636,8 +708,12 @@
     <title lang="en">Class 11 - CSI 5* 1.50 Against The Clock With Jump Off - Longines Global Champions Tour - Rabat  Jum</title>
     <category lang="en">Equestrian</category>
   </programme>
-  <programme start="20261108211500 +0000" stop="20261109000000 +0000" channel="sports_8">
+  <programme start="20261108211500 +0000" stop="20261108233000 +0000" channel="sports_8">
     <title lang="en">LGCT Grand Prix - Longines Global Champions Tour - Rabat  Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
+  </programme>
+  <programme start="20261108233000 +0000" stop="20261109000000 +0000" channel="sports_8">
+    <title lang="en">HL H.H.the Father Amirs prix 2026 – Accumulator 1.40 meters – Week 3</title>
     <category lang="en">Equestrian</category>
   </programme>
   <programme start="20261109000000 +0000" stop="20261109014500 +0000" channel="sports_8">
@@ -652,41 +728,25 @@
     <title lang="en">Longines Global Champions Tour - Cannes  Jumping  - Against The Clock With Jump Off</title>
     <category lang="en">Equestrian</category>
   </programme>
-  <programme start="20261108010000 +0000" stop="20261108070000 +0000" channel="sports_9">
-    <title lang="en">Between The Pitches</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109050000 +0000" stop="20261109070200 +0000" channel="sports_8">
+    <title lang="en">Longines Global Champions Tour - Cannes  Jumping - Grand Prix</title>
+    <category lang="en">Equestrian</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_9">
-    <title lang="en">Al Hassad</title>
-    <category lang="en">Sports News</category>
+  <programme start="20261109070200 +0000" stop="20261109080000 +0000" channel="sports_8">
+    <title lang="en">Class 5 - Against the clock with Jump off 1.50</title>
+    <category lang="en">Equestrian</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108083000 +0000" channel="sports_9">
-    <title lang="en">News Bulletin</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109080000 +0000" stop="20261109093000 +0000" channel="sports_8">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Round 1 Competition Team</title>
+    <category lang="en">Equestrian</category>
   </programme>
-  <programme start="20261108083000 +0000" stop="20261108090000 +0000" channel="sports_9">
-    <title lang="en">Al Hassila   - 8/11/26</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109093000 +0000" stop="20261109104500 +0000" channel="sports_8">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Round 2 Competition Team</title>
+    <category lang="en">Equestrian</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_9">
-    <title lang="en">Al Hassad</title>
-    <category lang="en">Sports News</category>
-  </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_9">
-    <title lang="en">News Bulletin</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108103000 +0000" stop="20261108104500 +0000" channel="sports_9">
-    <title lang="en">Special Interview  - 7/11/26</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108104500 +0000" stop="20261108110000 +0000" channel="sports_9">
-    <title lang="en">Special Report - 7/11/26</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108110000 +0000" stop="20261108113000 +0000" channel="sports_9">
-    <title lang="en">News Bulletin</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109104500 +0000" stop="20261109130500 +0000" channel="sports_8">
+    <title lang="en">Longines Global Champions Tour - St Tropez  Jumping - Against The Clock With Jump Off</title>
+    <category lang="en">Equestrian</category>
   </programme>
   <programme start="20261108113000 +0000" stop="20261108120000 +0000" channel="sports_9">
     <title lang="en">Al Hassila   - 8/11/26</title>
@@ -756,25 +816,45 @@
     <title lang="en">Between The Pitches</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108034000 +0000" stop="20261108061500 +0000" channel="sports_10">
-    <title lang="en">Gymnastics - 2026 Youth Olympic Games – Dakar</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_9">
+    <title lang="en">Al Hassad</title>
+    <category lang="en">Sports News</category>
   </programme>
-  <programme start="20261108061500 +0000" stop="20261108070000 +0000" channel="sports_10">
-    <title lang="en">Highlights Dakar 2026 Summer Youth Olympic Games</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108070000 +0000" stop="20261108072700 +0000" channel="sports_10">
-    <title lang="en">ATP Tour - Magazine 2026</title>
+  <programme start="20261109080000 +0000" stop="20261109083000 +0000" channel="sports_9">
+    <title lang="en">News Bulletin</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108072700 +0000" stop="20261108075100 +0000" channel="sports_10">
-    <title lang="en">NBA Action 2026/2027</title>
+  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="sports_9">
+    <title lang="en">Al Hassila   - 9/11/26</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108075100 +0000" stop="20261108100000 +0000" channel="sports_10">
-    <title lang="en">Japan vs Nigeria - Final - FIFA U-17 Women's World Cup 2026</title>
-    <category lang="en">Football</category>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_9">
+    <title lang="en">Al Hassad</title>
+    <category lang="en">Sports News</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109103000 +0000" channel="sports_9">
+    <title lang="en">News Bulletin</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109103000 +0000" stop="20261109104500 +0000" channel="sports_9">
+    <title lang="en">Special Interview  - 8/11/26</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109104500 +0000" stop="20261109110000 +0000" channel="sports_9">
+    <title lang="en">Special Report - 8/11/26</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="sports_9">
+    <title lang="en">News Bulletin</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109113000 +0000" stop="20261109120000 +0000" channel="sports_9">
+    <title lang="en">Al Hassila   - 9/11/26</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_9">
+    <title lang="en">Al Hassad</title>
+    <category lang="en">Sports News</category>
   </programme>
   <programme start="20261108100000 +0000" stop="20261108135500 +0000" channel="sports_10">
     <title lang="en">Gymnastics - 2026 Youth Olympic Games – Dakar</title>
@@ -796,41 +876,37 @@
     <title lang="en">Athletics - 2026 Youth Olympic Games – Dakar</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108013000 +0000" stop="20261108043000 +0000" channel="sports_11">
-    <title lang="en">Orlando vs Golden State - NBA Season  - 2026</title>
-    <category lang="en">Basketball - NBA</category>
+  <programme start="20261109050000 +0000" stop="20261109053000 +0000" channel="sports_10">
+    <title lang="en">ATP Tour - Magazine 2026</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108043000 +0000" stop="20261108050000 +0000" channel="sports_11">
-    <title lang="en">AZ Alkmaar vs Juventus - UEFA Europa League MD4</title>
-    <category lang="en">UEFA Europa League</category>
+  <programme start="20261109053000 +0000" stop="20261109060000 +0000" channel="sports_10">
+    <title lang="en">NBA Action 2026/2027</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108053000 +0000" channel="sports_11">
-    <title lang="en">EN EPL The Big Interview 2026/27 | E12</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261108053000 +0000" stop="20261108060000 +0000" channel="sports_11">
-    <title lang="en">Manchester United vs Roma - UEFA Champions League MD4</title>
-    <category lang="en">UEFA Champions League</category>
-  </programme>
-  <programme start="20261108060000 +0000" stop="20261108070200 +0000" channel="sports_11">
-    <title lang="en">Highlights - 2026 Youth Olympic Games – Dakar</title>
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_10">
+    <title lang="en">Highlights Dakar 2026 Summer Youth Olympic Games</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108070200 +0000" stop="20261108100300 +0000" channel="sports_11">
-    <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027 - Week 10</title>
-    <category lang="en">English Premier League</category>
-  </programme>
-  <programme start="20261108100300 +0000" stop="20261108103000 +0000" channel="sports_11">
-    <title lang="en">EN EPL Stories 2026/27 | E23</title>
-    <category lang="en">Series</category>
-  </programme>
-  <programme start="20261108103000 +0000" stop="20261108123000 +0000" channel="sports_11">
+  <programme start="20261109070000 +0000" stop="20261109100000 +0000" channel="sports_10">
     <title lang="en">Beach Wrestling - 2026 Youth Olympic Games – Dakar</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108123000 +0000" stop="20261108130000 +0000" channel="sports_11">
-    <title lang="en">EN UCL Magazine 2026/27 | E10</title>
-    <category lang="en">Series</category>
+  <programme start="20261109100000 +0000" stop="20261109113000 +0000" channel="sports_10">
+    <title lang="en">Gymnastics - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109113000 +0000" stop="20261109123000 +0000" channel="sports_10">
+    <title lang="en">Highlights Dakar 2026 Summer Youth Olympic Games</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109135500 +0000" channel="sports_10">
+    <title lang="en">1A vs 2B -Women's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261108103000 +0000" stop="20261108130000 +0000" channel="sports_11">
+    <title lang="en">Beach Wrestling - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108130000 +0000" stop="20261108160000 +0000" channel="sports_11">
     <title lang="en">Crystal Palace vs Liverpool - English Premier League 2026/2027 - Week 10</title>
@@ -872,17 +948,21 @@
     <title lang="en">Manchester United vs Aston Villa - English Premier League 2026/2027 - Week 10</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108023800 +0000" stop="20261108045500 +0000" channel="sports_12">
-    <title lang="en">Arsenal vs Hull City - English Premier League 2026/2027 - Week 10</title>
-    <category lang="en">English Premier League</category>
-  </programme>
-  <programme start="20261108045500 +0000" stop="20261108071600 +0000" channel="sports_12">
-    <title lang="en">Nottingham Forest vs Manchester City - English Premier League 2026/2027 - Week 10</title>
-    <category lang="en">English Premier League</category>
-  </programme>
-  <programme start="20261108071600 +0000" stop="20261108100000 +0000" channel="sports_12">
-    <title lang="en">Valencia vs Real Madrid - Spanish LaLiga 2026/2027 - Week 12</title>
+  <programme start="20261109073000 +0000" stop="20261109103000 +0000" channel="sports_11">
+    <title lang="en">Atletico Madrid vs Barcelona - Spanish LaLiga 2026/2027 - Week 12</title>
     <category lang="en">Spanish League - Primera División</category>
+  </programme>
+  <programme start="20261109103000 +0000" stop="20261109110000 +0000" channel="sports_11">
+    <title lang="en">EN UCL Magazine 2026/27 | E10</title>
+    <category lang="en">Series</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109123000 +0000" channel="sports_11">
+    <title lang="en">1B vs 2A - Men's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109132500 +0000" channel="sports_11">
+    <title lang="en">EN EPL Moments 2026/27 | E2</title>
+    <category lang="en">Series</category>
   </programme>
   <programme start="20261108100000 +0000" stop="20261108133500 +0000" channel="sports_12">
     <title lang="en">Gymnastics - 2026 Youth Olympic Games – Dakar</title>
@@ -924,25 +1004,29 @@
     <title lang="en">Billie Jean King Cup 2026 - Review</title>
     <category lang="en">Tennis</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_13">
-    <title lang="en">Au CÅ'ur De La WNBA - Bein Story - Magazine 2026-2027</title>
+  <programme start="20261109050000 +0000" stop="20261109053000 +0000" channel="sports_12">
+    <title lang="en">Premier Padel Highlights 2026 - Kuwait P1</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109053000 +0000" stop="20261109060000 +0000" channel="sports_12">
+    <title lang="en">EN Fast Zone 2026 - Ep 30</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108053000 +0000" channel="sports_13">
-    <title lang="en">Ep 11 Inside Fra - This is Paris - Football 2026-2027</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_12">
+    <title lang="en">Highlights - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108053000 +0000" stop="20261108073000 +0000" channel="sports_13">
-    <title lang="en">Galatasaray Amed Sk - Championnat de Turquie - J11 - Football 2026-2027</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109070000 +0000" stop="20261109100000 +0000" channel="sports_12">
+    <title lang="en">Crystal Palace vs Liverpool - English Premier League 2026/2027 - Week 10</title>
+    <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108073000 +0000" stop="20261108094500 +0000" channel="sports_13">
-    <title lang="en">Saint-Etienne vs Laval - Ligue 2 - J12 - FOOTBALL 2026-2027</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109100000 +0000" stop="20261109113000 +0000" channel="sports_12">
+    <title lang="en">Gymnastics - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108094500 +0000" stop="20261108114500 +0000" channel="sports_13">
-    <title lang="en">Denver Nuggets vs Indiana Pacers - NBA - BASKETBALL 2026-2027</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109113000 +0000" stop="20261109140000 +0000" channel="sports_12">
+    <title lang="en">Detroit Lions @ Miami Dolphins - NFL -National Footbal League  - 2026/27</title>
+    <category lang="en">NFL- National Football League</category>
   </programme>
   <programme start="20261108114500 +0000" stop="20261108123000 +0000" channel="sports_13">
     <title lang="en">NBA Extra - Magazine 2026-2027</title>
@@ -968,28 +1052,48 @@
     <title lang="en">Valence vs Real Madrid - Liga - FOOTBALL 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108195500 +0000" stop="20261108205959 +0000" channel="sports_13">
+  <programme start="20261108195500 +0000" stop="20261108220000 +0000" channel="sports_13">
     <title lang="en">Atlético Madrid vs Barcelonne - Liga - FOOTBALL 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108025500 +0000" stop="20261108050000 +0000" channel="sports_14">
-    <title lang="en">Villareal vs PSG - Champions League - FOOTBALL 2026-2027</title>
+  <programme start="20261108220000 +0000" stop="20261109000000 +0000" channel="sports_13">
+    <title lang="en">PSG vs Troyes - Ligue 1 - FOOTBALL 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_14">
+  <programme start="20261109000000 +0000" stop="20261109004000 +0000" channel="sports_13">
+    <title lang="en">Doc Rse Au Dela Des Sommets Ff Handisport - Documentaire</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109004000 +0000" stop="20261109011500 +0000" channel="sports_13">
+    <title lang="en">NFL Extra -</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109011500 +0000" stop="20261109043000 +0000" channel="sports_13">
+    <title lang="en">Tampa Bay Buccaneers vs Chicago Bears - NFL J09 - Football Américain 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109043000 +0000" stop="20261109050000 +0000" channel="sports_13">
+    <title lang="en">Grand Zap Bein - Magazine 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_13">
+    <title lang="en">Valence vs Real Madrid - Liga - FOOTBALL 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_13">
     <title lang="en">Montpellier vs Metz - Ligue 2 - J12 - FOOTBALL 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_14">
-    <title lang="en">Passion Sous Pression - Magazine - Magazine Football 2023-2024</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108080000 +0000" stop="20261108100000 +0000" channel="sports_14">
-    <title lang="en">Fenerbahce vs Liverpool - Champions League - FOOTBALL 2026-2027</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_14">
+  <programme start="20261109090000 +0000" stop="20261109094500 +0000" channel="sports_13">
     <title lang="en">Ep 11 Inside Fra - This is Paris - Football 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109094500 +0000" stop="20261109114500 +0000" channel="sports_13">
+    <title lang="en">Los Angeles Sparks Lakers vs Detroit Pistons - NBA - BASKETBALL 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109114500 +0000" stop="20261109130000 +0000" channel="sports_13">
+    <title lang="en">NBA Extra - Magazine 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108103000 +0000" stop="20261108123000 +0000" channel="sports_14">
@@ -1020,25 +1124,37 @@
     <title lang="en">Paris Montpellier - Championnat De France Masculin - J09 - Handball 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108194000 +0000" stop="20261108205959 +0000" channel="sports_14">
+  <programme start="20261108194000 +0000" stop="20261108230000 +0000" channel="sports_14">
     <title lang="en">Lens vs Marseille - Ligue 1 - FOOTBALL 2026-2027</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108022700 +0000" stop="20261108042000 +0000" channel="sports_15">
-    <title lang="en">Chelsea v Manchester United - English Premier League 2026/2027</title>
-    <category lang="en">English Premier League</category>
+  <programme start="20261108230000 +0000" stop="20261109020000 +0000" channel="sports_14">
+    <title lang="en">Los Angeles Sparks Lakers vs Detroit Pistons - NBA - BASKETBALL 2026-2027</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108042000 +0000" stop="20261108060800 +0000" channel="sports_15">
-    <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
-    <category lang="en">English Premier League</category>
+  <programme start="20261109020000 +0000" stop="20261109030000 +0000" channel="sports_14">
+    <title lang="en">Passion Sous Pression - Magazine - Magazine Football 2023-2024</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060800 +0000" stop="20261108075600 +0000" channel="sports_15">
-    <title lang="en">Nottingham Forest vs Manchester City - English Premier League 2026/2027</title>
-    <category lang="en">English Premier League</category>
+  <programme start="20261109030000 +0000" stop="20261109050000 +0000" channel="sports_14">
+    <title lang="en">Au CÅ'ur De La WNBA - Bein Story - Magazine 2026-2027</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108075600 +0000" stop="20261108105300 +0000" channel="sports_15">
-    <title lang="en">F1 Mexico Grand Prix - 2026 - Main Race - FIA Formula 1 World Championship 2026</title>
-    <category lang="en">Formula One World Championship</category>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_14">
+    <title lang="en">Corum Fk Fenerbahce - Championnat de Turquie - Football 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_14">
+    <title lang="en">Fenerbahce vs Liverpool - Champions League - FOOTBALL 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_14">
+    <title lang="en">Aston Villa vs Barcelonne - Champions League - FOOTBALL 2026-2027</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_14">
+    <title lang="en">Saint-Etienne vs Laval - Ligue 2 - J12 - FOOTBALL 2026-2027</title>
+    <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108105300 +0000" stop="20261108124100 +0000" channel="sports_15">
     <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
@@ -1060,57 +1176,41 @@
     <title lang="en">Lens vs Marseille - French Ligue 1 2026/2027</title>
     <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108214500 +0000" stop="20261108230000 +0000" channel="sports_15">
+  <programme start="20261108214500 +0000" stop="20261108233000 +0000" channel="sports_15">
     <title lang="en">PSG vs Lyon - 4K - French Ligue 1 2026/2027</title>
     <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108230000 +0000" stop="20261109010000 +0000" channel="sports_15">
+  <programme start="20261108233000 +0000" stop="20261109011900 +0000" channel="sports_15">
     <title lang="en">Liverpool vs Arsenal - English Premier League 2026/2027</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261109010000 +0000" stop="20261109030000 +0000" channel="sports_15">
+  <programme start="20261109011900 +0000" stop="20261109030900 +0000" channel="sports_15">
     <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261109030000 +0000" stop="20261109050000 +0000" channel="sports_15">
-    <title lang="en">Manchester United vs Aston Villa- English Premier League 2026/2027</title>
+  <programme start="20261109030900 +0000" stop="20261109045500 +0000" channel="sports_15">
+    <title lang="en">PSG vs Lyon - 4K - French Ligue 1 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
+  </programme>
+  <programme start="20261109045500 +0000" stop="20261109064400 +0000" channel="sports_15">
+    <title lang="en">Liverpool vs Arsenal - English Premier League 2026/2027</title>
     <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109064400 +0000" stop="20261109083400 +0000" channel="sports_15">
+    <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
+    <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109083400 +0000" stop="20261109102000 +0000" channel="sports_15">
+    <title lang="en">PSG vs Lyon - 4K - French Ligue 1 2026/2027</title>
+    <category lang="en">French League - Ligue 1</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109102000 +0000" stop="20261109120900 +0000" channel="sports_15">
+    <title lang="en">Liverpool vs Arsenal - English Premier League 2026/2027</title>
+    <category lang="en">English Premier League</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108100000 +0000" stop="20261108101000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108101000 +0000" stop="20261108103000 +0000" channel="sports_16">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109120900 +0000" stop="20261109135900 +0000" channel="sports_15">
+    <title lang="en">Leeds United vs Tottenham Hotspur - English Premier League 2026/2027</title>
+    <category lang="en">English Premier League</category>
   </programme>
   <programme start="20261108103000 +0000" stop="20261108122000 +0000" channel="sports_16">
     <title lang="en">Beach Wrestling - 2026 Youth Olympic Games – Dakar</title>
@@ -1192,56 +1292,48 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_17">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_17">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_17">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_17">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_17">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_17">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_17">
+  <programme start="20261109110000 +0000" stop="20261109123000 +0000" channel="sports_16">
+    <title lang="en">1B vs 2A - Men's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109124000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108101000 +0000" channel="sports_17">
+  <programme start="20261109124000 +0000" stop="20261109125000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108101000 +0000" stop="20261108102000 +0000" channel="sports_17">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108102000 +0000" stop="20261108103000 +0000" channel="sports_17">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108103000 +0000" stop="20261108104000 +0000" channel="sports_17">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108104000 +0000" stop="20261108110000 +0000" channel="sports_17">
+  <programme start="20261109125000 +0000" stop="20261109130000 +0000" channel="sports_16">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108123000 +0000" channel="sports_17">
-    <title lang="en">1B vs 2A - Women's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
+    <title lang="en">Iran vs Venezuela - Women's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108123000 +0000" stop="20261108124000 +0000" channel="sports_17">
@@ -1324,51 +1416,59 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_18">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_18">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_18">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_18">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_18">
+  <programme start="20261109090000 +0000" stop="20261109091000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_18">
+  <programme start="20261109091000 +0000" stop="20261109092000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_18">
+  <programme start="20261109092000 +0000" stop="20261109093000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_18">
+  <programme start="20261109093000 +0000" stop="20261109101000 +0000" channel="sports_17">
+    <title lang="en">Spain vs China - Beach Handball - Women - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109101000 +0000" stop="20261109102000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108110000 +0000" stop="20261108111000 +0000" channel="sports_18">
+  <programme start="20261109102000 +0000" stop="20261109111000 +0000" channel="sports_17">
+    <title lang="en">Tunisia vs Cook Islands - Beach Handball - Men - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109111000 +0000" stop="20261109120000 +0000" channel="sports_17">
+    <title lang="en">France vs Senegal - Beach Handball - Women - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109124000 +0000" channel="sports_17">
+    <title lang="en">Brazil vs Puerto Rico - Beach Handball - Men - 2026 Youth Olympic Games – Dakar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109124000 +0000" stop="20261109125000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108111000 +0000" stop="20261108112000 +0000" channel="sports_18">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108112000 +0000" stop="20261108113000 +0000" channel="sports_18">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108113000 +0000" stop="20261108115000 +0000" channel="sports_18">
+  <programme start="20261109125000 +0000" stop="20261109130000 +0000" channel="sports_17">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -1452,51 +1552,35 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_19">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_19">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_19">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_19">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_19">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_19">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_19">
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_19">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108110000 +0000" stop="20261108111000 +0000" channel="sports_19">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108111000 +0000" stop="20261108112000 +0000" channel="sports_19">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108112000 +0000" stop="20261108113000 +0000" channel="sports_19">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108113000 +0000" stop="20261108115000 +0000" channel="sports_19">
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_18">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -1564,61 +1648,41 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_20">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_20">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_20">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_20">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_20">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_20">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108091000 +0000" channel="sports_20">
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108091000 +0000" stop="20261108093000 +0000" channel="sports_20">
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_19">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108093000 +0000" stop="20261108120000 +0000" channel="sports_20">
+  <programme start="20261108093000 +0000" stop="20261108130000 +0000" channel="sports_20">
     <title lang="en">FIA World Endurance Championship - 2026 - Monza Round - Race</title>
     <category lang="en">MotorSports</category>
-  </programme>
-  <programme start="20261108120000 +0000" stop="20261108121000 +0000" channel="sports_20">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108121000 +0000" stop="20261108122000 +0000" channel="sports_20">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108122000 +0000" stop="20261108123000 +0000" channel="sports_20">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108123000 +0000" stop="20261108124000 +0000" channel="sports_20">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108124000 +0000" stop="20261108130000 +0000" channel="sports_20">
-    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
-    <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108130000 +0000" stop="20261108153000 +0000" channel="sports_20">
     <title lang="en">FIA World Endurance Championship - 2026 - Monza Round - Race</title>
@@ -1696,35 +1760,35 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_21">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_21">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_21">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_21">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_21">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_21">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_21">
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_21">
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_20">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -1808,35 +1872,35 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_22">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_22">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_22">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_22">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_22">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_22">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_22">
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_22">
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_21">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -1920,35 +1984,35 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_23">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_23">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_23">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_23">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_23">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_23">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_23">
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_23">
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_22">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -1977,7 +2041,7 @@
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108153000 +0000" stop="20261108170000 +0000" channel="sports_23">
-    <title lang="en">1A vs 2B - Women's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
+    <title lang="en">1A vs 2B -Women's Futsal Semi-final - 2026 Youth Olympic Games – Dakar</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108170000 +0000" stop="20261108180000 +0000" channel="sports_23">
@@ -2028,35 +2092,35 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108040000 +0000" channel="sports_24">
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="sports_24">
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_24">
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_24">
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108080000 +0000" channel="sports_24">
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108080000 +0000" stop="20261108090000 +0000" channel="sports_24">
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108100000 +0000" channel="sports_24">
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108110000 +0000" channel="sports_24">
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_23">
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -2132,20 +2196,36 @@
     <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_25">
-    <title lang="en">beIN SPORTS MAX</title>
+  <programme start="20261109050000 +0000" stop="20261109060000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_25">
-    <title lang="en">beIN SPORTS MAX</title>
+  <programme start="20261109060000 +0000" stop="20261109070000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_25">
-    <title lang="en">beIN SPORTS MAX</title>
+  <programme start="20261109070000 +0000" stop="20261109080000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="sports_25">
-    <title lang="en">beIN SPORTS MAX</title>
+  <programme start="20261109080000 +0000" stop="20261109090000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109100000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109120000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_24">
+    <title lang="en">beIN SPORTS XTRA For Live And Exclusive Coverage of Premium Sporting Events - November - 2026</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108130000 +0000" channel="sports_25">
@@ -2184,19 +2264,19 @@
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_26">
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_25">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_26">
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_25">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_26">
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_25">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="sports_26">
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_25">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -2236,19 +2316,19 @@
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_27">
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_26">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_27">
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_26">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_27">
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_26">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="sports_27">
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_26">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -2288,19 +2368,19 @@
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_28">
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_27">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_28">
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_27">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_28">
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_27">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="sports_28">
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_27">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -2340,19 +2420,19 @@
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_29">
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_28">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_29">
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_28">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_29">
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_28">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="sports_29">
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_28">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -2392,19 +2472,19 @@
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108030000 +0000" stop="20261108050000 +0000" channel="sports_30">
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_29">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="sports_30">
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_29">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_30">
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_29">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="sports_30">
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_29">
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
@@ -2444,60 +2524,28 @@
     <title lang="en">beIN SPORTS MAX</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108023000 +0000" stop="20261108041500 +0000" channel="sports_31">
-    <title lang="en">Derby Tunis</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_30">
+    <title lang="en">beIN SPORTS MAX</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108041500 +0000" stop="20261108043000 +0000" channel="sports_31">
-    <title lang="en">Auto Mundial</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_30">
+    <title lang="en">beIN SPORTS MAX</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108043000 +0000" stop="20261108050000 +0000" channel="sports_31">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261109090000 +0000" stop="20261109110000 +0000" channel="sports_30">
+    <title lang="en">beIN SPORTS MAX</title>
+    <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108053000 +0000" channel="sports_31">
-    <title lang="en">Botolat Al Alam Lejmal Al Khayl Al Arabyia Al Asela</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108053000 +0000" stop="20261108060000 +0000" channel="sports_31">
-    <title lang="en">Golmania</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108060000 +0000" stop="20261108083000 +0000" channel="sports_31">
-    <title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108083000 +0000" stop="20261108090000 +0000" channel="sports_31">
-    <title lang="en">FIBA World Basketball</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_31">
-    <title lang="en">Akhbar</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_31">
-    <title lang="en">Jarayed</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_31">
-    <title lang="en">Tawasol</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="sports_31">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108110000 +0000" stop="20261108113000 +0000" channel="sports_31">
-    <title lang="en">Golmania</title>
-    <category lang="en">Entertainment</category>
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_30">
+    <title lang="en">beIN SPORTS MAX</title>
+    <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108113000 +0000" stop="20261108123000 +0000" channel="sports_31">
     <title lang="en">Thenteen Wa Nos</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108123000 +0000" stop="20261108130000 +0000" channel="sports_31">
-    <title lang="en">The Inside Line</title>
+    <title lang="en">Al Mar'ah</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108130000 +0000" stop="20261108131500 +0000" channel="sports_31">
@@ -2520,44 +2568,60 @@
     <title lang="en">Al Majlis</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108203000 +0000" stop="20261108205959 +0000" channel="sports_31">
+  <programme start="20261108203000 +0000" stop="20261109013000 +0000" channel="sports_31">
     <title lang="en">Tawasol</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108033000 +0000" stop="20261108050000 +0000" channel="sports_32">
-    <title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title>
+  <programme start="20261109013000 +0000" stop="20261109023000 +0000" channel="sports_31">
+    <title lang="en">Kaas AL Khalij Le Qodama AL Laebin</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108053000 +0000" channel="sports_32">
-    <title lang="en">Sport Confidential</title>
+  <programme start="20261109023000 +0000" stop="20261109030000 +0000" channel="sports_31">
+    <title lang="en">Tawasol</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108053000 +0000" stop="20261108054500 +0000" channel="sports_32">
-    <title lang="en">Ahdaf</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108054500 +0000" stop="20261108083000 +0000" channel="sports_32">
-    <title lang="en">Ostudio Al Khayl</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108083000 +0000" stop="20261108090000 +0000" channel="sports_32">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_32">
+  <programme start="20261109030000 +0000" stop="20261109033000 +0000" channel="sports_31">
     <title lang="en">Akhbar</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_32">
+  <programme start="20261109033000 +0000" stop="20261109050000 +0000" channel="sports_31">
+    <title lang="en">Kaas AL Khalij Le Qodama AL Laebin</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_31">
+    <title lang="en">Kaas AL Khalij Le Qodama AL Laebin</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109090000 +0000" channel="sports_31">
+    <title lang="en">Al Majlis</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_31">
+    <title lang="en">Akhbar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_31">
     <title lang="en">Jarayed</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_32">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
+  <programme start="20261109100000 +0000" stop="20261109103000 +0000" channel="sports_31">
+    <title lang="en">Tawasol</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="sports_32">
+  <programme start="20261109103000 +0000" stop="20261109110000 +0000" channel="sports_31">
     <title lang="en">The Football Review</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="sports_31">
+    <title lang="en">Sport Confidential</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109113000 +0000" stop="20261109123000 +0000" channel="sports_31">
+    <title lang="en">Thenteen Wa Nos</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109130000 +0000" channel="sports_31">
+    <title lang="en">Marine Magazine</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108130000 +0000" channel="sports_32">
@@ -2569,7 +2633,7 @@
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108131500 +0000" stop="20261108134500 +0000" channel="sports_32">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
+    <title lang="en">FIBA World Basketball</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108134500 +0000" stop="20261108141500 +0000" channel="sports_32">
@@ -2592,24 +2656,52 @@
     <title lang="en">Al Hasad</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108203000 +0000" stop="20261108205959 +0000" channel="sports_32">
+  <programme start="20261108203000 +0000" stop="20261109013000 +0000" channel="sports_32">
     <title lang="en">King of the Court Beach Volleyball Championship</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108033000 +0000" stop="20261108060000 +0000" channel="sports_33">
-    <title lang="en">Longines Show Jumping Studio</title>
+  <programme start="20261109013000 +0000" stop="20261109033000 +0000" channel="sports_32">
+    <title lang="en">Dawry Nojom Qatar</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108060000 +0000" stop="20261108090000 +0000" channel="sports_33">
-    <title lang="en">Qatar International Rally</title>
+  <programme start="20261109033000 +0000" stop="20261109040000 +0000" channel="sports_32">
+    <title lang="en">The Inside Line</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_33">
+  <programme start="20261109040000 +0000" stop="20261109043000 +0000" channel="sports_32">
+    <title lang="en">FIBA World Basketball</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109043000 +0000" stop="20261109050000 +0000" channel="sports_32">
+    <title lang="en">Al Mar'ah</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109071500 +0000" channel="sports_32">
+    <title lang="en">Dawry Nojom Qatar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109071500 +0000" stop="20261109083000 +0000" channel="sports_32">
+    <title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="sports_32">
+    <title lang="en">Marine Magazine</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_32">
     <title lang="en">Akhbar</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_33">
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_32">
     <title lang="en">Jarayed</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109120000 +0000" channel="sports_32">
+    <title lang="en">Dawry Nojom Qatar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109140000 +0000" channel="sports_32">
+    <title lang="en">Dawry Nojom Qatar</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108100000 +0000" stop="20261108120000 +0000" channel="sports_33">
@@ -2652,52 +2744,36 @@
     <title lang="en">Al Mar'ah</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108200000 +0000" stop="20261108205959 +0000" channel="sports_33">
+  <programme start="20261108200000 +0000" stop="20261108223000 +0000" channel="sports_33">
     <title lang="en">Review</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108023000 +0000" stop="20261108041500 +0000" channel="sports_34">
-    <title lang="en">Derby Tunis</title>
+  <programme start="20261108223000 +0000" stop="20261109053000 +0000" channel="sports_33">
+    <title lang="en">Longines Hathab</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108041500 +0000" stop="20261108043000 +0000" channel="sports_34">
-    <title lang="en">Auto Mundial</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108043000 +0000" stop="20261108050000 +0000" channel="sports_34">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108050000 +0000" stop="20261108053000 +0000" channel="sports_34">
-    <title lang="en">Botolat Al Alam Lejmal Al Khayl Al Arabyia Al Asela</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108053000 +0000" stop="20261108060000 +0000" channel="sports_34">
-    <title lang="en">Golmania</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108060000 +0000" stop="20261108083000 +0000" channel="sports_34">
-    <title lang="en">Dawry Al Darajah Al Thanya Al Qatary</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108083000 +0000" stop="20261108090000 +0000" channel="sports_34">
-    <title lang="en">FIBA World Basketball</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_34">
-    <title lang="en">Akhbar</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_34">
-    <title lang="en">Jarayed</title>
-    <category lang="en">Entertainment</category>
-  </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_34">
+  <programme start="20261109053000 +0000" stop="20261109060000 +0000" channel="sports_33">
     <title lang="en">Tawasol</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="sports_34">
-    <title lang="en">King of the Court Beach Volleyball Championship</title>
+  <programme start="20261109060000 +0000" stop="20261109090000 +0000" channel="sports_33">
+    <title lang="en">Longines Global Champions Tour</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_33">
+    <title lang="en">Akhbar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_33">
+    <title lang="en">Dawry Nojom Qatar</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109110000 +0000" channel="sports_33">
+    <title lang="en">Al Hasad</title>
+    <category lang="en">Entertainment</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109130000 +0000" channel="sports_33">
+    <title lang="en">Arab Gulf Cup U-17</title>
     <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108130000 +0000" channel="sports_34">
@@ -2712,45 +2788,33 @@
     <title lang="en">Botolat Qatar Al Dawlya Lel Khayl Al Arabia Al Aseel</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108204500 +0000" stop="20261108205959 +0000" channel="sports_34">
+  <programme start="20261108204500 +0000" stop="20261109003000 +0000" channel="sports_34">
     <title lang="en">Auto Mundial</title>
     <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108033000 +0000" stop="20261108050000 +0000" channel="sports_35">
-    <title lang="en">Second Division / Lusail VS Al Bidda</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109003000 +0000" stop="20261109023000 +0000" channel="sports_34">
+    <title lang="en">Arab Gulf Cup U-17</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108050000 +0000" stop="20261108053000 +0000" channel="sports_35">
-    <title lang="en">SPORT CONFIDENTIAL</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109023000 +0000" stop="20261109030000 +0000" channel="sports_34">
+    <title lang="en">Marine Magazine</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108053000 +0000" stop="20261108054500 +0000" channel="sports_35">
-    <title lang="en">Golas</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109030000 +0000" stop="20261109090000 +0000" channel="sports_34">
+    <title lang="en">Kas Likzs Malburn</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108054500 +0000" stop="20261108083000 +0000" channel="sports_35">
-    <title lang="en">HORSE RACE STUDIO</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_34">
+    <title lang="en">Akhbar</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108083000 +0000" stop="20261108090000 +0000" channel="sports_35">
-    <title lang="en">King of the Court Volleyball Championship</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_34">
+    <title lang="en">Jarayed</title>
+    <category lang="en">Entertainment</category>
   </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_35">
-    <title lang="en">NEWS</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_35">
-    <title lang="en">JARAYED</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_35">
-    <title lang="en">King of the Court Volleyball Championship</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="sports_35">
-    <title lang="en">FOOTBALL REVIEW</title>
-    <category lang="en">Sports General</category>
+  <programme start="20261109100000 +0000" stop="20261109160000 +0000" channel="sports_34">
+    <title lang="en">Kas Likzs Malburn</title>
+    <category lang="en">Entertainment</category>
   </programme>
   <programme start="20261108110000 +0000" stop="20261108130000 +0000" channel="sports_35">
     <title lang="en">Second Division / Al Waab VS Mesaimeer</title>
@@ -2772,64 +2836,116 @@
     <title lang="en">DERBY TUNIS / Africain VS Etoile du Sahel</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108160000 +0000" stop="20261108190000 +0000" channel="sports_35">
+  <programme start="20261108160000 +0000" stop="20261108210000 +0000" channel="sports_35">
     <title lang="en">EXPO Stars League / AlSadd VS AlArabi</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108190000 +0000" stop="20261108193000 +0000" channel="sports_35">
-    <title lang="en">Marine Magazine</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108193000 +0000" stop="20261108203000 +0000" channel="sports_35">
-    <title lang="en">Hasad</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108203000 +0000" stop="20261108205959 +0000" channel="sports_35">
-    <title lang="en">King of the Court Volleyball Championship</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108023000 +0000" stop="20261108050000 +0000" channel="sports_36">
-    <title lang="en">4th West Asian Volleyball Club Championship Al Ittihad (Saudi Arabia) vs. Al Seeb (Oman)</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108050000 +0000" stop="20261108060000 +0000" channel="sports_36">
-    <title lang="en">Thenten wnoss</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108060000 +0000" stop="20261108070000 +0000" channel="sports_36">
-    <title lang="en">the Referee</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_36">
-    <title lang="en">Al Qalail</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_36">
+  <programme start="20261108210000 +0000" stop="20261108213000 +0000" channel="sports_35">
     <title lang="en">News</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_36">
-    <title lang="en">Jarayd</title>
+  <programme start="20261108213000 +0000" stop="20261108230000 +0000" channel="sports_35">
+    <title lang="en">alhasila</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108103000 +0000" channel="sports_36">
+  <programme start="20261108230000 +0000" stop="20261108233000 +0000" channel="sports_35">
+    <title lang="en">Golmania</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108233000 +0000" stop="20261109013000 +0000" channel="sports_35">
+    <title lang="en">Almajlis</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109013000 +0000" stop="20261109014500 +0000" channel="sports_35">
+    <title lang="en">Doha Bank Stars League Al-Sailiya vs. Lusail</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109014500 +0000" stop="20261109021500 +0000" channel="sports_35">
     <title lang="en">FOOTBALL REVIEW</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108103000 +0000" stop="20261108110000 +0000" channel="sports_36">
+  <programme start="20261109021500 +0000" stop="20261109024500 +0000" channel="sports_35">
     <title lang="en">Inside Line</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108110000 +0000" stop="20261108140000 +0000" channel="sports_36">
+  <programme start="20261109024500 +0000" stop="20261109030000 +0000" channel="sports_35">
+    <title lang="en">SPORT CONFIDENTIAL</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109030000 +0000" stop="20261109031500 +0000" channel="sports_35">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109031500 +0000" stop="20261109033000 +0000" channel="sports_35">
+    <title lang="en">Longines HATHAB</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109033000 +0000" stop="20261109040000 +0000" channel="sports_35">
+    <title lang="en">Inside Line</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109040000 +0000" stop="20261109041500 +0000" channel="sports_35">
+    <title lang="en">Fiba</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109041500 +0000" stop="20261109043000 +0000" channel="sports_35">
+    <title lang="en">FOOTBALL REVIEW</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109043000 +0000" stop="20261109050000 +0000" channel="sports_35">
+    <title lang="en">woman</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_35">
+    <title lang="en">Doha Bank Stars League Al-Arabi vs. Al-Rayyan</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109071500 +0000" channel="sports_35">
+    <title lang="en">Jetour League Qatar National Team vs. Al-Khor</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109071500 +0000" stop="20261109083000 +0000" channel="sports_35">
+    <title lang="en">Jetour League</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="sports_35">
+    <title lang="en">Marine Magazine</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_35">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_35">
+    <title lang="en">Jarayd</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109120000 +0000" channel="sports_35">
+    <title lang="en">Doha Bank Stars League Al Sadd vs. Al Shamal</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109140000 +0000" channel="sports_35">
+    <title lang="en">Doha Bank Stars League Al-Shahaniya vs. Al-Ahli</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108110000 +0000" stop="20261108130000 +0000" channel="sports_36">
     <title lang="en">Kuwait International Camel Racing Championship</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108130000 +0000" stop="20261108140000 +0000" channel="sports_36">
+    <title lang="en">News</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108140000 +0000" stop="20261108143000 +0000" channel="sports_36">
     <title lang="en">woman</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108143000 +0000" stop="20261108173000 +0000" channel="sports_36">
+  <programme start="20261108143000 +0000" stop="20261108160000 +0000" channel="sports_36">
     <title lang="en">Second Division Al Khor vs Lusail</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108160000 +0000" stop="20261108173000 +0000" channel="sports_36">
+    <title lang="en">Doha Bank Stars League Al Sadd vs. Al Rayyan</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108173000 +0000" stop="20261108180000 +0000" channel="sports_36">
@@ -2844,40 +2960,108 @@
     <title lang="en">INVINCIBLE</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108203000 +0000" stop="20261108205959 +0000" channel="sports_36">
+  <programme start="20261108203000 +0000" stop="20261108210000 +0000" channel="sports_36">
     <title lang="en">QSL magazine</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108020000 +0000" stop="20261108070000 +0000" channel="sports_37">
-    <title lang="en">Katara International Arabian Horse Festival Studio - Arabian Horse Tour</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="sports_37">
-    <title lang="en">Marbit alfurs</title>
-    <category lang="en">Sports General</category>
-  </programme>
-  <programme start="20261108090000 +0000" stop="20261108093000 +0000" channel="sports_37">
+  <programme start="20261108210000 +0000" stop="20261108213000 +0000" channel="sports_36">
     <title lang="en">News</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108093000 +0000" stop="20261108100000 +0000" channel="sports_37">
+  <programme start="20261108213000 +0000" stop="20261108230000 +0000" channel="sports_36">
+    <title lang="en">alhasila</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108230000 +0000" stop="20261108233000 +0000" channel="sports_36">
+    <title lang="en">Golmania</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108233000 +0000" stop="20261109013000 +0000" channel="sports_36">
+    <title lang="en">Almajlis</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109013000 +0000" stop="20261109014500 +0000" channel="sports_36">
+    <title lang="en">Doha Bank Stars League Al-Sailiya vs. Lusail</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109014500 +0000" stop="20261109021500 +0000" channel="sports_36">
+    <title lang="en">FOOTBALL REVIEW</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109021500 +0000" stop="20261109024500 +0000" channel="sports_36">
+    <title lang="en">Inside Line</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109024500 +0000" stop="20261109031500 +0000" channel="sports_36">
+    <title lang="en">SPORT CONFIDENTIAL</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109031500 +0000" stop="20261109033000 +0000" channel="sports_36">
+    <title lang="en">Longines HATHAB</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109033000 +0000" stop="20261109040000 +0000" channel="sports_36">
+    <title lang="en">Inside Line</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109040000 +0000" stop="20261109043000 +0000" channel="sports_36">
+    <title lang="en">Fiba</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109043000 +0000" stop="20261109050000 +0000" channel="sports_36">
+    <title lang="en">woman</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109070000 +0000" channel="sports_36">
+    <title lang="en">Gulf Cup for Veteran Players Oman vs. Saudi Arabia</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109071500 +0000" channel="sports_36">
+    <title lang="en">Al-Tahaddi Festival for Mafarid</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109071500 +0000" stop="20261109083000 +0000" channel="sports_36">
+    <title lang="en">Jetour League</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="sports_36">
+    <title lang="en">Marine Magazine</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109093000 +0000" channel="sports_36">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_36">
     <title lang="en">Jarayd</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108100000 +0000" stop="20261108113000 +0000" channel="sports_37">
-    <title lang="en">tawasol</title>
+  <programme start="20261109100000 +0000" stop="20261109120000 +0000" channel="sports_36">
+    <title lang="en">Doha Bank Stars League Al Sadd vs. Al Shamal</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109120000 +0000" stop="20261109130000 +0000" channel="sports_36">
+    <title lang="en">Doha Bank Stars League Al-Shahaniya vs. Al-Ahli</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108113000 +0000" stop="20261108123000 +0000" channel="sports_37">
     <title lang="en">Thenten wnoss</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108123000 +0000" stop="20261108153000 +0000" channel="sports_37">
-    <title lang="en">Tunisian Derby CS Sfaxien vs. Club Africain</title>
+  <programme start="20261108123000 +0000" stop="20261108130000 +0000" channel="sports_37">
+    <title lang="en">woman</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108153000 +0000" stop="20261108170000 +0000" channel="sports_37">
+  <programme start="20261108130000 +0000" stop="20261108153000 +0000" channel="sports_37">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108153000 +0000" stop="20261108160000 +0000" channel="sports_37">
     <title lang="en">the Referee</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108160000 +0000" stop="20261108170000 +0000" channel="sports_37">
+    <title lang="en">Doha Bank Stars League Al Sadd vs. Al Rayyan</title>
     <category lang="en">Sports General</category>
   </programme>
   <programme start="20261108170000 +0000" stop="20261108173000 +0000" channel="sports_37">
@@ -2900,8 +3084,92 @@
     <title lang="en">ALHASAD EL RIYADI</title>
     <category lang="en">Sports General</category>
   </programme>
-  <programme start="20261108203000 +0000" stop="20261108205959 +0000" channel="sports_37">
+  <programme start="20261108203000 +0000" stop="20261108210000 +0000" channel="sports_37">
     <title lang="en">Marine Magazine</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108210000 +0000" stop="20261108213000 +0000" channel="sports_37">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108213000 +0000" stop="20261108233000 +0000" channel="sports_37">
+    <title lang="en">Doha Bank Stars League Al-Shamal vs. Al-Sailiya</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261108233000 +0000" stop="20261109013000 +0000" channel="sports_37">
+    <title lang="en">Doha Bank Stars League Al-Gharafa vs. Al-Duhail</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109013000 +0000" stop="20261109014500 +0000" channel="sports_37">
+    <title lang="en">Gulf Cup for Veteran Players Kuwait vs. Iraq</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109014500 +0000" stop="20261109030000 +0000" channel="sports_37">
+    <title lang="en">Gulf Cup for Veteran Players Saudi Arabia vs. Iraq</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109030000 +0000" stop="20261109033000 +0000" channel="sports_37">
+    <title lang="en">tawasol</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109033000 +0000" stop="20261109040000 +0000" channel="sports_37">
+    <title lang="en">Doha Bank Stars League Al-Arabi vs. Al-Ahli</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109040000 +0000" stop="20261109050000 +0000" channel="sports_37">
+    <title lang="en">Gulf Cup for Veteran Players Yemen vs. Qatar</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109050000 +0000" stop="20261109053000 +0000" channel="sports_37">
+    <title lang="en">Almajlis</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109053000 +0000" stop="20261109070000 +0000" channel="sports_37">
+    <title lang="en">Gulf Cup for Veteran Players Oman vs. Saudi Arabia</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109070000 +0000" stop="20261109073000 +0000" channel="sports_37">
+    <title lang="en">Almajlis</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109073000 +0000" stop="20261109083000 +0000" channel="sports_37">
+    <title lang="en">alhasila</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109083000 +0000" stop="20261109090000 +0000" channel="sports_37">
+    <title lang="en">Marine Magazine</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109090000 +0000" stop="20261109090500 +0000" channel="sports_37">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109090500 +0000" stop="20261109093000 +0000" channel="sports_37">
+    <title lang="en">News</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109093000 +0000" stop="20261109100000 +0000" channel="sports_37">
+    <title lang="en">Jarayd</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109100000 +0000" stop="20261109103000 +0000" channel="sports_37">
+    <title lang="en">tawasol</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109103000 +0000" stop="20261109110000 +0000" channel="sports_37">
+    <title lang="en">Jetour League</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109110000 +0000" stop="20261109113000 +0000" channel="sports_37">
+    <title lang="en">SPORT CONFIDENTIAL</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109113000 +0000" stop="20261109123000 +0000" channel="sports_37">
+    <title lang="en">Thenten wnoss</title>
+    <category lang="en">Sports General</category>
+  </programme>
+  <programme start="20261109123000 +0000" stop="20261109130000 +0000" channel="sports_37">
+    <title lang="en">woman</title>
     <category lang="en">Sports General</category>
   </programme>
 </tv>
